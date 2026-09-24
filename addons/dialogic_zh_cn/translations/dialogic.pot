@@ -1,0 +1,2681 @@
+# Dialogic 2 编辑器界面——简体中文翻译模板
+#
+# 本文件由 tools/extract.py 从上游源码自动生成，请勿手工编辑。
+# 上游变更后请重跑 `python tools/sync_upstream.py`，再用 msgmerge 合并。
+#
+# 层级说明：
+#   L0_AUTO  Godot 节点 setter 内部即走翻译，加载 .mo 后自动生效
+#   L1_HOOK  setter/getter 不走翻译，由 dialogic_zh_cn 插件运行时注入
+#   L2_INSP  inspector 属性名与枚举项，由插件注入层处理
+#
+# 注意：这里刻意不使用 msgctxt。Godot 的自动翻译调用不带 context，
+# 写了 msgctxt 反而会导致 L0 条目永远命中不到。上下文放在 #. 注释里。
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Dialogic 2.0-Alpha-21 WIP (Godot 4.5+)\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: addons/dialogic/Editor/editor_main.tscn:129
+#. [L1_HOOK] 窗口/对话框标题 (保守归类，由注入层覆盖) | AcceptDialog.title
+msgid "Dialogic resource renamed!"
+msgstr ""
+
+#: addons/dialogic/Editor/editor_main.tscn:133
+#. [L1_HOOK] 对话框正文 (保守归类，由注入层覆盖) | AcceptDialog.dialog_text
+msgid "You renamed a dialogic resource. This does NOT automatically rename the unique identifier for this resource. Consider checking in the Reference Manager if the identifiers are still the way you want them."
+msgstr ""
+
+#: addons/dialogic/Editor/editor_main.tscn:138
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:156
+#. [L1_HOOK] 窗口/对话框标题 (保守归类，由注入层覆盖) | Window.title
+msgid "Reference Manager"
+msgstr ""
+
+#: addons/dialogic/Editor/editor_main.tscn:154
+#. [L1_HOOK] 窗口/对话框标题 (保守归类，由注入层覆盖) | Window.title
+msgid "Dialogic Update Checker"
+msgstr ""
+
+#: addons/dialogic/Editor/editors_manager.gd:177
+#. [L1_HOOK] 窗口标题
+msgid "New resource"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.tscn:15
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Ignore Main Scale: "
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.tscn:20
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | CheckBox.tooltip_text
+msgid "This portrait will ignore the main scale."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.tscn:48
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "Offset that is applied on top of the main portrait offset."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.tscn:60
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | CheckBox.tooltip_text
+msgid "Mirroring that is applied on top of the main portrait mirror."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.gd:88
+#: addons/dialogic/Modules/Character/settings_portraits.tscn:42
+#. [L0_AUTO] 代码设置节点文本
+msgid "Default Portrait Scene"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.gd:89
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Can be changed in the settings."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.tscn:32
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Change Scene"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.tscn:55
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Open/Edit Scene"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.tscn:60
+#. [L1_HOOK] 窗口/对话框标题 (保守归类，由注入层覆盖) | Window.title
+msgid "Portrait Scene Browser"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:28
+#: addons/dialogic/Modules/Jump/event_label.gd:103
+#. [L2_INSP] 事件编辑器字段名
+msgid "Display Name"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:32
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "This name will be displayed on the name label. You can use a dialogic variable. E.g. :{Player.name}"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:49
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "This color can be used on the name label and for occurences of the characters name in text (autocolor names)."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:72
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "If autocolor names is enabled, these will be colored in the characters color as well."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:94
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "No effect, just for you."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.tscn:25
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | ?.placeholder_text
+msgid "Select Default Portrait"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.tscn:31
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Main Scale"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.tscn:56
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Main Offset"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.tscn:66
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Main Mirror"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.gd:570
+#. [L0_AUTO] 代码设置节点文本
+msgid "Preview of \""
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.gd:641
+#. [L0_AUTO] 代码设置节点文本
+msgid "Nothing to preview"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.gd:649
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:351
+#. [L0_AUTO] 代码设置节点文本
+msgid "No portrait to preview."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.gd:687
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:358
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Real scale"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.gd:689
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Fit into preview"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:47
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "My Character"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:84
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Main Settings"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:89
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Hide Main Settings"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:115
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Show Main Settings"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:155
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Add Empty Portrait"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:161
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Add Portrait Group"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:167
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Import Images as Portraits"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:178
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text
+msgid "Filter Portraits"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:207
+#: addons/dialogic/Modules/StyleEditor/style_editor.gd:213
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:114
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:50
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Make Default"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:219
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Some portraits were renamed. Make sure no references broke!"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:287
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Custom scenes can only be viewed in \"Full mode\" if they are in @tool mode and override _get_covered_rect"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:378
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Portrait Settings"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:384
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Switch position"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:432
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Create New Character"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:44
+#: addons/dialogic/Modules/StyleEditor/Components/style_browser.gd:38
+#. [L0_AUTO] 代码设置占位符
+msgid "Search for "
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:78
+#: addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:112
+#: addons/dialogic/Modules/StyleEditor/Components/style_browser.gd:85
+#. [L0_AUTO] 代码设置节点文本
+msgid "by "
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:89
+#. [L0_AUTO] 代码设置节点文本
+msgid "Use this scene"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:90
+#. [L0_AUTO] 代码设置节点文本
+msgid "This is a general use scene, it can be used directly."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:92
+#. [L0_AUTO] 代码设置节点文本
+msgid "Customize this scene"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:93
+#. [L0_AUTO] 代码设置节点文本
+msgid "This is a preset you can use for a custom portrait scene. Dialogic will promt you to save a copy of this scene that you can then use and customize."
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:95
+#. [L0_AUTO] 代码设置节点文本
+msgid "Use default scene"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:98
+#. [L0_AUTO] 代码设置节点文本
+msgid "Select a custom scene"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:128
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Dialogic Portrait Scene Browser"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:215
+#: addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:213
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Cool Style Part"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:222
+#: addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:220
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "by Jowan"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:229
+#: addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:227
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "a style"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:235
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:255
+#: addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:233
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "A cool textbox layer"
+msgstr ""
+
+#: addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:241
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+msgid "Learn more"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/BrowserItem.tscn:104
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | TextureRect.tooltip_text
+msgid "Currently in use"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/BrowserItem.tscn:140
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Dialogic Theme"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/broken_reference_manager.gd:22
+#: addons/dialogic/Editor/Common/reference_manager.tscn:64
+#. [L0_AUTO] 代码设置节点文本
+msgid "Broken References"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/broken_reference_manager.gd:199
+#. [L0_AUTO] 代码设置节点文本
+msgid "Nothing found"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/broken_reference_manager.gd:323
+#. [L0_AUTO] 代码设置节点文本
+msgid "Loading '"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/broken_reference_manager.gd:336
+#. [L0_AUTO] 代码设置节点文本
+msgid "Replacing in '"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/broken_reference_manager.gd:366
+#. [L0_AUTO] 代码设置节点文本
+msgid "Done Replacing"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:72
+#: addons/dialogic/Editor/Common/unique_identifiers_manager.gd:9
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Unique Identifiers"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:97
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Recent renames"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:102
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Add custom rename"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:121
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | OptionButton.tooltip_text
+msgid "This decides the regexes for searching. Pure text allows you to enter your own regex into \"Old\". "
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:124
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "Pure Text"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:130
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_3/text
+msgid "Character (Ref)"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:132
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_4/text
+msgid "Timeline (Ref)"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:163
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:161
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Match Case"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:170
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Whole World"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:185
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "Only for Character"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:187
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text
+msgid "Texts only"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:213
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Search timelines for occurences of these renames"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:214
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Check Selected"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:233
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Found references"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:264
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Replace all selected findings (Careful, no undo!)"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:265
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Replace Selected"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:291
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text
+msgid "Filter Identifiers/Paths"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:305
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "You've renamed some identifier(s)! Use the \"Broken References\" tab to check if you have used this identifier (and fix it if so)."
+msgstr ""
+
+#: addons/dialogic/Editor/Common/reference_manager.tscn:319
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:176
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Online Docs"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:35
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Show Sidebar"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:75
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LineEdit.text
+msgid "No resource"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:96
+#: addons/dialogic/Editor/Common/side_bar.tscn:97
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | LineEdit.tooltip_text
+msgid "Filter Resources"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:108
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text
+msgid "Resource List Options"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:129
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Sort Order"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:136
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "Alphabetical (All)"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:151
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ItemList.tooltip_text
+msgid "Label events in your timeline will appear here, allowing you to jump to them."
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:164
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Hide Sidebar"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/side_bar.tscn:172
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Some Version"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/sidebar.gd:73
+#. [L0_AUTO] 下拉/菜单项
+msgid "List All"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/sidebar.gd:74
+#. [L0_AUTO] 下拉/菜单项
+msgid "Clear List"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/sidebar.gd:194
+#. [L0_AUTO] 代码设置节点文本
+msgid "No Resource"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/sidebar.gd:526
+#. [L0_AUTO] 下拉/菜单项
+msgid "~ Top"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:28
+#. [L0_AUTO] 代码设置节点文本
+msgid "No Information Available"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:29
+#. [L0_AUTO] 代码设置节点文本
+msgid "Unable to access versions."
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:31
+#. [L0_AUTO] 代码设置节点文本
+msgid "You are probably not connected to the internet. Fair enough."
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:32
+#. [L0_AUTO] 代码设置节点文本
+msgid "Huh, what happened here?"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:43
+#. [L0_AUTO] 代码设置节点文本
+msgid "Where are we Doc?"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:48
+#: addons/dialogic/Editor/Common/update_install_window.tscn:122
+#. [L0_AUTO] 代码设置节点文本
+msgid "Update Available!"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:52
+#. [L0_AUTO] 代码设置节点文本
+msgid "You are up to date:"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:58
+#. [L0_AUTO] 代码设置节点文本
+msgid "Published on "
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:85
+#. [L0_AUTO] 代码设置节点文本
+msgid "Downloading. This can take a moment."
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:98
+#. [L0_AUTO] 代码设置节点文本
+msgid "Installed successfully. Restart needed!"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.gd:103
+#. [L0_AUTO] 代码设置节点文本
+msgid "Download failed."
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.tscn:129
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Dialogic 2.0 - alpha 9"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.tscn:211
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+msgid "Read Full Announcement"
+msgstr ""
+
+#: addons/dialogic/Editor/Common/update_install_window.tscn:256
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Restart Now"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/BranchEnd.tscn:27
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Click and drag"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/EventBlock/event_block.tscn:89
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Fold/Unfold Settings"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/EventBlock/event_block.tscn:103
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Collapse Contained Events"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_array.tscn:26
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Add value"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_condition.gd:55
+#: addons/dialogic/Editor/Events/Fields/field_condition.tscn:34
+#: addons/dialogic/Editor/Events/Fields/field_condition.tscn:61
+#: addons/dialogic/Editor/Events/Fields/field_flex_value.gd:38
+#: addons/dialogic/Editor/Events/Fields/field_flex_value.tscn:14
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Change type"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_condition.tscn:88
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LineEdit.text
+msgid "VAR.Player.Health > 20 and VAR.Counter < 3 and randi()%3 == 2"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_condition.tscn:89
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text
+msgid "Enter condition"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_condition.tscn:95
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Use complex expression"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_dictionary.tscn:24
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Add key-value pair"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_image_preview.tscn:21
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Label.tooltip_text
+msgid "Preview hidden because project setting 'dialogic/accessibility/image_preview_height' is 0."
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_image_preview.tscn:23
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "(Hidden)"
+msgstr ""
+
+#: addons/dialogic/Editor/Events/Fields/field_options_fixed.tscn:11
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.text
+msgid "Placeholder Text"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:210
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "2.0-Alpha-19 WIP (Godot 4.3+)"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:235
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+msgid "  Wiki"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:242
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+msgid "  Getting Started"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:253
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Get in touch"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:258
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+msgid "  Bug / Request"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:265
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+msgid "  Discord"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:272
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+msgid "  Website"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:279
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+msgid "  Donate"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:311
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Random Tip"
+msgstr ""
+
+#: addons/dialogic/Editor/HomePage/home_page.tscn:341
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Check it out!"
+msgstr ""
+
+#: addons/dialogic/Editor/Inspector/timeline_inspector_field.gd:18
+#. [L0_AUTO] 代码设置占位符
+msgid "No Timeline"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.gd:134
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Used by "
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:30
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Color Palette"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:34
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "These colors are used for the events."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:42
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Reset Colors to default"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:65
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Visual Events"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:77
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Image preview height"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:98
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Event block bottom margin"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:119
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Show event names"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:139
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Section Order"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:143
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "You can change the order of the event sections here. "
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:51
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Layout Node Behaviour"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:70
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "On timeline end"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:78
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "Delete Layout Node"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:80
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "Hide Layout Node"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:82
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text
+msgid "Keep Layout Node"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:123
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Extensions folder"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:150
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Extension Creator "
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:154
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "Use the Exension Creator to quickly setup custom modules!"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:161
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Create New Extension"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:180
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text
+msgid "e.g. \"Print\", \"Item\", \"Door\", \"Quest\""
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:184
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Setup mode:"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:191
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "Event only"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:193
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "Event+Subsystem"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:195
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text
+msgid "Subsystem only"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:222
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Timer processing"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:226
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "Change whether dialogics timers process in physics_process (frame-rate independent) or process."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:235
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Process timers in physics_process"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:72
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Expand All"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:75
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:143
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Collapse All"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:254
+#. [L0_AUTO] 代码设置节点文本
+msgid "Events can be used in timelines and do all kinds of things. They often interact with subsystems and dialogic nodes."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:274
+#. [L0_AUTO] 代码设置节点文本
+msgid "Subsystems hold specialized functionality. They mostly manage communication between events and dialogic nodes. Often they provide handy methods that can be accessed by the user like this: Dialogic.Subsystem.a_method()."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:277
+#. [L0_AUTO] 代码设置节点文本
+msgid "Text effects can be used in text events. They will be executed once reached and can take a single argument."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:282
+#. [L0_AUTO] 代码设置节点文本
+msgid "Modifiers can modify text from text events before it is shown."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:287
+#. [L0_AUTO] 代码设置节点文本
+msgid "Style presets can be activated and modified in the Styles editor. They provide the design of the dialog interface in your game."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:290
+#. [L0_AUTO] 代码设置节点文本
+msgid "Editors provide a user interface for editing dialogic data."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:293
+#. [L0_AUTO] 代码设置节点文本
+msgid "Settings pages provide settings that are usually used by subsystems, events and dialogic nodes."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:426
+#: addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:431
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Remove customization"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:68
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Include Events"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:79
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Include Subsystems"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:90
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Include Text Effects and Modifiers"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:100
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Include Preset Style Scenes"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:110
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Include Settings Pages"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:120
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Include Editors"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:188
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Toggle Event Button Visibility"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:204
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:210
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Show in FileSystem"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:229
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Event Defaults:"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:47
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Enable translations"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:70
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Testing locale"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:111
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Default locale"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:115
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "The locale of the language your timelines are written in."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:128
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Translation folder"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:149
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Output mode"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:178
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "Per Type"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:180
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "Per File"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:188
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Output location"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:216
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "Inside Translation Folder"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:218
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "Next to File"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:230
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Add Separator Lines"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:269
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Update CSV files"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:289
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Collect translations"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:313
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Remove translations"
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:335
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "⛔ Requires valid translation folder to translate character names and the project CSV file."
+msgstr ""
+
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:340
+#. [L1_HOOK] 窗口/对话框标题 (保守归类，由注入层覆盖) | ConfirmationDialog.title
+msgid "Please Decide..."
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:109
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | CheckButton.text
+msgid "Portrait Containers"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:181
+#: addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_labels_panel.gd:49
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "No labels in timeline."
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:226
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "New Save"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:53
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:144
+#. [L0_AUTO] 代码设置节点文本
+msgid "Text Editor"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:57
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:135
+#. [L0_AUTO] 代码设置节点文本
+msgid "Visual Editor"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:211
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:102
+#. [L0_AUTO] 代码设置节点文本
+msgid "Text editor"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:286
+#. [L0_AUTO] 代码设置节点文本
+msgid "No Match"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:81
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Cool Name"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:101
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Switch between Text Editor and Visual Editor"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:166
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | CheckBox.text
+msgid "Whole Words"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:191
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Replace All"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:196
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Replace in all timelines"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:239
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Create New Timeline"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:264
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Shortcuts "
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_labels_panel.gd:31
+#. [L0_AUTO] 代码设置节点文本
+msgid "No timeline active."
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_main_panel.gd:14
+#. [L0_AUTO] 代码设置节点文本
+msgid "Timeline: < No Timeline >"
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_main_panel.gd:16
+#. [L0_AUTO] 代码设置节点文本
+msgid "Timeline: "
+msgstr ""
+
+#: addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_main_panel.gd:21
+#. [L0_AUTO] 代码设置节点文本
+msgid "State: "
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:268
+#: addons/dialogic/Modules/Audio/event_audio.gd:274
+#: addons/dialogic/Modules/Voice/event_voice.gd:77
+#: addons/dialogic/Modules/Voice/event_voice.gd:84
+#. [L2_INSP] 事件编辑器字段名
+msgid "File Path"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:269
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Play"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:271
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "Nothing"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:276
+#. [L2_INSP] 事件编辑器字段名
+msgid "Channel Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:277
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "on"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:278
+#. [L0_AUTO] 事件编辑器右标签(right_text)
+msgid "channel."
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:279
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "(One-Shot SFX)"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:289
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Fade Length"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:293
+#: addons/dialogic/Modules/Character/event_character.gd:420
+#. [L2_INSP] 事件编辑器字段名
+msgid "Fade Length"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:293
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Fade Time:"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:296
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Volume"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:300
+#: addons/dialogic/Modules/Voice/event_voice.gd:85
+#. [L2_INSP] 事件编辑器字段名
+msgid "Volume"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:300
+#: addons/dialogic/Modules/Voice/event_voice.gd:85
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Volume:"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:302
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Audio Bus"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:306
+#: addons/dialogic/Modules/Audio/settings_audio.tscn:36
+#: addons/dialogic/Modules/Voice/event_voice.gd:86
+#. [L2_INSP] 事件编辑器字段名
+msgid "Audio Bus"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:307
+#: addons/dialogic/Modules/Voice/event_voice.gd:86
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Audio Bus:"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:308
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "Master"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:312
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Loop"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:316
+#. [L2_INSP] 事件编辑器字段名
+msgid "Loop"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:316
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Loop:"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:319
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Sync Channel"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:324
+#. [L2_INSP] 事件编辑器字段名
+msgid "Sync Channel"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:325
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Sync with:"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/event_audio.gd:326
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "(No Sync)"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Audio"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/settings_audio.tscn:29
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Typing Sounds"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/settings_audio.tscn:53
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Audio Channel Defaults"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/settings_audio.tscn:81
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | ?.placeholder_text
+msgid "Enter Channel Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Audio/settings_audio.tscn:110
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Add channel"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:133
+#. [L2_INSP] 事件编辑器字段名
+msgid "Scene Type"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:134
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Show"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:148
+#. [L2_INSP] 事件编辑器字段名
+msgid "Scene"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:150
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "Custom scene"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:154
+#. [L2_INSP] 事件编辑器字段名
+msgid "Arg Type"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:155
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "with"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:173
+#: addons/dialogic/Modules/Background/event_background.gd:181
+#: addons/dialogic/Modules/Background/event_background.gd:183
+#: addons/dialogic/Modules/Signal/event_signal.gd:76
+#: addons/dialogic/Modules/Signal/event_signal.gd:88
+#. [L2_INSP] 事件编辑器字段名
+msgid "Argument"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:175
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "No Image"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:180
+#. [L2_INSP] 事件编辑器字段名
+msgid "Color Arg"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:183
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Preview:"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:187
+#. [L2_INSP] 事件编辑器字段名
+msgid "Transition"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:188
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Transition:"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:192
+#. [L2_INSP] 事件编辑器字段名
+msgid "Fade"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:192
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Fade time:"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:193
+#. [L2_INSP] 事件编辑器字段名
+msgid "Await Transition"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/event_background.gd:193
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Await Fade:"
+msgstr ""
+
+#: addons/dialogic/Modules/Background/index.gd:9
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Backgrounds"
+msgstr ""
+
+#: addons/dialogic/Modules/Call/event_call.gd:149
+#. [L2_INSP] 事件编辑器字段名
+msgid "Autoload Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Call/event_call.gd:149
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "On autoload"
+msgstr ""
+
+#: addons/dialogic/Modules/Call/event_call.gd:153
+#. [L2_INSP] 事件编辑器字段名
+msgid "Method"
+msgstr ""
+
+#: addons/dialogic/Modules/Call/event_call.gd:153
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "call"
+msgstr ""
+
+#: addons/dialogic/Modules/Call/event_call.gd:157
+#. [L2_INSP] 事件编辑器字段名
+msgid "Arguments"
+msgstr ""
+
+#: addons/dialogic/Modules/Call/event_call.gd:157
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Arguments:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:363
+#: addons/dialogic/Modules/History/event_history.gd:65
+#. [L2_INSP] 事件编辑器字段名
+msgid "Action"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:383
+#: addons/dialogic/Modules/Text/event_text.gd:419
+#. [L2_INSP] 事件编辑器字段名
+msgid "Character Identifier"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:384
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "Character"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:391
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Portrait"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:394
+#: addons/dialogic/Modules/Text/event_text.gd:425
+#. [L2_INSP] 事件编辑器字段名
+msgid "Portrait"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:395
+#: addons/dialogic/Modules/Character/event_character.gd:416
+#: addons/dialogic/Modules/Character/event_character.gd:427
+#: addons/dialogic/Modules/Style/event_style.gd:60
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:107
+#. [L2_INSP] 事件编辑器字段名
+msgid "Default"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:400
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Transform"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:404
+#. [L2_INSP] 事件编辑器字段名
+msgid "Transform"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:405
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "center"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:412
+#. [L2_INSP] 事件编辑器字段名
+msgid "Fade Animation"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:413
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Fade:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:420
+#: addons/dialogic/Modules/Character/event_character.gd:431
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Length:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:423
+#. [L2_INSP] 事件编辑器字段名
+msgid "Animation Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:424
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Animation:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:431
+#. [L2_INSP] 事件编辑器字段名
+msgid "Animation Length"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:433
+#. [L2_INSP] 事件编辑器字段名
+msgid "Repeat Forever"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:433
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Repeat Forever:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:435
+#. [L2_INSP] 事件编辑器字段名
+msgid "Animation Repeats"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:435
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Repeat:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:437
+#. [L2_INSP] 事件编辑器字段名
+msgid "Animation Wait"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:437
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Await end:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:440
+#. [L2_INSP] 事件编辑器字段名
+msgid "Transform Time"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:440
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Movement duration:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:442
+#. [L2_INSP] 事件编辑器字段名
+msgid "Transform Trans"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:442
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Trans:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:443
+#. [L2_INSP] 事件编辑器字段名
+msgid "Transform Ease"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:443
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Ease:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:445
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Z Index"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:446
+#. [L2_INSP] 事件编辑器字段名
+msgid "Z Index"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:446
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Z-index:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:448
+#. [L2_INSP] 事件编辑器字段名
+msgid "Set Mirrored"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:449
+#. [L2_INSP] 事件编辑器字段名
+msgid "Mirrored"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:449
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Mirrored:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:451
+#: addons/dialogic/Modules/Choice/event_choice.gd:173
+#. [L2_INSP] 事件编辑器字段名
+msgid "Extra Data"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/event_character.gd:451
+#: addons/dialogic/Modules/Choice/event_choice.gd:173
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Extra Data:"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Portraits"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "PortraitContainers"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/index.gd:30
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Default Scene"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/index.gd:40
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Custom Scene"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/index.gd:50
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Simple Image Portrait"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/settings_portraits.tscn:22
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Position Suggestions"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/settings_portraits.tscn:26
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "You can change the position names that will be suggested in the timeline editor here."
+msgstr ""
+
+#: addons/dialogic/Modules/Character/settings_portraits.tscn:46
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "If this is set, this scene will be what is used by default for any portrait that has no scene specified"
+msgstr ""
+
+#: addons/dialogic/Modules/Character/settings_portraits.tscn:72
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Default Animations"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/event_choice.gd:149
+#: addons/dialogic/Modules/Comment/event_comment.gd:61
+#: addons/dialogic/Modules/Text/event_text.gd:431
+#: addons/dialogic/Modules/Text/index.gd:10
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:105
+#. [L2_INSP] 事件编辑器字段名
+msgid "Text"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/event_choice.gd:151
+#: addons/dialogic/Modules/Choice/event_choice.gd:153
+#. [L2_INSP] 事件编辑器字段名
+msgid "Has Condition"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/event_choice.gd:152
+#: addons/dialogic/Modules/Condition/event_condition.gd:123
+#. [L2_INSP] 事件编辑器字段名
+msgid "Condition"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/event_choice.gd:154
+#. [L2_INSP] 事件编辑器字段名
+msgid "Else Action"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/event_choice.gd:154
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Else:"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/event_choice.gd:169
+#. [L2_INSP] 事件编辑器字段名
+msgid "Disabled Text"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/event_choice.gd:170
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Disabled text:"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/event_choice.gd:171
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "(Empty for same)"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Choices"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:45
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Autofocus first choice"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:56
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Choices appear"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:60
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "Choices can appear either instantly when the text finished, after a delay, a click or either."
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:77
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "After delay"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:79
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text
+msgid "After another click"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:81
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_3/text
+msgid "After delay or click"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:87
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | SpinBox.tooltip_text
+msgid "Delay after which choices will appear (in seconds)."
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:95
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Delay before choices can be pressed"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:99
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "Adding a small delay before choices can be activated can prevent accidentally choosing an option."
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:113
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Default behaviour for false choices"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:144
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Choice Hotkeys"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:148
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "You can add more complex hotkeys (or individual ones) by editing the choice buttons of your layout scene."
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:158
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Hotkey type"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:166
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "No Hotkeys"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:168
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "Default (1-9)"
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/ui_choice_end.gd:12
+#: addons/dialogic/Modules/Choice/ui_choice_end.gd:14
+#. [L0_AUTO] 代码设置节点文本
+msgid "End of choice ("
+msgstr ""
+
+#: addons/dialogic/Modules/Choice/ui_choice_end.tscn:17
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Add Choice"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:116
+#: addons/dialogic/Modules/Wait/event_wait.gd:68
+#. [L2_INSP] 事件编辑器字段名
+msgid "Time"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:116
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Time:"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:118
+#. [L2_INSP] 事件编辑器字段名
+msgid "Step By Step"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:118
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Step by Step:"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:121
+#. [L2_INSP] 事件编辑器字段名
+msgid "Clear Textbox"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:121
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Clear:"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:122
+#. [L2_INSP] 事件编辑器字段名
+msgid "Clear Portraits"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:123
+#. [L2_INSP] 事件编辑器字段名
+msgid "Clear Background"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:124
+#. [L2_INSP] 事件编辑器字段名
+msgid "Clear Music"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:125
+#. [L2_INSP] 事件编辑器字段名
+msgid "Clear Style"
+msgstr ""
+
+#: addons/dialogic/Modules/Clear/event_clear.gd:126
+#. [L2_INSP] 事件编辑器字段名
+msgid "Clear Portrait Positions"
+msgstr ""
+
+#: addons/dialogic/Modules/Condition/event_condition.gd:108
+#. [L2_INSP] 事件编辑器字段名
+msgid "Condition Type"
+msgstr ""
+
+#: addons/dialogic/Modules/Condition/ui_condition_end.gd:19
+#. [L0_AUTO] 代码设置节点文本
+msgid "End of "
+msgstr ""
+
+#: addons/dialogic/Modules/Condition/ui_condition_end.gd:31
+#. [L0_AUTO] 代码设置节点文本
+msgid "End of ELSE"
+msgstr ""
+
+#: addons/dialogic/Modules/Condition/ui_condition_end.tscn:13
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "End of condition X"
+msgstr ""
+
+#: addons/dialogic/Modules/Condition/ui_condition_end.tscn:18
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Add Elif"
+msgstr ""
+
+#: addons/dialogic/Modules/Condition/ui_condition_end.tscn:23
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Add Else"
+msgstr ""
+
+#: addons/dialogic/Modules/Core/index.gd:11
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Expressions"
+msgstr ""
+
+#: addons/dialogic/Modules/Core/index.gd:12
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Animations"
+msgstr ""
+
+#: addons/dialogic/Modules/Core/index.gd:13
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Inputs"
+msgstr ""
+
+#: addons/dialogic/Modules/DefaultLayoutParts/Layer_History/example_history_item.tscn:45
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | RichTextLabel.text
+msgid "Some tex"
+msgstr ""
+
+#: addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn:131
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | RichTextLabel.text
+msgid "Some text"
+msgstr ""
+
+#: addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn:67
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Please enter some text:"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:45
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "New Glossary"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:52
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Import Glossary File"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:59
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Delete Glossary"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:101
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:220
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Case sensitive"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:138
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "New Glossary Entry"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:145
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Delete Glossary Entry"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:152
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text
+msgid "Filter Entries"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:181
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Entry Settings"
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/glossary_editor.tscn:214
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text
+msgid "Enter unique name..."
+msgstr ""
+
+#: addons/dialogic/Modules/Glossary/index.gd:13
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Glossary"
+msgstr ""
+
+#: addons/dialogic/Modules/HighlightPortrait/index.gd:9
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Simple Highlight Portrait"
+msgstr ""
+
+#: addons/dialogic/Modules/History/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "History"
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:35
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Simple History"
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:61
+#: addons/dialogic/Modules/History/settings_history.tscn:100
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Save and Load"
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:65
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "When enabled, the simple history is included in the savegame."
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:76
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Full History"
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:87
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "When enabled, stores a copy of each event."
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:104
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "When enabled, the full history is included in the savegame."
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:115
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Seen Events History"
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:143
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Save on Auto-Save signal"
+msgstr ""
+
+#: addons/dialogic/Modules/History/settings_history.tscn:162
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Save on Save signal"
+msgstr ""
+
+#: addons/dialogic/Modules/Jump/event_jump.gd:112
+#. [L2_INSP] 事件编辑器字段名
+msgid "Timeline Identifier"
+msgstr ""
+
+#: addons/dialogic/Modules/Jump/event_jump.gd:112
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Jump to"
+msgstr ""
+
+#: addons/dialogic/Modules/Jump/event_jump.gd:120
+#. [L2_INSP] 事件编辑器字段名
+msgid "Label Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Jump/event_jump.gd:120
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "at"
+msgstr ""
+
+#: addons/dialogic/Modules/Jump/event_label.gd:102
+#: addons/dialogic/Modules/Settings/event_setting.gd:170
+#: addons/dialogic/Modules/Variable/event_variable.gd:252
+#. [L2_INSP] 事件编辑器字段名
+msgid "Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Jump/event_label.gd:102
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Label"
+msgstr ""
+
+#: addons/dialogic/Modules/Jump/event_label.gd:103
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Display Name:"
+msgstr ""
+
+#: addons/dialogic/Modules/Jump/index.gd:9
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Jump"
+msgstr ""
+
+#: addons/dialogic/Modules/LayeredPortrait/index.gd:9
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Layered Portrait"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/event_save.gd:68
+#. [L2_INSP] 事件编辑器字段名
+msgid "Slot Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/event_save.gd:68
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Save to slot"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Save"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:37
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "If enabled dialogic will autosave the full state to the current slot depending on the autosave method."
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:51
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Autosave Mode"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:62
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "Timeline Start+End+Jump"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:64
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "Each X seconds"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:66
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text
+msgid "Every Text Event"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:80
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Default slot name"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:84
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "The name of the default slot. "
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:99
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Encryption Password"
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:103
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "The encryption password used to encrypt save files. When left empty, the save files will not be encrypted."
+msgstr ""
+
+#: addons/dialogic/Modules/Save/settings_save.tscn:122
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Use on exports only"
+msgstr ""
+
+#: addons/dialogic/Modules/Settings/event_setting.gd:154
+#. [L2_INSP] 事件编辑器字段名
+msgid "Mode"
+msgstr ""
+
+#: addons/dialogic/Modules/Settings/event_setting.gd:170
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "Type setting"
+msgstr ""
+
+#: addons/dialogic/Modules/Settings/event_setting.gd:171
+#: addons/dialogic/Modules/Variable/event_variable.gd:283
+#. [L2_INSP] 事件编辑器字段名
+msgid "Value Type"
+msgstr ""
+
+#: addons/dialogic/Modules/Settings/event_setting.gd:171
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "to"
+msgstr ""
+
+#: addons/dialogic/Modules/Settings/event_setting.gd:192
+#: addons/dialogic/Modules/Settings/event_setting.gd:193
+#: addons/dialogic/Modules/Settings/event_setting.gd:194
+#: addons/dialogic/Modules/Variable/event_variable.gd:312
+#: addons/dialogic/Modules/Variable/event_variable.gd:313
+#: addons/dialogic/Modules/Variable/event_variable.gd:314
+#: addons/dialogic/Modules/Variable/event_variable.gd:315
+#. [L2_INSP] 事件编辑器字段名
+msgid "Value"
+msgstr ""
+
+#: addons/dialogic/Modules/Settings/event_setting.gd:195
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:104
+#: addons/dialogic/Modules/Variable/event_variable.gd:256
+#: addons/dialogic/Modules/Variable/event_variable.gd:316
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "Select Variable"
+msgstr ""
+
+#: addons/dialogic/Modules/Settings/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Settings"
+msgstr ""
+
+#: addons/dialogic/Modules/Signal/event_signal.gd:77
+#. [L2_INSP] 事件编辑器字段名
+msgid "Argument Type"
+msgstr ""
+
+#: addons/dialogic/Modules/Signal/event_signal.gd:77
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Argument Type:"
+msgstr ""
+
+#: addons/dialogic/Modules/Signal/event_signal.gd:88
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Dictionary"
+msgstr ""
+
+#: addons/dialogic/Modules/Style/event_style.gd:58
+#. [L2_INSP] 事件编辑器字段名
+msgid "Style Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Style/event_style.gd:59
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Use style"
+msgstr ""
+
+#: addons/dialogic/Modules/Style/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Styles"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.gd:210
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Is Default"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.gd:220
+#. [L0_AUTO] 代码设置节点文本
+msgid "Inherits "
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:83
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text
+msgid "Add layout-style"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:86
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text
+msgid "ADD STYLE"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:91
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_2/text
+msgid "Premade Style"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:93
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_3/text
+msgid "Inherited Style"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:95
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_4/text
+msgid "Custom Style"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:101
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Duplicate style"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:107
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Remove style from list"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:149
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Edit Name"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:156
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.text
+msgid "Inherits VN Style"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:159
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text
+msgid "Clear Inheritance"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:166
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Play current timeline with this style"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:167
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Test Style"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:209
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text
+msgid "Add Layer"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:212
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text
+msgid "ADD LAYER"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:217
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:233
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_2/text
+msgid "Premade Layer"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:219
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:235
+#: addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:121
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_3/text
+msgid "Custom Layer"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:225
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text
+msgid "Replace Layer"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:228
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text
+msgid "REPLACE LAYER"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:241
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text
+msgid "Make Custom"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:244
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text
+msgid "MAKE CUSTOM"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:249
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_2/text
+msgid "Current Layer"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:251
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_3/text
+msgid "Full Layout"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:257
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Delete Layer (no undo!)"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:283
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Default Layout Base"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:348
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "A very simple base for layouts."
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:368
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "You have not set up any styles yet. Dialogic will use a fallback style."
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:375
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Make a custom style from a variation of the fallback."
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:376
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Make my own!"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:381
+#. [L1_HOOK] 窗口/对话框标题 (保守归类，由注入层覆盖) | Window.title
+msgid "Style Browser"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:349
+#. [L0_AUTO] 代码设置节点文本
+msgid "This layer has no exposed settings."
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:468
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "General"
+msgstr ""
+
+#: addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:126
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Dialogic Style Browser"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/event_text.gd:423
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "(No one)"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/event_text.gd:427
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "(Don't change)"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:33
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Default letter speed"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:37
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "The speed in seconds per character. A speed of 0 will reveal the full text instantly (still taking pauses into consideration)."
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:51
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Input action"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:71
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Text Reveal Skippable"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:93
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Skip Delay:"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:117
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Advance Delay:"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:141
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Autocolor names"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:145
+#: addons/dialogic/Modules/Text/settings_text.tscn:162
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "If enabled character names will be colored in the characters color in text events."
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:158
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Text prefix"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:175
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Custom BBCode Effects"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:179
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "This is put before the text. Can be used to apply bbcode effects to all texts."
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:192
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "New lines as new events"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:215
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+msgid "As new event"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:264
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Base Delay"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:268
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "This is the base delay for autoadvancment."
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:285
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Additional Delay"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:308
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
+msgid "Per Word"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:310
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text
+msgid "Per Character"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:324
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Ignored Characters"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:353
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Enabled at the start"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:409
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Time per Event"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:458
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
+msgid "Add set"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:471
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Absolute auto-pause times"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/settings_text.tscn:475
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
+msgid "If not enabled autopauses will be multiplied by the speed and user speed. When enabled those will be ignored."
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.gd:183
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Name cannot be empty!"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.gd:186
+#. [L1_HOOK] 代码设置悬浮提示
+msgid "Name is already in use!"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:44
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Add Mood"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:57
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Duplicate Mood"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:63
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Delete Mood"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:95
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | LineEdit.tooltip_text
+msgid "Mood name"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:96
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LineEdit.text
+msgid "New Mood"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:97
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text
+msgid "Enter Mood Name"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_portrait_mood_settings.tscn:17
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "Sound Mood:"
+msgstr ""
+
+#: addons/dialogic/Modules/Text/character_settings/character_portrait_mood_settings.tscn:23
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | ?.placeholder_text
+msgid "Select Mood"
+msgstr ""
+
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:101
+#. [L2_INSP] 事件编辑器字段名
+msgid "Variable"
+msgstr ""
+
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:105
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Text:"
+msgstr ""
+
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:106
+#. [L2_INSP] 事件编辑器字段名
+msgid "Placeholder"
+msgstr ""
+
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:106
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Placeholder:"
+msgstr ""
+
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:107
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Default:"
+msgstr ""
+
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:108
+#. [L2_INSP] 事件编辑器字段名
+msgid "Allow Empty"
+msgstr ""
+
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:108
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Allow empty:"
+msgstr ""
+
+#: addons/dialogic/Modules/TextInput/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "TextInput"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/event_variable.gd:253
+#: addons/dialogic/Modules/Voice/event_voice.gd:78
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Set"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/event_variable.gd:258
+#. [L2_INSP] 事件编辑器字段名
+msgid "Operation"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/event_variable.gd:319
+#. [L2_INSP] 事件编辑器字段名
+msgid "Random Min"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/event_variable.gd:319
+#. [L0_AUTO] 事件编辑器右标签(right_text)
+msgid "and"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/event_variable.gd:320
+#. [L2_INSP] 事件编辑器字段名
+msgid "Random Max"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/index.gd:12
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "VAR"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/variables_editor/variable_tree.gd:538
+#. [L0_AUTO] 菜单项文本
+msgid "Copy '"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:80
+#. [L0_AUTO] 输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text
+msgid "Filter Variables"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:111
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "String (Any text)"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:118
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Float (Number with Decimals)"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:125
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Int (Integer)"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:132
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
+msgid "Bool (True/False flag)"
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:151
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "You've made some changes to existing variables! Use the reference manager to check if something broke."
+msgstr ""
+
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:170
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
+msgid "How to use variables"
+msgstr ""
+
+#: addons/dialogic/Modules/Voice/event_voice.gd:79
+#. [L0_AUTO] 事件编辑器右标签(right_text)
+msgid "as the next voice audio"
+msgstr ""
+
+#: addons/dialogic/Modules/Voice/event_voice.gd:81
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+msgid "Select file"
+msgstr ""
+
+#: addons/dialogic/Modules/Voice/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Voice"
+msgstr ""
+
+#: addons/dialogic/Modules/Wait/event_wait.gd:68
+#: addons/dialogic/Modules/Wait/index.gd:10
+#. [L2_INSP] inspector 属性名(_get_property_list)
+msgid "Wait"
+msgstr ""
+
+#: addons/dialogic/Modules/Wait/event_wait.gd:71
+#. [L2_INSP] 事件编辑器字段名
+msgid "Hide Text"
+msgstr ""
+
+#: addons/dialogic/Modules/Wait/event_wait.gd:71
+#: addons/dialogic/Modules/WaitInput/event_wait_input.gd:53
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Hide text box:"
+msgstr ""
+
+#: addons/dialogic/Modules/Wait/event_wait.gd:72
+#. [L2_INSP] 事件编辑器字段名
+msgid "Skippable"
+msgstr ""
+
+#: addons/dialogic/Modules/Wait/event_wait.gd:72
+#. [L1_HOOK] 事件编辑器左标签(left_text)
+msgid "Skippable:"
+msgstr ""
+
+#: addons/dialogic/Modules/WaitInput/event_wait_input.gd:53
+#. [L2_INSP] 事件编辑器字段名
+msgid "Hide Textbox"
+msgstr ""

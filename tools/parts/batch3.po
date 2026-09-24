@@ -1,0 +1,299 @@
+msgid "Display Name"
+msgstr "显示名称"
+
+msgid "File Path"
+msgstr "文件路径"
+
+msgid "Channel Name"
+msgstr "通道名称"
+
+msgid "Set Fade Length"
+msgstr "设置淡入淡出时长"
+
+msgid "Fade Length"
+msgstr "淡入淡出时长"
+
+msgid "Set Volume"
+msgstr "设置音量"
+
+msgid "Volume"
+msgstr "音量"
+
+msgid "Set Audio Bus"
+msgstr "设置音频总线"
+
+msgid "Audio Bus"
+msgstr "音频总线"
+
+msgid "Set Loop"
+msgstr "设置循环"
+
+msgid "Loop"
+msgstr "循环"
+
+msgid "Set Sync Channel"
+msgstr "设置同步通道"
+
+msgid "Sync Channel"
+msgstr "同步通道"
+
+msgid "Audio"
+msgstr "音频"
+
+msgid "Scene Type"
+msgstr "场景类型"
+
+msgid "Scene"
+msgstr "场景"
+
+msgid "Arg Type"
+msgstr "参数类型"
+
+msgid "Argument"
+msgstr "参数"
+
+msgid "Color Arg"
+msgstr "颜色参数"
+
+msgid "Transition"
+msgstr "过渡"
+
+msgid "Fade"
+msgstr "淡入淡出"
+
+msgid "Await Transition"
+msgstr "等待过渡"
+
+msgid "Backgrounds"
+msgstr "背景"
+
+msgid "Autoload Name"
+msgstr "Autoload 名称"
+
+msgid "Method"
+msgstr "方法"
+
+msgid "Arguments"
+msgstr "参数"
+
+msgid "Action"
+msgstr "动作"
+
+msgid "Character Identifier"
+msgstr "角色标识符"
+
+msgid "Set Portrait"
+msgstr "设置立绘"
+
+msgid "Portrait"
+msgstr "立绘"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Set Transform"
+msgstr "设置变换"
+
+msgid "Transform"
+msgstr "变换"
+
+msgid "Fade Animation"
+msgstr "淡入淡出动画"
+
+msgid "Animation Name"
+msgstr "动画名称"
+
+msgid "Animation Length"
+msgstr "动画长度"
+
+msgid "Repeat Forever"
+msgstr "永久重复"
+
+msgid "Animation Repeats"
+msgstr "动画重复次数"
+
+msgid "Animation Wait"
+msgstr "等待动画"
+
+msgid "Transform Time"
+msgstr "变换时长"
+
+msgid "Transform Trans"
+msgstr "变换过渡"
+
+msgid "Transform Ease"
+msgstr "变换缓动"
+
+msgid "Set Z Index"
+msgstr "设置 Z 索引"
+
+msgid "Z Index"
+msgstr "Z 索引"
+
+msgid "Set Mirrored"
+msgstr "设置镜像"
+
+msgid "Mirrored"
+msgstr "镜像"
+
+msgid "Extra Data"
+msgstr "额外数据"
+
+msgid "Portraits"
+msgstr "立绘"
+
+msgid "PortraitContainers"
+msgstr "立绘容器"
+
+msgid "Default Scene"
+msgstr "默认场景"
+
+msgid "Custom Scene"
+msgstr "自定义场景"
+
+msgid "Simple Image Portrait"
+msgstr "简单图片立绘"
+
+msgid "Text"
+msgstr "文本"
+
+msgid "Has Condition"
+msgstr "有条件"
+
+msgid "Condition"
+msgstr "条件"
+
+msgid "Else Action"
+msgstr "Else 行为"
+
+msgid "Disabled Text"
+msgstr "禁用文本"
+
+msgid "Choices"
+msgstr "选项"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "Step By Step"
+msgstr "逐步"
+
+msgid "Clear Textbox"
+msgstr "清空文本框"
+
+msgid "Clear Portraits"
+msgstr "清空立绘"
+
+msgid "Clear Background"
+msgstr "清空背景"
+
+msgid "Clear Music"
+msgstr "清空音乐"
+
+msgid "Clear Style"
+msgstr "清空样式"
+
+msgid "Clear Portrait Positions"
+msgstr "清空立绘位置"
+
+msgid "Condition Type"
+msgstr "条件类型"
+
+msgid "Expressions"
+msgstr "表达式"
+
+msgid "Animations"
+msgstr "动画"
+
+msgid "Inputs"
+msgstr "输入"
+
+msgid "Glossary"
+msgstr "术语表"
+
+msgid "Simple Highlight Portrait"
+msgstr "简单高亮立绘"
+
+msgid "History"
+msgstr "历史"
+
+msgid "Timeline Identifier"
+msgstr "时间轴标识符"
+
+msgid "Label Name"
+msgstr "标记名称"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Jump"
+msgstr "跳转"
+
+msgid "Layered Portrait"
+msgstr "分层立绘"
+
+msgid "Slot Name"
+msgstr "存档位名称"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Value Type"
+msgstr "值类型"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Argument Type"
+msgstr "参数类型"
+
+msgid "Style Name"
+msgstr "样式名称"
+
+msgid "Styles"
+msgstr "样式"
+
+msgid "General"
+msgstr "通用"
+
+msgid "Variable"
+msgstr "变量"
+
+msgid "Placeholder"
+msgstr "占位符"
+
+msgid "Allow Empty"
+msgstr "允许为空"
+
+msgid "TextInput"
+msgstr "文本输入"
+
+msgid "Operation"
+msgstr "操作"
+
+msgid "Random Min"
+msgstr "随机下限"
+
+msgid "Random Max"
+msgstr "随机上限"
+
+msgid "Voice"
+msgstr "配音"
+
+msgid "Wait"
+msgstr "等待"
+
+msgid "Hide Text"
+msgstr "隐藏文本"
+
+msgid "Skippable"
+msgstr "可跳过"
+
+msgid "Hide Textbox"
+msgstr "隐藏文本框"

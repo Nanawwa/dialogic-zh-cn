@@ -1,0 +1,482 @@
+msgid "Dialogic resource renamed!"
+msgstr "Dialogic 资源已重命名！"
+
+msgid "You renamed a dialogic resource. This does NOT automatically rename the unique identifier for this resource. Consider checking in the Reference Manager if the identifiers are still the way you want them."
+msgstr "你重命名了一个 Dialogic 资源。这不会自动重命名该资源的唯一标识符。请到引用管理器中检查标识符是否仍符合预期。"
+
+msgid "Reference Manager"
+msgstr "引用管理器"
+
+msgid "Dialogic Update Checker"
+msgstr "Dialogic 更新检查器"
+
+msgid "New resource"
+msgstr "新资源"
+
+msgid "This portrait will ignore the main scale."
+msgstr "此立绘将忽略主缩放。"
+
+msgid "Offset that is applied on top of the main portrait offset."
+msgstr "在主立绘偏移之上叠加的偏移量。"
+
+msgid "Mirroring that is applied on top of the main portrait mirror."
+msgstr "在主立绘镜像之上叠加的镜像设置。"
+
+msgid "Can be changed in the settings."
+msgstr "可在设置中更改。"
+
+msgid "Change Scene"
+msgstr "更换场景"
+
+msgid "Open/Edit Scene"
+msgstr "打开/编辑场景"
+
+msgid "Portrait Scene Browser"
+msgstr "立绘场景浏览器"
+
+msgid "This name will be displayed on the name label. You can use a dialogic variable. E.g. :{Player.name}"
+msgstr "此名字将显示在名字标签上。可以使用 Dialogic 变量，例如 :{Player.name}"
+
+msgid "This color can be used on the name label and for occurences of the characters name in text (autocolor names)."
+msgstr "此颜色将用于名字标签，以及文本中角色名字的着色（自动着色名字）。"
+
+msgid "If autocolor names is enabled, these will be colored in the characters color as well."
+msgstr "启用自动着色名字后，这些内容也会按角色颜色着色。"
+
+msgid "No effect, just for you."
+msgstr "无实际效果，只对你可见。"
+
+msgid "Real scale"
+msgstr "实际缩放"
+
+msgid "Fit into preview"
+msgstr "适配预览"
+
+msgid "Hide Main Settings"
+msgstr "隐藏主要设置"
+
+msgid "Show Main Settings"
+msgstr "显示主要设置"
+
+msgid "Add Empty Portrait"
+msgstr "添加空立绘"
+
+msgid "Add Portrait Group"
+msgstr "添加立绘分组"
+
+msgid "Import Images as Portraits"
+msgstr "导入图片为立绘"
+
+msgid "Make Default"
+msgstr "设为默认"
+
+msgid "Switch position"
+msgstr "切换位置"
+
+msgid "Currently in use"
+msgstr "正在使用"
+
+msgid "Add custom rename"
+msgstr "添加自定义改名"
+
+msgid "This decides the regexes for searching. Pure text allows you to enter your own regex into \"Old\". "
+msgstr "这决定搜索所用的正则。\"纯文本\"模式下，你可以在\"原文本\"中直接输入自己的正则。"
+
+msgid "Match Case"
+msgstr "区分大小写"
+
+msgid "Whole World"
+msgstr "全字匹配"
+
+msgid "Search timelines for occurences of these renames"
+msgstr "在时间轴中搜索这些改名出现的位置"
+
+msgid "Replace all selected findings (Careful, no undo!)"
+msgstr "替换所有选中的结果（小心，无法撤销！）"
+
+msgid "Show Sidebar"
+msgstr "显示侧边栏"
+
+msgid "Filter Resources"
+msgstr "过滤资源"
+
+msgid "Resource List Options"
+msgstr "资源列表选项"
+
+msgid "Label events in your timeline will appear here, allowing you to jump to them."
+msgstr "时间轴中的标记事件会显示在这里，方便你跳转。"
+
+msgid "Hide Sidebar"
+msgstr "隐藏侧边栏"
+
+msgid "Click and drag"
+msgstr "点击并拖动"
+
+msgid "Fold/Unfold Settings"
+msgstr "折叠/展开设置"
+
+msgid "Collapse Contained Events"
+msgstr "折叠所含事件"
+
+msgid "Add value"
+msgstr "添加值"
+
+msgid "Change type"
+msgstr "更改类型"
+
+msgid "Use complex expression"
+msgstr "使用复杂表达式"
+
+msgid "Add key-value pair"
+msgstr "添加键值对"
+
+msgid "Preview hidden because project setting 'dialogic/accessibility/image_preview_height' is 0."
+msgstr "因项目设置 dialogic/accessibility/image_preview_height 为 0，预览已隐藏。"
+
+msgid "Check it out!"
+msgstr "快来看看！"
+
+msgid "Used by "
+msgstr "被用于 "
+
+msgid "These colors are used for the events."
+msgstr "这些颜色用于事件。"
+
+msgid "Reset Colors to default"
+msgstr "恢复默认颜色"
+
+msgid "You can change the order of the event sections here. "
+msgstr "可在此调整事件分区的顺序。"
+
+msgid "Use the Exension Creator to quickly setup custom modules!"
+msgstr "使用扩展创建器快速搭建自定义模块！"
+
+msgid "Change whether dialogics timers process in physics_process (frame-rate independent) or process."
+msgstr "更改 Dialogic 计时器是在 physics_process（帧率无关）还是 process 中处理。"
+
+msgid "Expand All"
+msgstr "全部展开"
+
+msgid "Collapse All"
+msgstr "全部折叠"
+
+msgid "Remove customization"
+msgstr "移除自定义"
+
+msgid "Include Events"
+msgstr "包含事件"
+
+msgid "Include Subsystems"
+msgstr "包含子系统"
+
+msgid "Include Text Effects and Modifiers"
+msgstr "包含文本效果与修饰符"
+
+msgid "Include Preset Style Scenes"
+msgstr "包含预制样式场景"
+
+msgid "Include Settings Pages"
+msgstr "包含设置页面"
+
+msgid "Include Editors"
+msgstr "包含编辑器"
+
+msgid "Toggle Event Button Visibility"
+msgstr "切换事件按钮可见性"
+
+msgid "Show in FileSystem"
+msgstr "在文件系统中显示"
+
+msgid "The locale of the language your timelines are written in."
+msgstr "时间轴所使用语言的区域代码。"
+
+msgid "Please Decide..."
+msgstr "请选择..."
+
+msgid "Switch between Text Editor and Visual Editor"
+msgstr "在文本编辑器和可视化编辑器之间切换"
+
+msgid "Replace in all timelines"
+msgstr "在所有时间轴中替换"
+
+msgid "Play"
+msgstr "播放"
+
+msgid "on"
+msgstr "于"
+
+msgid "Fade Time:"
+msgstr "淡入淡出时长："
+
+msgid "Volume:"
+msgstr "音量："
+
+msgid "Audio Bus:"
+msgstr "音频总线："
+
+msgid "Loop:"
+msgstr "循环："
+
+msgid "Sync with:"
+msgstr "同步至："
+
+msgid "Show"
+msgstr "显示"
+
+msgid "with"
+msgstr "使用"
+
+msgid "Preview:"
+msgstr "预览："
+
+msgid "Transition:"
+msgstr "过渡："
+
+msgid "Fade time:"
+msgstr "淡入淡出时长："
+
+msgid "Await Fade:"
+msgstr "等待淡入淡出："
+
+msgid "On autoload"
+msgstr "在 Autoload 上"
+
+msgid "call"
+msgstr "调用"
+
+msgid "Arguments:"
+msgstr "参数："
+
+msgid "Fade:"
+msgstr "淡入淡出："
+
+msgid "Length:"
+msgstr "时长："
+
+msgid "Animation:"
+msgstr "动画："
+
+msgid "Repeat Forever:"
+msgstr "永久重复："
+
+msgid "Repeat:"
+msgstr "重复："
+
+msgid "Await end:"
+msgstr "等待结束："
+
+msgid "Movement duration:"
+msgstr "移动时长："
+
+msgid "Trans:"
+msgstr "过渡类型："
+
+msgid "Ease:"
+msgstr "缓动方式："
+
+msgid "Z-index:"
+msgstr "Z 索引："
+
+msgid "Mirrored:"
+msgstr "镜像："
+
+msgid "Extra Data:"
+msgstr "额外数据："
+
+msgid "You can change the position names that will be suggested in the timeline editor here."
+msgstr "可在此更改时间轴编辑器中建议的位置名称。"
+
+msgid "If this is set, this scene will be what is used by default for any portrait that has no scene specified"
+msgstr "若设置了此项，未指定场景的立绘将默认使用此场景"
+
+msgid "Else:"
+msgstr "否则："
+
+msgid "Disabled text:"
+msgstr "禁用文本："
+
+msgid "Choices can appear either instantly when the text finished, after a delay, a click or either."
+msgstr "选项可以在文本结束后立即出现，也可以延迟出现、点击后出现，或两者兼有。"
+
+msgid "Delay after which choices will appear (in seconds)."
+msgstr "选项出现前的延迟（以秒计）。"
+
+msgid "Adding a small delay before choices can be activated can prevent accidentally choosing an option."
+msgstr "在选项可激活前加入一小段延迟，可以避免误选。"
+
+msgid "You can add more complex hotkeys (or individual ones) by editing the choice buttons of your layout scene."
+msgstr "编辑布局场景中的选项按钮，即可添加更复杂的（或单独的）快捷键。"
+
+msgid "Time:"
+msgstr "时间："
+
+msgid "Step by Step:"
+msgstr "逐步："
+
+msgid "Clear:"
+msgstr "清空："
+
+msgid "New Glossary"
+msgstr "新建术语表"
+
+msgid "Import Glossary File"
+msgstr "导入术语表文件"
+
+msgid "Delete Glossary"
+msgstr "删除术语表"
+
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+msgid "New Glossary Entry"
+msgstr "新建术语表条目"
+
+msgid "Delete Glossary Entry"
+msgstr "删除术语表条目"
+
+msgid "When enabled, the simple history is included in the savegame."
+msgstr "启用后，简单历史将包含在存档中。"
+
+msgid "When enabled, stores a copy of each event."
+msgstr "启用后，将保存每个事件的副本。"
+
+msgid "When enabled, the full history is included in the savegame."
+msgstr "启用后，完整历史将包含在存档中。"
+
+msgid "Jump to"
+msgstr "跳转至"
+
+msgid "at"
+msgstr "于"
+
+msgid "Label"
+msgstr "标记"
+
+msgid "Display Name:"
+msgstr "显示名称："
+
+msgid "Save to slot"
+msgstr "存入存档位"
+
+msgid "If enabled dialogic will autosave the full state to the current slot depending on the autosave method."
+msgstr "启用后，Dialogic 会按自动存档方式把完整状态自动存入当前存档位。"
+
+msgid "The name of the default slot. "
+msgstr "默认存档位的名称。"
+
+msgid "The encryption password used to encrypt save files. When left empty, the save files will not be encrypted."
+msgstr "用于加密存档文件的密码。留空则不加密存档文件。"
+
+msgid "to"
+msgstr "至"
+
+msgid "Argument Type:"
+msgstr "参数类型："
+
+msgid "Dictionary"
+msgstr "字典"
+
+msgid "Use style"
+msgstr "使用样式"
+
+msgid "Is Default"
+msgstr "是否默认"
+
+msgid "Add layout-style"
+msgstr "添加布局样式"
+
+msgid "Duplicate style"
+msgstr "复制样式"
+
+msgid "Remove style from list"
+msgstr "从列表移除样式"
+
+msgid "Edit Name"
+msgstr "编辑名称"
+
+msgid "Play current timeline with this style"
+msgstr "以此样式播放当前时间轴"
+
+msgid "Add Layer"
+msgstr "添加图层"
+
+msgid "Replace Layer"
+msgstr "替换图层"
+
+msgid "Make Custom"
+msgstr "转为自定义"
+
+msgid "Delete Layer (no undo!)"
+msgstr "删除图层（无法撤销！）"
+
+msgid "Make a custom style from a variation of the fallback."
+msgstr "基于后备样式的变体创建自定义样式。"
+
+msgid "Style Browser"
+msgstr "样式浏览器"
+
+msgid "The speed in seconds per character. A speed of 0 will reveal the full text instantly (still taking pauses into consideration)."
+msgstr "每个字符的显示时长（秒）。设为 0 将立即显示全部文本（但仍会考虑停顿）。"
+
+msgid "If enabled character names will be colored in the characters color in text events."
+msgstr "启用后，文本事件中的角色名字会按角色颜色着色。"
+
+msgid "This is put before the text. Can be used to apply bbcode effects to all texts."
+msgstr "会放在文本之前。可用于对所有文本应用 BBCode 效果。"
+
+msgid "This is the base delay for autoadvancment."
+msgstr "这是自动推进的基础延迟。"
+
+msgid "If not enabled autopauses will be multiplied by the speed and user speed. When enabled those will be ignored."
+msgstr "未启用时，自动暂停时长会乘以速度与用户速度；启用后则忽略这些倍率。"
+
+msgid "Name cannot be empty!"
+msgstr "名称不能为空！"
+
+msgid "Name is already in use!"
+msgstr "名称已被占用！"
+
+msgid "Add Mood"
+msgstr "添加情绪"
+
+msgid "Duplicate Mood"
+msgstr "复制情绪"
+
+msgid "Delete Mood"
+msgstr "删除情绪"
+
+msgid "Mood name"
+msgstr "情绪名称"
+
+msgid "Text:"
+msgstr "文本："
+
+msgid "Placeholder:"
+msgstr "占位符："
+
+msgid "Default:"
+msgstr "默认值："
+
+msgid "Allow empty:"
+msgstr "允许为空："
+
+msgid "Set"
+msgstr "设置"
+
+msgid "String (Any text)"
+msgstr "字符串（任意文本）"
+
+msgid "Float (Number with Decimals)"
+msgstr "浮点数（带小数）"
+
+msgid "Int (Integer)"
+msgstr "整数"
+
+msgid "Bool (True/False flag)"
+msgstr "布尔值（真/假）"
+
+msgid "Hide text box:"
+msgstr "隐藏文本框："
+
+msgid "Skippable:"
+msgstr "可跳过："

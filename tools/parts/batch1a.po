@@ -1,0 +1,368 @@
+msgid "Ignore Main Scale: "
+msgstr "忽略主缩放："
+
+msgid "Default Portrait Scene"
+msgstr "默认立绘场景"
+
+msgid "Select Default Portrait"
+msgstr "选择默认立绘"
+
+msgid "Main Scale"
+msgstr "主缩放"
+
+msgid "Main Offset"
+msgstr "主偏移"
+
+msgid "Main Mirror"
+msgstr "主镜像"
+
+msgid "Preview of \""
+msgstr "预览：\""
+
+msgid "Nothing to preview"
+msgstr "没有可预览的内容"
+
+msgid "No portrait to preview."
+msgstr "没有可预览的立绘。"
+
+msgid "My Character"
+msgstr "我的角色"
+
+msgid "Main Settings"
+msgstr "主要设置"
+
+msgid "Filter Portraits"
+msgstr "过滤立绘"
+
+msgid "Some portraits were renamed. Make sure no references broke!"
+msgstr "部分立绘已被重命名。请确认引用没有失效！"
+
+msgid "Custom scenes can only be viewed in \"Full mode\" if they are in @tool mode and override _get_covered_rect"
+msgstr "自定义场景只有在启用 @tool 并重写 _get_covered_rect 时，才能在\"完整模式\"下查看"
+
+msgid "Portrait Settings"
+msgstr "立绘设置"
+
+msgid "Create New Character"
+msgstr "新建角色"
+
+msgid "Search for "
+msgstr "搜索："
+
+msgid "by "
+msgstr "作者："
+
+msgid "Use this scene"
+msgstr "使用此场景"
+
+msgid "This is a general use scene, it can be used directly."
+msgstr "这是一个通用场景，可直接使用。"
+
+msgid "Customize this scene"
+msgstr "自定义此场景"
+
+msgid "This is a preset you can use for a custom portrait scene. Dialogic will promt you to save a copy of this scene that you can then use and customize."
+msgstr "这是一个预设，可用作自定义立绘场景的起点。Dialogic 会提示你保存一份副本，之后即可使用并自定义该副本。"
+
+msgid "Use default scene"
+msgstr "使用默认场景"
+
+msgid "Select a custom scene"
+msgstr "选择自定义场景"
+
+msgid "Dialogic Portrait Scene Browser"
+msgstr "Dialogic 立绘场景浏览器"
+
+msgid "Cool Style Part"
+msgstr "酷炫样式部件"
+
+msgid "by Jowan"
+msgstr "作者：Jowan"
+
+msgid "a style"
+msgstr "一个样式"
+
+msgid "A cool textbox layer"
+msgstr "一个很酷的文本框图层"
+
+msgid "Learn more"
+msgstr "了解更多"
+
+msgid "Dialogic Theme"
+msgstr "Dialogic 主题"
+
+msgid "Broken References"
+msgstr "失效引用"
+
+msgid "Nothing found"
+msgstr "未找到任何内容"
+
+msgid "Loading '"
+msgstr "正在加载 \""
+
+msgid "Replacing in '"
+msgstr "正在替换 \""
+
+msgid "Done Replacing"
+msgstr "替换完成"
+
+msgid "Unique Identifiers"
+msgstr "唯一标识符"
+
+msgid "Recent renames"
+msgstr "最近的改名"
+
+msgid "Pure Text"
+msgstr "纯文本"
+
+msgid "Character (Ref)"
+msgstr "角色（引用）"
+
+msgid "Timeline (Ref)"
+msgstr "时间轴（引用）"
+
+msgid "Only for Character"
+msgstr "仅限角色"
+
+msgid "Texts only"
+msgstr "仅文本"
+
+msgid "Check Selected"
+msgstr "检查所选"
+
+msgid "Found references"
+msgstr "找到的引用"
+
+msgid "Replace Selected"
+msgstr "替换所选"
+
+msgid "Filter Identifiers/Paths"
+msgstr "过滤标识符/路径"
+
+msgid "You've renamed some identifier(s)! Use the \"Broken References\" tab to check if you have used this identifier (and fix it if so)."
+msgstr "你重命名了一些标识符！请使用\"失效引用\"标签页检查是否仍在使用旧标识符（如有请修复）。"
+
+msgid "Online Docs"
+msgstr "在线文档"
+
+msgid "No resource"
+msgstr "无资源"
+
+msgid "Sort Order"
+msgstr "排序方式"
+
+msgid "Alphabetical (All)"
+msgstr "按字母（全部）"
+
+msgid "Some Version"
+msgstr "任意版本"
+
+msgid "List All"
+msgstr "列出全部"
+
+msgid "Clear List"
+msgstr "清空列表"
+
+msgid "No Resource"
+msgstr "无资源"
+
+msgid "~ Top"
+msgstr "～顶部"
+
+msgid "No Information Available"
+msgstr "暂无信息"
+
+msgid "Unable to access versions."
+msgstr "无法获取版本信息。"
+
+msgid "You are probably not connected to the internet. Fair enough."
+msgstr "你可能没有联网。也能理解。"
+
+msgid "Huh, what happened here?"
+msgstr "咦，这里发生了什么？"
+
+msgid "Where are we Doc?"
+msgstr "我们到哪儿了，Doc？"
+
+msgid "Update Available!"
+msgstr "有可用更新！"
+
+msgid "You are up to date:"
+msgstr "你已是最新版本："
+
+msgid "Published on "
+msgstr "发布于 "
+
+msgid "Downloading. This can take a moment."
+msgstr "正在下载，可能需要一些时间。"
+
+msgid "Installed successfully. Restart needed!"
+msgstr "安装成功，需要重启！"
+
+msgid "Download failed."
+msgstr "下载失败。"
+
+msgid "Read Full Announcement"
+msgstr "阅读完整公告"
+
+msgid "Restart Now"
+msgstr "立即重启"
+
+msgid "Enter condition"
+msgstr "输入条件"
+
+msgid "(Hidden)"
+msgstr "（隐藏）"
+
+msgid "Placeholder Text"
+msgstr "占位文本"
+
+msgid "Get in touch"
+msgstr "联系我们"
+
+msgid "  Bug / Request"
+msgstr "  问题 / 反馈"
+
+msgid "  Website"
+msgstr "  网站"
+
+msgid "  Donate"
+msgstr "  捐赠"
+
+msgid "Random Tip"
+msgstr "随机提示"
+
+msgid "No Timeline"
+msgstr "无时间轴"
+
+msgid "Color Palette"
+msgstr "调色板"
+
+msgid "Visual Events"
+msgstr "可视化事件"
+
+msgid "Image preview height"
+msgstr "图片预览高度"
+
+msgid "Event block bottom margin"
+msgstr "事件块下边距"
+
+msgid "Show event names"
+msgstr "显示事件名称"
+
+msgid "Section Order"
+msgstr "分区顺序"
+
+msgid "Layout Node Behaviour"
+msgstr "布局节点行为"
+
+msgid "On timeline end"
+msgstr "时间轴结束时"
+
+msgid "Delete Layout Node"
+msgstr "删除布局节点"
+
+msgid "Hide Layout Node"
+msgstr "隐藏布局节点"
+
+msgid "Keep Layout Node"
+msgstr "保留布局节点"
+
+msgid "Extensions folder"
+msgstr "扩展文件夹"
+
+msgid "Extension Creator "
+msgstr "扩展创建器"
+
+msgid "Create New Extension"
+msgstr "新建扩展"
+
+msgid "e.g. \"Print\", \"Item\", \"Door\", \"Quest\""
+msgstr "例如\"打印\"、\"物品\"、\"门\"、\"任务\""
+
+msgid "Setup mode:"
+msgstr "安装模式："
+
+msgid "Event only"
+msgstr "仅事件"
+
+msgid "Event+Subsystem"
+msgstr "事件+子系统"
+
+msgid "Subsystem only"
+msgstr "仅子系统"
+
+msgid "Timer processing"
+msgstr "计时器处理方式"
+
+msgid "Process timers in physics_process"
+msgstr "在 physics_process 中处理计时器"
+
+msgid "Events can be used in timelines and do all kinds of things. They often interact with subsystems and dialogic nodes."
+msgstr "事件可在时间轴中使用，能实现各种效果。它们通常与子系统和 Dialogic 节点交互。"
+
+msgid "Subsystems hold specialized functionality. They mostly manage communication between events and dialogic nodes. Often they provide handy methods that can be accessed by the user like this: Dialogic.Subsystem.a_method()."
+msgstr "子系统承载专门的功能，主要负责事件与 Dialogic 节点之间的通信。它们往往提供便捷方法，可以这样调用：Dialogic.Subsystem.a_method()。"
+
+msgid "Text effects can be used in text events. They will be executed once reached and can take a single argument."
+msgstr "文本效果可用于文本事件，播放到时会执行一次，并且可以接受一个参数。"
+
+msgid "Modifiers can modify text from text events before it is shown."
+msgstr "修饰符可在文本显示前修改文本事件的内容。"
+
+msgid "Style presets can be activated and modified in the Styles editor. They provide the design of the dialog interface in your game."
+msgstr "样式预设可在\"样式\"编辑器中启用和修改。它们决定游戏中对话框界面的外观。"
+
+msgid "Editors provide a user interface for editing dialogic data."
+msgstr "编辑器提供编辑 Dialogic 数据的用户界面。"
+
+msgid "Settings pages provide settings that are usually used by subsystems, events and dialogic nodes."
+msgstr "设置页面提供的设置通常供子系统、事件和 Dialogic 节点使用。"
+
+msgid "Event Defaults:"
+msgstr "事件默认值："
+
+msgid "Enable translations"
+msgstr "启用翻译"
+
+msgid "Testing locale"
+msgstr "测试语言"
+
+msgid "Default locale"
+msgstr "默认语言"
+
+msgid "Translation folder"
+msgstr "翻译文件夹"
+
+msgid "Output mode"
+msgstr "输出模式"
+
+msgid "Per Type"
+msgstr "按类型"
+
+msgid "Per File"
+msgstr "按文件"
+
+msgid "Output location"
+msgstr "输出位置"
+
+msgid "Inside Translation Folder"
+msgstr "翻译文件夹内"
+
+msgid "Next to File"
+msgstr "文件旁"
+
+msgid "Add Separator Lines"
+msgstr "添加分隔行"
+
+msgid "Update CSV files"
+msgstr "更新 CSV 文件"
+
+msgid "Collect translations"
+msgstr "收集翻译"
+
+msgid "Remove translations"
+msgstr "移除翻译"
+
+msgid "⛔ Requires valid translation folder to translate character names and the project CSV file."
+msgstr "⛔ 需要有效的翻译文件夹，才能翻译角色名和项目 CSV 文件。"

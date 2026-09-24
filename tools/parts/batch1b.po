@@ -1,0 +1,359 @@
+msgid "Portrait Containers"
+msgstr "立绘容器"
+
+msgid "No labels in timeline."
+msgstr "时间轴中没有标记。"
+
+msgid "New Save"
+msgstr "新存档"
+
+msgid "Text Editor"
+msgstr "文本编辑器"
+
+msgid "Visual Editor"
+msgstr "可视化编辑器"
+
+msgid "Text editor"
+msgstr "文本编辑器"
+
+msgid "No Match"
+msgstr "无匹配"
+
+msgid "Cool Name"
+msgstr "示例名称"
+
+msgid "Whole Words"
+msgstr "全字匹配"
+
+msgid "Replace All"
+msgstr "全部替换"
+
+msgid "Create New Timeline"
+msgstr "新建时间轴"
+
+msgid "Shortcuts "
+msgstr "快捷键"
+
+msgid "No timeline active."
+msgstr "当前没有活动时间轴。"
+
+msgid "Timeline: < No Timeline >"
+msgstr "时间轴：< 无时间轴 >"
+
+msgid "Timeline: "
+msgstr "时间轴："
+
+msgid "State: "
+msgstr "状态："
+
+msgid "Nothing"
+msgstr "无"
+
+msgid "channel."
+msgstr "通道。"
+
+msgid "(One-Shot SFX)"
+msgstr "（一次性音效）"
+
+msgid "(No Sync)"
+msgstr "（不同步）"
+
+msgid "Typing Sounds"
+msgstr "打字音效"
+
+msgid "Audio Channel Defaults"
+msgstr "音频通道默认值"
+
+msgid "Enter Channel Name"
+msgstr "输入通道名称"
+
+msgid "Add channel"
+msgstr "添加通道"
+
+msgid "Custom scene"
+msgstr "自定义场景"
+
+msgid "No Image"
+msgstr "无图片"
+
+msgid "Character"
+msgstr "角色"
+
+msgid "Position Suggestions"
+msgstr "位置建议"
+
+msgid "Default Animations"
+msgstr "默认动画"
+
+msgid "(Empty for same)"
+msgstr "（留空则相同）"
+
+msgid "Autofocus first choice"
+msgstr "自动聚焦第一个选项"
+
+msgid "Choices appear"
+msgstr "选项出现时机"
+
+msgid "After delay"
+msgstr "延迟后"
+
+msgid "After another click"
+msgstr "再次点击后"
+
+msgid "After delay or click"
+msgstr "延迟或点击后"
+
+msgid "Delay before choices can be pressed"
+msgstr "选项可按下的延迟"
+
+msgid "Default behaviour for false choices"
+msgstr "未满足条件选项的默认行为"
+
+msgid "Choice Hotkeys"
+msgstr "选项快捷键"
+
+msgid "Hotkey type"
+msgstr "快捷键类型"
+
+msgid "No Hotkeys"
+msgstr "无快捷键"
+
+msgid "Default (1-9)"
+msgstr "默认（1-9）"
+
+msgid "End of choice ("
+msgstr "选项结束 ("
+
+msgid "Add Choice"
+msgstr "添加选项"
+
+msgid "End of "
+msgstr "结束："
+
+msgid "End of ELSE"
+msgstr "ELSE 块结束"
+
+msgid "End of condition X"
+msgstr "条件 X 结束"
+
+msgid "Add Elif"
+msgstr "添加 Elif"
+
+msgid "Add Else"
+msgstr "添加 Else"
+
+msgid "Please enter some text:"
+msgstr "请输入一些文本："
+
+msgid "Filter Entries"
+msgstr "过滤条目"
+
+msgid "Entry Settings"
+msgstr "条目设置"
+
+msgid "Enter unique name..."
+msgstr "输入唯一名称..."
+
+msgid "Simple History"
+msgstr "简单历史"
+
+msgid "Save and Load"
+msgstr "存档与读档"
+
+msgid "Full History"
+msgstr "完整历史"
+
+msgid "Seen Events History"
+msgstr "已见事件历史"
+
+msgid "Save on Auto-Save signal"
+msgstr "在自动存档信号时保存"
+
+msgid "Save on Save signal"
+msgstr "在存档信号时保存"
+
+msgid "Autosave Mode"
+msgstr "自动存档模式"
+
+msgid "Timeline Start+End+Jump"
+msgstr "时间轴开始+结束+跳转时"
+
+msgid "Each X seconds"
+msgstr "每隔 X 秒"
+
+msgid "Every Text Event"
+msgstr "每个文本事件"
+
+msgid "Default slot name"
+msgstr "默认存档位名称"
+
+msgid "Encryption Password"
+msgstr "加密密码"
+
+msgid "Use on exports only"
+msgstr "仅在导出时使用"
+
+msgid "Type setting"
+msgstr "类型设置"
+
+msgid "Select Variable"
+msgstr "选择变量"
+
+msgid "Inherits "
+msgstr "继承 "
+
+msgid "ADD STYLE"
+msgstr "添加样式"
+
+msgid "Premade Style"
+msgstr "预制样式"
+
+msgid "Inherited Style"
+msgstr "继承的样式"
+
+msgid "Custom Style"
+msgstr "自定义样式"
+
+msgid "Inherits VN Style"
+msgstr "继承视觉小说样式"
+
+msgid "Clear Inheritance"
+msgstr "清除继承"
+
+msgid "Test Style"
+msgstr "测试样式"
+
+msgid "ADD LAYER"
+msgstr "添加图层"
+
+msgid "Premade Layer"
+msgstr "预制图层"
+
+msgid "Custom Layer"
+msgstr "自定义图层"
+
+msgid "REPLACE LAYER"
+msgstr "替换图层"
+
+msgid "MAKE CUSTOM"
+msgstr "转为自定义"
+
+msgid "Current Layer"
+msgstr "当前图层"
+
+msgid "Full Layout"
+msgstr "完整布局"
+
+msgid "Default Layout Base"
+msgstr "默认布局基底"
+
+msgid "A very simple base for layouts."
+msgstr "一个非常简单的布局基底。"
+
+msgid "You have not set up any styles yet. Dialogic will use a fallback style."
+msgstr "你还没有设置任何样式。Dialogic 将使用后备样式。"
+
+msgid "Make my own!"
+msgstr "自己动手做一个！"
+
+msgid "This layer has no exposed settings."
+msgstr "此图层没有可调设置。"
+
+msgid "Dialogic Style Browser"
+msgstr "Dialogic 样式浏览器"
+
+msgid "(No one)"
+msgstr "（无人）"
+
+msgid "(Don't change)"
+msgstr "（不更改）"
+
+msgid "Default letter speed"
+msgstr "默认打字速度"
+
+msgid "Input action"
+msgstr "输入动作"
+
+msgid "Text Reveal Skippable"
+msgstr "文本显示可跳过"
+
+msgid "Skip Delay:"
+msgstr "跳过延迟："
+
+msgid "Advance Delay:"
+msgstr "推进延迟："
+
+msgid "Autocolor names"
+msgstr "自动着色名字"
+
+msgid "Text prefix"
+msgstr "文本前缀"
+
+msgid "Custom BBCode Effects"
+msgstr "自定义 BBCode 效果"
+
+msgid "New lines as new events"
+msgstr "换行作为新事件"
+
+msgid "As new event"
+msgstr "作为新事件"
+
+msgid "Base Delay"
+msgstr "基础延迟"
+
+msgid "Additional Delay"
+msgstr "附加延迟"
+
+msgid "Per Word"
+msgstr "按词"
+
+msgid "Per Character"
+msgstr "按字符"
+
+msgid "Ignored Characters"
+msgstr "忽略的字符"
+
+msgid "Enabled at the start"
+msgstr "开局启用"
+
+msgid "Time per Event"
+msgstr "每个事件的时长"
+
+msgid "Add set"
+msgstr "添加设置"
+
+msgid "Absolute auto-pause times"
+msgstr "绝对自动暂停时长"
+
+msgid "New Mood"
+msgstr "新建情绪"
+
+msgid "Enter Mood Name"
+msgstr "输入情绪名称"
+
+msgid "Sound Mood:"
+msgstr "打字音情绪："
+
+msgid "Select Mood"
+msgstr "选择情绪"
+
+msgid "and"
+msgstr "和"
+
+msgid "Copy '"
+msgstr "复制 \""
+
+msgid "Filter Variables"
+msgstr "过滤变量"
+
+msgid "You've made some changes to existing variables! Use the reference manager to check if something broke."
+msgstr "你修改了现有变量！请使用引用管理器检查是否有引用失效。"
+
+msgid "How to use variables"
+msgstr "如何使用变量"
+
+msgid "as the next voice audio"
+msgstr "作为下一段配音"
+
+msgid "Select file"
+msgstr "选择文件"

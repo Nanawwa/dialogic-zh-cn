@@ -1,0 +1,4207 @@
+[
+ {
+  "msgid": "Dialogic resource renamed!",
+  "layer": "L1_HOOK",
+  "kind": "窗口/对话框标题 (保守归类，由注入层覆盖) | AcceptDialog.title",
+  "locations": [
+   "addons/dialogic/Editor/editor_main.tscn:129"
+  ]
+ },
+ {
+  "msgid": "You renamed a dialogic resource. This does NOT automatically rename the unique identifier for this resource. Consider checking in the Reference Manager if the identifiers are still the way you want them.",
+  "layer": "L1_HOOK",
+  "kind": "对话框正文 (保守归类，由注入层覆盖) | AcceptDialog.dialog_text",
+  "locations": [
+   "addons/dialogic/Editor/editor_main.tscn:133"
+  ]
+ },
+ {
+  "msgid": "Reference Manager",
+  "layer": "L1_HOOK",
+  "kind": "窗口/对话框标题 (保守归类，由注入层覆盖) | Window.title",
+  "locations": [
+   "addons/dialogic/Editor/editor_main.tscn:138",
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:156"
+  ]
+ },
+ {
+  "msgid": "Dialogic Update Checker",
+  "layer": "L1_HOOK",
+  "kind": "窗口/对话框标题 (保守归类，由注入层覆盖) | Window.title",
+  "locations": [
+   "addons/dialogic/Editor/editor_main.tscn:154"
+  ]
+ },
+ {
+  "msgid": "New resource",
+  "layer": "L1_HOOK",
+  "kind": "窗口标题",
+  "locations": [
+   "addons/dialogic/Editor/editors_manager.gd:177"
+  ]
+ },
+ {
+  "msgid": "Ignore Main Scale: ",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.tscn:15"
+  ]
+ },
+ {
+  "msgid": "This portrait will ignore the main scale.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | CheckBox.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.tscn:20"
+  ]
+ },
+ {
+  "msgid": "Offset that is applied on top of the main portrait offset.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.tscn:48"
+  ]
+ },
+ {
+  "msgid": "Mirroring that is applied on top of the main portrait mirror.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | CheckBox.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.tscn:60"
+  ]
+ },
+ {
+  "msgid": "Default Portrait Scene",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.gd:88",
+   "addons/dialogic/Modules/Character/settings_portraits.tscn:42"
+  ]
+ },
+ {
+  "msgid": "Can be changed in the settings.",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.gd:89"
+  ]
+ },
+ {
+  "msgid": "Change Scene",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.tscn:32"
+  ]
+ },
+ {
+  "msgid": "Open/Edit Scene",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.tscn:55"
+  ]
+ },
+ {
+  "msgid": "Portrait Scene Browser",
+  "layer": "L1_HOOK",
+  "kind": "窗口/对话框标题 (保守归类，由注入层覆盖) | Window.title",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.tscn:60"
+  ]
+ },
+ {
+  "msgid": "Display Name",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:28",
+   "addons/dialogic/Modules/Jump/event_label.gd:103"
+  ]
+ },
+ {
+  "msgid": "This name will be displayed on the name label. You can use a dialogic variable. E.g. :{Player.name}",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:32"
+  ]
+ },
+ {
+  "msgid": "This color can be used on the name label and for occurences of the characters name in text (autocolor names).",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:49"
+  ]
+ },
+ {
+  "msgid": "If autocolor names is enabled, these will be colored in the characters color as well.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:72"
+  ]
+ },
+ {
+  "msgid": "No effect, just for you.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_general.tscn:94"
+  ]
+ },
+ {
+  "msgid": "Select Default Portrait",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | ?.placeholder_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.tscn:25"
+  ]
+ },
+ {
+  "msgid": "Main Scale",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.tscn:31"
+  ]
+ },
+ {
+  "msgid": "Main Offset",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.tscn:56"
+  ]
+ },
+ {
+  "msgid": "Main Mirror",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.tscn:66"
+  ]
+ },
+ {
+  "msgid": "Preview of \"",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.gd:570"
+  ]
+ },
+ {
+  "msgid": "Nothing to preview",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.gd:641"
+  ]
+ },
+ {
+  "msgid": "No portrait to preview.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.gd:649",
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:351"
+  ]
+ },
+ {
+  "msgid": "Real scale",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.gd:687",
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:358"
+  ]
+ },
+ {
+  "msgid": "Fit into preview",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.gd:689"
+  ]
+ },
+ {
+  "msgid": "My Character",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:47"
+  ]
+ },
+ {
+  "msgid": "Main Settings",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:84"
+  ]
+ },
+ {
+  "msgid": "Hide Main Settings",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:89"
+  ]
+ },
+ {
+  "msgid": "Show Main Settings",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:115"
+  ]
+ },
+ {
+  "msgid": "Add Empty Portrait",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:155"
+  ]
+ },
+ {
+  "msgid": "Add Portrait Group",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:161"
+  ]
+ },
+ {
+  "msgid": "Import Images as Portraits",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:167"
+  ]
+ },
+ {
+  "msgid": "Filter Portraits",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:178"
+  ]
+ },
+ {
+  "msgid": "Make Default",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:207",
+   "addons/dialogic/Modules/StyleEditor/style_editor.gd:213",
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:114",
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:50"
+  ]
+ },
+ {
+  "msgid": "Some portraits were renamed. Make sure no references broke!",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:219"
+  ]
+ },
+ {
+  "msgid": "Custom scenes can only be viewed in \"Full mode\" if they are in @tool mode and override _get_covered_rect",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:287"
+  ]
+ },
+ {
+  "msgid": "Portrait Settings",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:378"
+  ]
+ },
+ {
+  "msgid": "Switch position",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:384"
+  ]
+ },
+ {
+  "msgid": "Create New Character",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/character_editor.tscn:432"
+  ]
+ },
+ {
+  "msgid": "Search for ",
+  "layer": "L0_AUTO",
+  "kind": "代码设置占位符",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:44",
+   "addons/dialogic/Modules/StyleEditor/Components/style_browser.gd:38"
+  ]
+ },
+ {
+  "msgid": "by ",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:78",
+   "addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:112",
+   "addons/dialogic/Modules/StyleEditor/Components/style_browser.gd:85"
+  ]
+ },
+ {
+  "msgid": "Use this scene",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:89"
+  ]
+ },
+ {
+  "msgid": "This is a general use scene, it can be used directly.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:90"
+  ]
+ },
+ {
+  "msgid": "Customize this scene",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:92"
+  ]
+ },
+ {
+  "msgid": "This is a preset you can use for a custom portrait scene. Dialogic will promt you to save a copy of this scene that you can then use and customize.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:93"
+  ]
+ },
+ {
+  "msgid": "Use default scene",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:95"
+  ]
+ },
+ {
+  "msgid": "Select a custom scene",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.gd:98"
+  ]
+ },
+ {
+  "msgid": "Dialogic Portrait Scene Browser",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:128"
+  ]
+ },
+ {
+  "msgid": "Cool Style Part",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:215",
+   "addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:213"
+  ]
+ },
+ {
+  "msgid": "by Jowan",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:222",
+   "addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:220"
+  ]
+ },
+ {
+  "msgid": "a style",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:229",
+   "addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:227"
+  ]
+ },
+ {
+  "msgid": "A cool textbox layer",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:235",
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:255",
+   "addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:233"
+  ]
+ },
+ {
+  "msgid": "Learn more",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text",
+  "locations": [
+   "addons/dialogic/Editor/CharacterEditor/portrait_scene_browser.tscn:241"
+  ]
+ },
+ {
+  "msgid": "Currently in use",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | TextureRect.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/BrowserItem.tscn:104"
+  ]
+ },
+ {
+  "msgid": "Dialogic Theme",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/BrowserItem.tscn:140"
+  ]
+ },
+ {
+  "msgid": "Broken References",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/broken_reference_manager.gd:22",
+   "addons/dialogic/Editor/Common/reference_manager.tscn:64"
+  ]
+ },
+ {
+  "msgid": "Nothing found",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/broken_reference_manager.gd:199"
+  ]
+ },
+ {
+  "msgid": "Loading '",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/broken_reference_manager.gd:323"
+  ]
+ },
+ {
+  "msgid": "Replacing in '",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/broken_reference_manager.gd:336"
+  ]
+ },
+ {
+  "msgid": "Done Replacing",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/broken_reference_manager.gd:366"
+  ]
+ },
+ {
+  "msgid": "Unique Identifiers",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:72",
+   "addons/dialogic/Editor/Common/unique_identifiers_manager.gd:9"
+  ]
+ },
+ {
+  "msgid": "Recent renames",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:97"
+  ]
+ },
+ {
+  "msgid": "Add custom rename",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:102"
+  ]
+ },
+ {
+  "msgid": "This decides the regexes for searching. Pure text allows you to enter your own regex into \"Old\". ",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | OptionButton.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:121"
+  ]
+ },
+ {
+  "msgid": "Pure Text",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:124"
+  ]
+ },
+ {
+  "msgid": "Character (Ref)",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_3/text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:130"
+  ]
+ },
+ {
+  "msgid": "Timeline (Ref)",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_4/text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:132"
+  ]
+ },
+ {
+  "msgid": "Match Case",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:163",
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:161"
+  ]
+ },
+ {
+  "msgid": "Whole World",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:170"
+  ]
+ },
+ {
+  "msgid": "Only for Character",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:185"
+  ]
+ },
+ {
+  "msgid": "Texts only",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:187"
+  ]
+ },
+ {
+  "msgid": "Search timelines for occurences of these renames",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:213"
+  ]
+ },
+ {
+  "msgid": "Check Selected",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:214"
+  ]
+ },
+ {
+  "msgid": "Found references",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:233"
+  ]
+ },
+ {
+  "msgid": "Replace all selected findings (Careful, no undo!)",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:264"
+  ]
+ },
+ {
+  "msgid": "Replace Selected",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:265"
+  ]
+ },
+ {
+  "msgid": "Filter Identifiers/Paths",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:291"
+  ]
+ },
+ {
+  "msgid": "You've renamed some identifier(s)! Use the \"Broken References\" tab to check if you have used this identifier (and fix it if so).",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:305"
+  ]
+ },
+ {
+  "msgid": "Online Docs",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/reference_manager.tscn:319",
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:176"
+  ]
+ },
+ {
+  "msgid": "Show Sidebar",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:35"
+  ]
+ },
+ {
+  "msgid": "No resource",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LineEdit.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:75"
+  ]
+ },
+ {
+  "msgid": "Filter Resources",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | LineEdit.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:96",
+   "addons/dialogic/Editor/Common/side_bar.tscn:97"
+  ]
+ },
+ {
+  "msgid": "Resource List Options",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:108"
+  ]
+ },
+ {
+  "msgid": "Sort Order",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:129"
+  ]
+ },
+ {
+  "msgid": "Alphabetical (All)",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:136"
+  ]
+ },
+ {
+  "msgid": "Label events in your timeline will appear here, allowing you to jump to them.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ItemList.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:151"
+  ]
+ },
+ {
+  "msgid": "Hide Sidebar",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:164"
+  ]
+ },
+ {
+  "msgid": "Some Version",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/side_bar.tscn:172"
+  ]
+ },
+ {
+  "msgid": "List All",
+  "layer": "L0_AUTO",
+  "kind": "下拉/菜单项",
+  "locations": [
+   "addons/dialogic/Editor/Common/sidebar.gd:73"
+  ]
+ },
+ {
+  "msgid": "Clear List",
+  "layer": "L0_AUTO",
+  "kind": "下拉/菜单项",
+  "locations": [
+   "addons/dialogic/Editor/Common/sidebar.gd:74"
+  ]
+ },
+ {
+  "msgid": "No Resource",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/sidebar.gd:194"
+  ]
+ },
+ {
+  "msgid": "~ Top",
+  "layer": "L0_AUTO",
+  "kind": "下拉/菜单项",
+  "locations": [
+   "addons/dialogic/Editor/Common/sidebar.gd:526"
+  ]
+ },
+ {
+  "msgid": "No Information Available",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:28"
+  ]
+ },
+ {
+  "msgid": "Unable to access versions.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:29"
+  ]
+ },
+ {
+  "msgid": "You are probably not connected to the internet. Fair enough.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:31"
+  ]
+ },
+ {
+  "msgid": "Huh, what happened here?",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:32"
+  ]
+ },
+ {
+  "msgid": "Where are we Doc?",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:43"
+  ]
+ },
+ {
+  "msgid": "Update Available!",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:48",
+   "addons/dialogic/Editor/Common/update_install_window.tscn:122"
+  ]
+ },
+ {
+  "msgid": "You are up to date:",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:52"
+  ]
+ },
+ {
+  "msgid": "Published on ",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:58"
+  ]
+ },
+ {
+  "msgid": "Downloading. This can take a moment.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:85"
+  ]
+ },
+ {
+  "msgid": "Installed successfully. Restart needed!",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:98"
+  ]
+ },
+ {
+  "msgid": "Download failed.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.gd:103"
+  ]
+ },
+ {
+  "msgid": "Dialogic 2.0 - alpha 9",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.tscn:129"
+  ]
+ },
+ {
+  "msgid": "Read Full Announcement",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.tscn:211"
+  ]
+ },
+ {
+  "msgid": "Restart Now",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Common/update_install_window.tscn:256"
+  ]
+ },
+ {
+  "msgid": "Click and drag",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Events/BranchEnd.tscn:27"
+  ]
+ },
+ {
+  "msgid": "Fold/Unfold Settings",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Events/EventBlock/event_block.tscn:89"
+  ]
+ },
+ {
+  "msgid": "Collapse Contained Events",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Events/EventBlock/event_block.tscn:103"
+  ]
+ },
+ {
+  "msgid": "Add value",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_array.tscn:26"
+  ]
+ },
+ {
+  "msgid": "Change type",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_condition.gd:55",
+   "addons/dialogic/Editor/Events/Fields/field_condition.tscn:34",
+   "addons/dialogic/Editor/Events/Fields/field_condition.tscn:61",
+   "addons/dialogic/Editor/Events/Fields/field_flex_value.gd:38",
+   "addons/dialogic/Editor/Events/Fields/field_flex_value.tscn:14"
+  ]
+ },
+ {
+  "msgid": "VAR.Player.Health > 20 and VAR.Counter < 3 and randi()%3 == 2",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LineEdit.text",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_condition.tscn:88"
+  ]
+ },
+ {
+  "msgid": "Enter condition",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_condition.tscn:89"
+  ]
+ },
+ {
+  "msgid": "Use complex expression",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_condition.tscn:95"
+  ]
+ },
+ {
+  "msgid": "Add key-value pair",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_dictionary.tscn:24"
+  ]
+ },
+ {
+  "msgid": "Preview hidden because project setting 'dialogic/accessibility/image_preview_height' is 0.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Label.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_image_preview.tscn:21"
+  ]
+ },
+ {
+  "msgid": "(Hidden)",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_image_preview.tscn:23"
+  ]
+ },
+ {
+  "msgid": "Placeholder Text",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.text",
+  "locations": [
+   "addons/dialogic/Editor/Events/Fields/field_options_fixed.tscn:11"
+  ]
+ },
+ {
+  "msgid": "2.0-Alpha-19 WIP (Godot 4.3+)",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:210"
+  ]
+ },
+ {
+  "msgid": "  Wiki",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:235"
+  ]
+ },
+ {
+  "msgid": "  Getting Started",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:242"
+  ]
+ },
+ {
+  "msgid": "Get in touch",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:253"
+  ]
+ },
+ {
+  "msgid": "  Bug / Request",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:258"
+  ]
+ },
+ {
+  "msgid": "  Discord",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:265"
+  ]
+ },
+ {
+  "msgid": "  Website",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:272"
+  ]
+ },
+ {
+  "msgid": "  Donate",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:279"
+  ]
+ },
+ {
+  "msgid": "Random Tip",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:311"
+  ]
+ },
+ {
+  "msgid": "Check it out!",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/HomePage/home_page.tscn:341"
+  ]
+ },
+ {
+  "msgid": "No Timeline",
+  "layer": "L0_AUTO",
+  "kind": "代码设置占位符",
+  "locations": [
+   "addons/dialogic/Editor/Inspector/timeline_inspector_field.gd:18"
+  ]
+ },
+ {
+  "msgid": "Used by ",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.gd:134"
+  ]
+ },
+ {
+  "msgid": "Color Palette",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:30"
+  ]
+ },
+ {
+  "msgid": "These colors are used for the events.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:34"
+  ]
+ },
+ {
+  "msgid": "Reset Colors to default",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:42"
+  ]
+ },
+ {
+  "msgid": "Visual Events",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:65"
+  ]
+ },
+ {
+  "msgid": "Image preview height",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:77"
+  ]
+ },
+ {
+  "msgid": "Event block bottom margin",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:98"
+  ]
+ },
+ {
+  "msgid": "Show event names",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:119"
+  ]
+ },
+ {
+  "msgid": "Section Order",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:139"
+  ]
+ },
+ {
+  "msgid": "You can change the order of the event sections here. ",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_editor.tscn:143"
+  ]
+ },
+ {
+  "msgid": "Layout Node Behaviour",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:51"
+  ]
+ },
+ {
+  "msgid": "On timeline end",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:70"
+  ]
+ },
+ {
+  "msgid": "Delete Layout Node",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:78"
+  ]
+ },
+ {
+  "msgid": "Hide Layout Node",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:80"
+  ]
+ },
+ {
+  "msgid": "Keep Layout Node",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:82"
+  ]
+ },
+ {
+  "msgid": "Extensions folder",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:123"
+  ]
+ },
+ {
+  "msgid": "Extension Creator ",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:150"
+  ]
+ },
+ {
+  "msgid": "Use the Exension Creator to quickly setup custom modules!",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:154"
+  ]
+ },
+ {
+  "msgid": "Create New Extension",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:161"
+  ]
+ },
+ {
+  "msgid": "e.g. \"Print\", \"Item\", \"Door\", \"Quest\"",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:180"
+  ]
+ },
+ {
+  "msgid": "Setup mode:",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:184"
+  ]
+ },
+ {
+  "msgid": "Event only",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:191"
+  ]
+ },
+ {
+  "msgid": "Event+Subsystem",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:193"
+  ]
+ },
+ {
+  "msgid": "Subsystem only",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:195"
+  ]
+ },
+ {
+  "msgid": "Timer processing",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:222"
+  ]
+ },
+ {
+  "msgid": "Change whether dialogics timers process in physics_process (frame-rate independent) or process.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:226"
+  ]
+ },
+ {
+  "msgid": "Process timers in physics_process",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:235"
+  ]
+ },
+ {
+  "msgid": "Expand All",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:72"
+  ]
+ },
+ {
+  "msgid": "Collapse All",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:75",
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:143"
+  ]
+ },
+ {
+  "msgid": "Events can be used in timelines and do all kinds of things. They often interact with subsystems and dialogic nodes.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:254"
+  ]
+ },
+ {
+  "msgid": "Subsystems hold specialized functionality. They mostly manage communication between events and dialogic nodes. Often they provide handy methods that can be accessed by the user like this: Dialogic.Subsystem.a_method().",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:274"
+  ]
+ },
+ {
+  "msgid": "Text effects can be used in text events. They will be executed once reached and can take a single argument.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:277"
+  ]
+ },
+ {
+  "msgid": "Modifiers can modify text from text events before it is shown.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:282"
+  ]
+ },
+ {
+  "msgid": "Style presets can be activated and modified in the Styles editor. They provide the design of the dialog interface in your game.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:287"
+  ]
+ },
+ {
+  "msgid": "Editors provide a user interface for editing dialogic data.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:290"
+  ]
+ },
+ {
+  "msgid": "Settings pages provide settings that are usually used by subsystems, events and dialogic nodes.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:293"
+  ]
+ },
+ {
+  "msgid": "Remove customization",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.gd:426",
+   "addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:431"
+  ]
+ },
+ {
+  "msgid": "Include Events",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:68"
+  ]
+ },
+ {
+  "msgid": "Include Subsystems",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:79"
+  ]
+ },
+ {
+  "msgid": "Include Text Effects and Modifiers",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:90"
+  ]
+ },
+ {
+  "msgid": "Include Preset Style Scenes",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:100"
+  ]
+ },
+ {
+  "msgid": "Include Settings Pages",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:110"
+  ]
+ },
+ {
+  "msgid": "Include Editors",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:120"
+  ]
+ },
+ {
+  "msgid": "Toggle Event Button Visibility",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:188"
+  ]
+ },
+ {
+  "msgid": "Show in FileSystem",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:204",
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:210"
+  ]
+ },
+ {
+  "msgid": "Event Defaults:",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_modules.tscn:229"
+  ]
+ },
+ {
+  "msgid": "Enable translations",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:47"
+  ]
+ },
+ {
+  "msgid": "Testing locale",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:70"
+  ]
+ },
+ {
+  "msgid": "Default locale",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:111"
+  ]
+ },
+ {
+  "msgid": "The locale of the language your timelines are written in.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:115"
+  ]
+ },
+ {
+  "msgid": "Translation folder",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:128"
+  ]
+ },
+ {
+  "msgid": "Output mode",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:149"
+  ]
+ },
+ {
+  "msgid": "Per Type",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:178"
+  ]
+ },
+ {
+  "msgid": "Per File",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:180"
+  ]
+ },
+ {
+  "msgid": "Output location",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:188"
+  ]
+ },
+ {
+  "msgid": "Inside Translation Folder",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:216"
+  ]
+ },
+ {
+  "msgid": "Next to File",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:218"
+  ]
+ },
+ {
+  "msgid": "Add Separator Lines",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:230"
+  ]
+ },
+ {
+  "msgid": "Update CSV files",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:269"
+  ]
+ },
+ {
+  "msgid": "Collect translations",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:289"
+  ]
+ },
+ {
+  "msgid": "Remove translations",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:313"
+  ]
+ },
+ {
+  "msgid": "⛔ Requires valid translation folder to translate character names and the project CSV file.",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:335"
+  ]
+ },
+ {
+  "msgid": "Please Decide...",
+  "layer": "L1_HOOK",
+  "kind": "窗口/对话框标题 (保守归类，由注入层覆盖) | ConfirmationDialog.title",
+  "locations": [
+   "addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:340"
+  ]
+ },
+ {
+  "msgid": "Portrait Containers",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | CheckButton.text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:109"
+  ]
+ },
+ {
+  "msgid": "No labels in timeline.",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:181",
+   "addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_labels_panel.gd:49"
+  ]
+ },
+ {
+  "msgid": "New Save",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:226"
+  ]
+ },
+ {
+  "msgid": "Text Editor",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:53",
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:144"
+  ]
+ },
+ {
+  "msgid": "Visual Editor",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:57",
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:135"
+  ]
+ },
+ {
+  "msgid": "Text editor",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:211",
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:102"
+  ]
+ },
+ {
+  "msgid": "No Match",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:286"
+  ]
+ },
+ {
+  "msgid": "Cool Name",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:81"
+  ]
+ },
+ {
+  "msgid": "Switch between Text Editor and Visual Editor",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:101"
+  ]
+ },
+ {
+  "msgid": "Whole Words",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | CheckBox.text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:166"
+  ]
+ },
+ {
+  "msgid": "Replace All",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:191"
+  ]
+ },
+ {
+  "msgid": "Replace in all timelines",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:196"
+  ]
+ },
+ {
+  "msgid": "Create New Timeline",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:239"
+  ]
+ },
+ {
+  "msgid": "Shortcuts ",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:264"
+  ]
+ },
+ {
+  "msgid": "No timeline active.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_labels_panel.gd:31"
+  ]
+ },
+ {
+  "msgid": "Timeline: < No Timeline >",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_main_panel.gd:14"
+  ]
+ },
+ {
+  "msgid": "Timeline: ",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_main_panel.gd:16"
+  ]
+ },
+ {
+  "msgid": "State: ",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_main_panel.gd:21"
+  ]
+ },
+ {
+  "msgid": "File Path",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:268",
+   "addons/dialogic/Modules/Audio/event_audio.gd:274",
+   "addons/dialogic/Modules/Voice/event_voice.gd:77",
+   "addons/dialogic/Modules/Voice/event_voice.gd:84"
+  ]
+ },
+ {
+  "msgid": "Play",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:269"
+  ]
+ },
+ {
+  "msgid": "Nothing",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:271"
+  ]
+ },
+ {
+  "msgid": "Channel Name",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:276"
+  ]
+ },
+ {
+  "msgid": "on",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:277"
+  ]
+ },
+ {
+  "msgid": "channel.",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器右标签(right_text)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:278"
+  ]
+ },
+ {
+  "msgid": "(One-Shot SFX)",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:279"
+  ]
+ },
+ {
+  "msgid": "Set Fade Length",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:289"
+  ]
+ },
+ {
+  "msgid": "Fade Length",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:293",
+   "addons/dialogic/Modules/Character/event_character.gd:420"
+  ]
+ },
+ {
+  "msgid": "Fade Time:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:293"
+  ]
+ },
+ {
+  "msgid": "Set Volume",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:296"
+  ]
+ },
+ {
+  "msgid": "Volume",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:300",
+   "addons/dialogic/Modules/Voice/event_voice.gd:85"
+  ]
+ },
+ {
+  "msgid": "Volume:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:300",
+   "addons/dialogic/Modules/Voice/event_voice.gd:85"
+  ]
+ },
+ {
+  "msgid": "Set Audio Bus",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:302"
+  ]
+ },
+ {
+  "msgid": "Audio Bus",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:306",
+   "addons/dialogic/Modules/Audio/settings_audio.tscn:36",
+   "addons/dialogic/Modules/Voice/event_voice.gd:86"
+  ]
+ },
+ {
+  "msgid": "Audio Bus:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:307",
+   "addons/dialogic/Modules/Voice/event_voice.gd:86"
+  ]
+ },
+ {
+  "msgid": "Master",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:308"
+  ]
+ },
+ {
+  "msgid": "Set Loop",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:312"
+  ]
+ },
+ {
+  "msgid": "Loop",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:316"
+  ]
+ },
+ {
+  "msgid": "Loop:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:316"
+  ]
+ },
+ {
+  "msgid": "Set Sync Channel",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:319"
+  ]
+ },
+ {
+  "msgid": "Sync Channel",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:324"
+  ]
+ },
+ {
+  "msgid": "Sync with:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:325"
+  ]
+ },
+ {
+  "msgid": "(No Sync)",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/event_audio.gd:326"
+  ]
+ },
+ {
+  "msgid": "Audio",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Audio/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Typing Sounds",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Audio/settings_audio.tscn:29"
+  ]
+ },
+ {
+  "msgid": "Audio Channel Defaults",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Audio/settings_audio.tscn:53"
+  ]
+ },
+ {
+  "msgid": "Enter Channel Name",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | ?.placeholder_text",
+  "locations": [
+   "addons/dialogic/Modules/Audio/settings_audio.tscn:81"
+  ]
+ },
+ {
+  "msgid": "Add channel",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Modules/Audio/settings_audio.tscn:110"
+  ]
+ },
+ {
+  "msgid": "Scene Type",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:133"
+  ]
+ },
+ {
+  "msgid": "Show",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:134"
+  ]
+ },
+ {
+  "msgid": "Scene",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:148"
+  ]
+ },
+ {
+  "msgid": "Custom scene",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:150"
+  ]
+ },
+ {
+  "msgid": "Arg Type",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:154"
+  ]
+ },
+ {
+  "msgid": "with",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:155"
+  ]
+ },
+ {
+  "msgid": "Argument",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:173",
+   "addons/dialogic/Modules/Background/event_background.gd:181",
+   "addons/dialogic/Modules/Background/event_background.gd:183",
+   "addons/dialogic/Modules/Signal/event_signal.gd:76",
+   "addons/dialogic/Modules/Signal/event_signal.gd:88"
+  ]
+ },
+ {
+  "msgid": "No Image",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:175"
+  ]
+ },
+ {
+  "msgid": "Color Arg",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:180"
+  ]
+ },
+ {
+  "msgid": "Preview:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:183"
+  ]
+ },
+ {
+  "msgid": "Transition",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:187"
+  ]
+ },
+ {
+  "msgid": "Transition:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:188"
+  ]
+ },
+ {
+  "msgid": "Fade",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:192"
+  ]
+ },
+ {
+  "msgid": "Fade time:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:192"
+  ]
+ },
+ {
+  "msgid": "Await Transition",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:193"
+  ]
+ },
+ {
+  "msgid": "Await Fade:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Background/event_background.gd:193"
+  ]
+ },
+ {
+  "msgid": "Backgrounds",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Background/index.gd:9"
+  ]
+ },
+ {
+  "msgid": "Autoload Name",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Call/event_call.gd:149"
+  ]
+ },
+ {
+  "msgid": "On autoload",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Call/event_call.gd:149"
+  ]
+ },
+ {
+  "msgid": "Method",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Call/event_call.gd:153"
+  ]
+ },
+ {
+  "msgid": "call",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Call/event_call.gd:153"
+  ]
+ },
+ {
+  "msgid": "Arguments",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Call/event_call.gd:157"
+  ]
+ },
+ {
+  "msgid": "Arguments:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Call/event_call.gd:157"
+  ]
+ },
+ {
+  "msgid": "Action",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:363",
+   "addons/dialogic/Modules/History/event_history.gd:65"
+  ]
+ },
+ {
+  "msgid": "Character Identifier",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:383",
+   "addons/dialogic/Modules/Text/event_text.gd:419"
+  ]
+ },
+ {
+  "msgid": "Character",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:384"
+  ]
+ },
+ {
+  "msgid": "Set Portrait",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:391"
+  ]
+ },
+ {
+  "msgid": "Portrait",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:394",
+   "addons/dialogic/Modules/Text/event_text.gd:425"
+  ]
+ },
+ {
+  "msgid": "Default",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:395",
+   "addons/dialogic/Modules/Character/event_character.gd:416",
+   "addons/dialogic/Modules/Character/event_character.gd:427",
+   "addons/dialogic/Modules/Style/event_style.gd:60",
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:107"
+  ]
+ },
+ {
+  "msgid": "Set Transform",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:400"
+  ]
+ },
+ {
+  "msgid": "Transform",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:404"
+  ]
+ },
+ {
+  "msgid": "center",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:405"
+  ]
+ },
+ {
+  "msgid": "Fade Animation",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:412"
+  ]
+ },
+ {
+  "msgid": "Fade:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:413"
+  ]
+ },
+ {
+  "msgid": "Length:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:420",
+   "addons/dialogic/Modules/Character/event_character.gd:431"
+  ]
+ },
+ {
+  "msgid": "Animation Name",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:423"
+  ]
+ },
+ {
+  "msgid": "Animation:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:424"
+  ]
+ },
+ {
+  "msgid": "Animation Length",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:431"
+  ]
+ },
+ {
+  "msgid": "Repeat Forever",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:433"
+  ]
+ },
+ {
+  "msgid": "Repeat Forever:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:433"
+  ]
+ },
+ {
+  "msgid": "Animation Repeats",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:435"
+  ]
+ },
+ {
+  "msgid": "Repeat:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:435"
+  ]
+ },
+ {
+  "msgid": "Animation Wait",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:437"
+  ]
+ },
+ {
+  "msgid": "Await end:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:437"
+  ]
+ },
+ {
+  "msgid": "Transform Time",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:440"
+  ]
+ },
+ {
+  "msgid": "Movement duration:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:440"
+  ]
+ },
+ {
+  "msgid": "Transform Trans",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:442"
+  ]
+ },
+ {
+  "msgid": "Trans:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:442"
+  ]
+ },
+ {
+  "msgid": "Transform Ease",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:443"
+  ]
+ },
+ {
+  "msgid": "Ease:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:443"
+  ]
+ },
+ {
+  "msgid": "Set Z Index",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:445"
+  ]
+ },
+ {
+  "msgid": "Z Index",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:446"
+  ]
+ },
+ {
+  "msgid": "Z-index:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:446"
+  ]
+ },
+ {
+  "msgid": "Set Mirrored",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:448"
+  ]
+ },
+ {
+  "msgid": "Mirrored",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:449"
+  ]
+ },
+ {
+  "msgid": "Mirrored:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:449"
+  ]
+ },
+ {
+  "msgid": "Extra Data",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:451",
+   "addons/dialogic/Modules/Choice/event_choice.gd:173"
+  ]
+ },
+ {
+  "msgid": "Extra Data:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Character/event_character.gd:451",
+   "addons/dialogic/Modules/Choice/event_choice.gd:173"
+  ]
+ },
+ {
+  "msgid": "Portraits",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Character/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "PortraitContainers",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Character/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Default Scene",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Character/index.gd:30"
+  ]
+ },
+ {
+  "msgid": "Custom Scene",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Character/index.gd:40"
+  ]
+ },
+ {
+  "msgid": "Simple Image Portrait",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Character/index.gd:50"
+  ]
+ },
+ {
+  "msgid": "Position Suggestions",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Character/settings_portraits.tscn:22"
+  ]
+ },
+ {
+  "msgid": "You can change the position names that will be suggested in the timeline editor here.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Character/settings_portraits.tscn:26"
+  ]
+ },
+ {
+  "msgid": "If this is set, this scene will be what is used by default for any portrait that has no scene specified",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Character/settings_portraits.tscn:46"
+  ]
+ },
+ {
+  "msgid": "Default Animations",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Character/settings_portraits.tscn:72"
+  ]
+ },
+ {
+  "msgid": "Text",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Choice/event_choice.gd:149",
+   "addons/dialogic/Modules/Comment/event_comment.gd:61",
+   "addons/dialogic/Modules/Text/event_text.gd:431",
+   "addons/dialogic/Modules/Text/index.gd:10",
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:105"
+  ]
+ },
+ {
+  "msgid": "Has Condition",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Choice/event_choice.gd:151",
+   "addons/dialogic/Modules/Choice/event_choice.gd:153"
+  ]
+ },
+ {
+  "msgid": "Condition",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Choice/event_choice.gd:152",
+   "addons/dialogic/Modules/Condition/event_condition.gd:123"
+  ]
+ },
+ {
+  "msgid": "Else Action",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Choice/event_choice.gd:154"
+  ]
+ },
+ {
+  "msgid": "Else:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Choice/event_choice.gd:154"
+  ]
+ },
+ {
+  "msgid": "Disabled Text",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Choice/event_choice.gd:169"
+  ]
+ },
+ {
+  "msgid": "Disabled text:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Choice/event_choice.gd:170"
+  ]
+ },
+ {
+  "msgid": "(Empty for same)",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Choice/event_choice.gd:171"
+  ]
+ },
+ {
+  "msgid": "Choices",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Choice/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Autofocus first choice",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:45"
+  ]
+ },
+ {
+  "msgid": "Choices appear",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:56"
+  ]
+ },
+ {
+  "msgid": "Choices can appear either instantly when the text finished, after a delay, a click or either.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:60"
+  ]
+ },
+ {
+  "msgid": "After delay",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:77"
+  ]
+ },
+ {
+  "msgid": "After another click",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:79"
+  ]
+ },
+ {
+  "msgid": "After delay or click",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_3/text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:81"
+  ]
+ },
+ {
+  "msgid": "Delay after which choices will appear (in seconds).",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | SpinBox.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:87"
+  ]
+ },
+ {
+  "msgid": "Delay before choices can be pressed",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:95"
+  ]
+ },
+ {
+  "msgid": "Adding a small delay before choices can be activated can prevent accidentally choosing an option.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:99"
+  ]
+ },
+ {
+  "msgid": "Default behaviour for false choices",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:113"
+  ]
+ },
+ {
+  "msgid": "Choice Hotkeys",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:144"
+  ]
+ },
+ {
+  "msgid": "You can add more complex hotkeys (or individual ones) by editing the choice buttons of your layout scene.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:148"
+  ]
+ },
+ {
+  "msgid": "Hotkey type",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:158"
+  ]
+ },
+ {
+  "msgid": "No Hotkeys",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:166"
+  ]
+ },
+ {
+  "msgid": "Default (1-9)",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/settings_choices.tscn:168"
+  ]
+ },
+ {
+  "msgid": "End of choice (",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Modules/Choice/ui_choice_end.gd:12",
+   "addons/dialogic/Modules/Choice/ui_choice_end.gd:14"
+  ]
+ },
+ {
+  "msgid": "Add Choice",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Modules/Choice/ui_choice_end.tscn:17"
+  ]
+ },
+ {
+  "msgid": "Time",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:116",
+   "addons/dialogic/Modules/Wait/event_wait.gd:68"
+  ]
+ },
+ {
+  "msgid": "Time:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:116"
+  ]
+ },
+ {
+  "msgid": "Step By Step",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:118"
+  ]
+ },
+ {
+  "msgid": "Step by Step:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:118"
+  ]
+ },
+ {
+  "msgid": "Clear Textbox",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:121"
+  ]
+ },
+ {
+  "msgid": "Clear:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:121"
+  ]
+ },
+ {
+  "msgid": "Clear Portraits",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:122"
+  ]
+ },
+ {
+  "msgid": "Clear Background",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:123"
+  ]
+ },
+ {
+  "msgid": "Clear Music",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:124"
+  ]
+ },
+ {
+  "msgid": "Clear Style",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:125"
+  ]
+ },
+ {
+  "msgid": "Clear Portrait Positions",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Clear/event_clear.gd:126"
+  ]
+ },
+ {
+  "msgid": "Condition Type",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Condition/event_condition.gd:108"
+  ]
+ },
+ {
+  "msgid": "End of ",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Modules/Condition/ui_condition_end.gd:19"
+  ]
+ },
+ {
+  "msgid": "End of ELSE",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Modules/Condition/ui_condition_end.gd:31"
+  ]
+ },
+ {
+  "msgid": "End of condition X",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Condition/ui_condition_end.tscn:13"
+  ]
+ },
+ {
+  "msgid": "Add Elif",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Modules/Condition/ui_condition_end.tscn:18"
+  ]
+ },
+ {
+  "msgid": "Add Else",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Modules/Condition/ui_condition_end.tscn:23"
+  ]
+ },
+ {
+  "msgid": "Expressions",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Core/index.gd:11"
+  ]
+ },
+ {
+  "msgid": "Animations",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Core/index.gd:12"
+  ]
+ },
+ {
+  "msgid": "Inputs",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Core/index.gd:13"
+  ]
+ },
+ {
+  "msgid": "Some tex",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | RichTextLabel.text",
+  "locations": [
+   "addons/dialogic/Modules/DefaultLayoutParts/Layer_History/example_history_item.tscn:45"
+  ]
+ },
+ {
+  "msgid": "Some text",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | RichTextLabel.text",
+  "locations": [
+   "addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn:131"
+  ]
+ },
+ {
+  "msgid": "Please enter some text:",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn:67"
+  ]
+ },
+ {
+  "msgid": "New Glossary",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:45"
+  ]
+ },
+ {
+  "msgid": "Import Glossary File",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:52"
+  ]
+ },
+ {
+  "msgid": "Delete Glossary",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:59"
+  ]
+ },
+ {
+  "msgid": "Case sensitive",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:101",
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:220"
+  ]
+ },
+ {
+  "msgid": "New Glossary Entry",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:138"
+  ]
+ },
+ {
+  "msgid": "Delete Glossary Entry",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:145"
+  ]
+ },
+ {
+  "msgid": "Filter Entries",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:152"
+  ]
+ },
+ {
+  "msgid": "Entry Settings",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:181"
+  ]
+ },
+ {
+  "msgid": "Enter unique name...",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/glossary_editor.tscn:214"
+  ]
+ },
+ {
+  "msgid": "Glossary",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Glossary/index.gd:13"
+  ]
+ },
+ {
+  "msgid": "Simple Highlight Portrait",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/HighlightPortrait/index.gd:9"
+  ]
+ },
+ {
+  "msgid": "History",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/History/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Simple History",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:35"
+  ]
+ },
+ {
+  "msgid": "Save and Load",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:61",
+   "addons/dialogic/Modules/History/settings_history.tscn:100"
+  ]
+ },
+ {
+  "msgid": "When enabled, the simple history is included in the savegame.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:65"
+  ]
+ },
+ {
+  "msgid": "Full History",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:76"
+  ]
+ },
+ {
+  "msgid": "When enabled, stores a copy of each event.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:87"
+  ]
+ },
+ {
+  "msgid": "When enabled, the full history is included in the savegame.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:104"
+  ]
+ },
+ {
+  "msgid": "Seen Events History",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:115"
+  ]
+ },
+ {
+  "msgid": "Save on Auto-Save signal",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:143"
+  ]
+ },
+ {
+  "msgid": "Save on Save signal",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/History/settings_history.tscn:162"
+  ]
+ },
+ {
+  "msgid": "Timeline Identifier",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Jump/event_jump.gd:112"
+  ]
+ },
+ {
+  "msgid": "Jump to",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Jump/event_jump.gd:112"
+  ]
+ },
+ {
+  "msgid": "Label Name",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Jump/event_jump.gd:120"
+  ]
+ },
+ {
+  "msgid": "at",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Jump/event_jump.gd:120"
+  ]
+ },
+ {
+  "msgid": "Name",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Jump/event_label.gd:102",
+   "addons/dialogic/Modules/Settings/event_setting.gd:170",
+   "addons/dialogic/Modules/Variable/event_variable.gd:252"
+  ]
+ },
+ {
+  "msgid": "Label",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Jump/event_label.gd:102"
+  ]
+ },
+ {
+  "msgid": "Display Name:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Jump/event_label.gd:103"
+  ]
+ },
+ {
+  "msgid": "Jump",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Jump/index.gd:9"
+  ]
+ },
+ {
+  "msgid": "Layered Portrait",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/LayeredPortrait/index.gd:9"
+  ]
+ },
+ {
+  "msgid": "Slot Name",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Save/event_save.gd:68"
+  ]
+ },
+ {
+  "msgid": "Save to slot",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Save/event_save.gd:68"
+  ]
+ },
+ {
+  "msgid": "Save",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Save/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "If enabled dialogic will autosave the full state to the current slot depending on the autosave method.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:37"
+  ]
+ },
+ {
+  "msgid": "Autosave Mode",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:51"
+  ]
+ },
+ {
+  "msgid": "Timeline Start+End+Jump",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:62"
+  ]
+ },
+ {
+  "msgid": "Each X seconds",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:64"
+  ]
+ },
+ {
+  "msgid": "Every Text Event",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:66"
+  ]
+ },
+ {
+  "msgid": "Default slot name",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:80"
+  ]
+ },
+ {
+  "msgid": "The name of the default slot. ",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:84"
+  ]
+ },
+ {
+  "msgid": "Encryption Password",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:99"
+  ]
+ },
+ {
+  "msgid": "The encryption password used to encrypt save files. When left empty, the save files will not be encrypted.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:103"
+  ]
+ },
+ {
+  "msgid": "Use on exports only",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Save/settings_save.tscn:122"
+  ]
+ },
+ {
+  "msgid": "Mode",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Settings/event_setting.gd:154"
+  ]
+ },
+ {
+  "msgid": "Type setting",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Settings/event_setting.gd:170"
+  ]
+ },
+ {
+  "msgid": "Value Type",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Settings/event_setting.gd:171",
+   "addons/dialogic/Modules/Variable/event_variable.gd:283"
+  ]
+ },
+ {
+  "msgid": "to",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Settings/event_setting.gd:171"
+  ]
+ },
+ {
+  "msgid": "Value",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Settings/event_setting.gd:192",
+   "addons/dialogic/Modules/Settings/event_setting.gd:193",
+   "addons/dialogic/Modules/Settings/event_setting.gd:194",
+   "addons/dialogic/Modules/Variable/event_variable.gd:312",
+   "addons/dialogic/Modules/Variable/event_variable.gd:313",
+   "addons/dialogic/Modules/Variable/event_variable.gd:314",
+   "addons/dialogic/Modules/Variable/event_variable.gd:315"
+  ]
+ },
+ {
+  "msgid": "Select Variable",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Settings/event_setting.gd:195",
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:104",
+   "addons/dialogic/Modules/Variable/event_variable.gd:256",
+   "addons/dialogic/Modules/Variable/event_variable.gd:316"
+  ]
+ },
+ {
+  "msgid": "Settings",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Settings/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Argument Type",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Signal/event_signal.gd:77"
+  ]
+ },
+ {
+  "msgid": "Argument Type:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Signal/event_signal.gd:77"
+  ]
+ },
+ {
+  "msgid": "Dictionary",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Signal/event_signal.gd:88"
+  ]
+ },
+ {
+  "msgid": "Style Name",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Style/event_style.gd:58"
+  ]
+ },
+ {
+  "msgid": "Use style",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Style/event_style.gd:59"
+  ]
+ },
+ {
+  "msgid": "Styles",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Style/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Is Default",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.gd:210"
+  ]
+ },
+ {
+  "msgid": "Inherits ",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.gd:220"
+  ]
+ },
+ {
+  "msgid": "Add layout-style",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:83"
+  ]
+ },
+ {
+  "msgid": "ADD STYLE",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:86"
+  ]
+ },
+ {
+  "msgid": "Premade Style",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:91"
+  ]
+ },
+ {
+  "msgid": "Inherited Style",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_3/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:93"
+  ]
+ },
+ {
+  "msgid": "Custom Style",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_4/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:95"
+  ]
+ },
+ {
+  "msgid": "Duplicate style",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:101"
+  ]
+ },
+ {
+  "msgid": "Remove style from list",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:107"
+  ]
+ },
+ {
+  "msgid": "Edit Name",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:149"
+  ]
+ },
+ {
+  "msgid": "Inherits VN Style",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:156"
+  ]
+ },
+ {
+  "msgid": "Clear Inheritance",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:159"
+  ]
+ },
+ {
+  "msgid": "Play current timeline with this style",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:166"
+  ]
+ },
+ {
+  "msgid": "Test Style",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:167"
+  ]
+ },
+ {
+  "msgid": "Add Layer",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:209"
+  ]
+ },
+ {
+  "msgid": "ADD LAYER",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:212"
+  ]
+ },
+ {
+  "msgid": "Premade Layer",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:217",
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:233"
+  ]
+ },
+ {
+  "msgid": "Custom Layer",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_3/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:219",
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:235",
+   "addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:121"
+  ]
+ },
+ {
+  "msgid": "Replace Layer",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:225"
+  ]
+ },
+ {
+  "msgid": "REPLACE LAYER",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:228"
+  ]
+ },
+ {
+  "msgid": "Make Custom",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:241"
+  ]
+ },
+ {
+  "msgid": "MAKE CUSTOM",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:244"
+  ]
+ },
+ {
+  "msgid": "Current Layer",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:249"
+  ]
+ },
+ {
+  "msgid": "Full Layout",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | MenuButton.popup/item_3/text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:251"
+  ]
+ },
+ {
+  "msgid": "Delete Layer (no undo!)",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:257"
+  ]
+ },
+ {
+  "msgid": "Default Layout Base",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:283"
+  ]
+ },
+ {
+  "msgid": "A very simple base for layouts.",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:348"
+  ]
+ },
+ {
+  "msgid": "You have not set up any styles yet. Dialogic will use a fallback style.",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:368"
+  ]
+ },
+ {
+  "msgid": "Make a custom style from a variation of the fallback.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:375"
+  ]
+ },
+ {
+  "msgid": "Make my own!",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:376"
+  ]
+ },
+ {
+  "msgid": "Style Browser",
+  "layer": "L1_HOOK",
+  "kind": "窗口/对话框标题 (保守归类，由注入层覆盖) | Window.title",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_editor.tscn:381"
+  ]
+ },
+ {
+  "msgid": "This layer has no exposed settings.",
+  "layer": "L0_AUTO",
+  "kind": "代码设置节点文本",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:349"
+  ]
+ },
+ {
+  "msgid": "General",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:468"
+  ]
+ },
+ {
+  "msgid": "Dialogic Style Browser",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn:126"
+  ]
+ },
+ {
+  "msgid": "(No one)",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Text/event_text.gd:423"
+  ]
+ },
+ {
+  "msgid": "(Don't change)",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Text/event_text.gd:427"
+  ]
+ },
+ {
+  "msgid": "Default letter speed",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:33"
+  ]
+ },
+ {
+  "msgid": "The speed in seconds per character. A speed of 0 will reveal the full text instantly (still taking pauses into consideration).",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:37"
+  ]
+ },
+ {
+  "msgid": "Input action",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:51"
+  ]
+ },
+ {
+  "msgid": "Text Reveal Skippable",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:71"
+  ]
+ },
+ {
+  "msgid": "Skip Delay:",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:93"
+  ]
+ },
+ {
+  "msgid": "Advance Delay:",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:117"
+  ]
+ },
+ {
+  "msgid": "Autocolor names",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:141"
+  ]
+ },
+ {
+  "msgid": "If enabled character names will be colored in the characters color in text events.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:145",
+   "addons/dialogic/Modules/Text/settings_text.tscn:162"
+  ]
+ },
+ {
+  "msgid": "Text prefix",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:158"
+  ]
+ },
+ {
+  "msgid": "Custom BBCode Effects",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:175"
+  ]
+ },
+ {
+  "msgid": "This is put before the text. Can be used to apply bbcode effects to all texts.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:179"
+  ]
+ },
+ {
+  "msgid": "New lines as new events",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:192"
+  ]
+ },
+ {
+  "msgid": "As new event",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:215"
+  ]
+ },
+ {
+  "msgid": "Base Delay",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:264"
+  ]
+ },
+ {
+  "msgid": "This is the base delay for autoadvancment.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:268"
+  ]
+ },
+ {
+  "msgid": "Additional Delay",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:285"
+  ]
+ },
+ {
+  "msgid": "Per Word",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:308"
+  ]
+ },
+ {
+  "msgid": "Per Character",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_2/text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:310"
+  ]
+ },
+ {
+  "msgid": "Ignored Characters",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:324"
+  ]
+ },
+ {
+  "msgid": "Enabled at the start",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:353"
+  ]
+ },
+ {
+  "msgid": "Time per Event",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:409"
+  ]
+ },
+ {
+  "msgid": "Add set",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:458"
+  ]
+ },
+ {
+  "msgid": "Absolute auto-pause times",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:471"
+  ]
+ },
+ {
+  "msgid": "If not enabled autopauses will be multiplied by the speed and user speed. When enabled those will be ignored.",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/settings_text.tscn:475"
+  ]
+ },
+ {
+  "msgid": "Name cannot be empty!",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.gd:183"
+  ]
+ },
+ {
+  "msgid": "Name is already in use!",
+  "layer": "L1_HOOK",
+  "kind": "代码设置悬浮提示",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.gd:186"
+  ]
+ },
+ {
+  "msgid": "Add Mood",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:44"
+  ]
+ },
+ {
+  "msgid": "Duplicate Mood",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:57"
+  ]
+ },
+ {
+  "msgid": "Delete Mood",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:63"
+  ]
+ },
+ {
+  "msgid": "Mood name",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | LineEdit.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:95"
+  ]
+ },
+ {
+  "msgid": "New Mood",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LineEdit.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:96"
+  ]
+ },
+ {
+  "msgid": "Enter Mood Name",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:97"
+  ]
+ },
+ {
+  "msgid": "Sound Mood:",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_portrait_mood_settings.tscn:17"
+  ]
+ },
+ {
+  "msgid": "Select Mood",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | ?.placeholder_text",
+  "locations": [
+   "addons/dialogic/Modules/Text/character_settings/character_portrait_mood_settings.tscn:23"
+  ]
+ },
+ {
+  "msgid": "Variable",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:101"
+  ]
+ },
+ {
+  "msgid": "Text:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:105"
+  ]
+ },
+ {
+  "msgid": "Placeholder",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:106"
+  ]
+ },
+ {
+  "msgid": "Placeholder:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:106"
+  ]
+ },
+ {
+  "msgid": "Default:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:107"
+  ]
+ },
+ {
+  "msgid": "Allow Empty",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:108"
+  ]
+ },
+ {
+  "msgid": "Allow empty:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/TextInput/event_text_input.gd:108"
+  ]
+ },
+ {
+  "msgid": "TextInput",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/TextInput/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Set",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Variable/event_variable.gd:253",
+   "addons/dialogic/Modules/Voice/event_voice.gd:78"
+  ]
+ },
+ {
+  "msgid": "Operation",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Variable/event_variable.gd:258"
+  ]
+ },
+ {
+  "msgid": "Random Min",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Variable/event_variable.gd:319"
+  ]
+ },
+ {
+  "msgid": "and",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器右标签(right_text)",
+  "locations": [
+   "addons/dialogic/Modules/Variable/event_variable.gd:319"
+  ]
+ },
+ {
+  "msgid": "Random Max",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Variable/event_variable.gd:320"
+  ]
+ },
+ {
+  "msgid": "VAR",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Variable/index.gd:12"
+  ]
+ },
+ {
+  "msgid": "Copy '",
+  "layer": "L0_AUTO",
+  "kind": "菜单项文本",
+  "locations": [
+   "addons/dialogic/Modules/Variable/variables_editor/variable_tree.gd:538"
+  ]
+ },
+ {
+  "msgid": "Filter Variables",
+  "layer": "L0_AUTO",
+  "kind": "输入框占位符 (LineEdit::set_placeholder 走翻译) | LineEdit.placeholder_text",
+  "locations": [
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:80"
+  ]
+ },
+ {
+  "msgid": "String (Any text)",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:111"
+  ]
+ },
+ {
+  "msgid": "Float (Number with Decimals)",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:118"
+  ]
+ },
+ {
+  "msgid": "Int (Integer)",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:125"
+  ]
+ },
+ {
+  "msgid": "Bool (True/False flag)",
+  "layer": "L1_HOOK",
+  "kind": "悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text",
+  "locations": [
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:132"
+  ]
+ },
+ {
+  "msgid": "You've made some changes to existing variables! Use the reference manager to check if something broke.",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:151"
+  ]
+ },
+ {
+  "msgid": "How to use variables",
+  "layer": "L0_AUTO",
+  "kind": "节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text",
+  "locations": [
+   "addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:170"
+  ]
+ },
+ {
+  "msgid": "as the next voice audio",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器右标签(right_text)",
+  "locations": [
+   "addons/dialogic/Modules/Voice/event_voice.gd:79"
+  ]
+ },
+ {
+  "msgid": "Select file",
+  "layer": "L0_AUTO",
+  "kind": "事件编辑器占位符(placeholder)",
+  "locations": [
+   "addons/dialogic/Modules/Voice/event_voice.gd:81"
+  ]
+ },
+ {
+  "msgid": "Voice",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Voice/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Wait",
+  "layer": "L2_INSP",
+  "kind": "inspector 属性名(_get_property_list)",
+  "locations": [
+   "addons/dialogic/Modules/Wait/event_wait.gd:68",
+   "addons/dialogic/Modules/Wait/index.gd:10"
+  ]
+ },
+ {
+  "msgid": "Hide Text",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Wait/event_wait.gd:71"
+  ]
+ },
+ {
+  "msgid": "Hide text box:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Wait/event_wait.gd:71",
+   "addons/dialogic/Modules/WaitInput/event_wait_input.gd:53"
+  ]
+ },
+ {
+  "msgid": "Skippable",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/Wait/event_wait.gd:72"
+  ]
+ },
+ {
+  "msgid": "Skippable:",
+  "layer": "L1_HOOK",
+  "kind": "事件编辑器左标签(left_text)",
+  "locations": [
+   "addons/dialogic/Modules/Wait/event_wait.gd:72"
+  ]
+ },
+ {
+  "msgid": "Hide Textbox",
+  "layer": "L2_INSP",
+  "kind": "事件编辑器字段名",
+  "locations": [
+   "addons/dialogic/Modules/WaitInput/event_wait_input.gd:53"
+  ]
+ }
+]

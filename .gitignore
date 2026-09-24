@@ -1,0 +1,13 @@
+# 上游源码缓存（sync_upstream.py 下载）
+upstream/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Godot
+*.translation???
+
+# 编辑器杂项
+*.tmp
