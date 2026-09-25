@@ -3,113 +3,97 @@ extends EditorPlugin
 
 ## Dialogic 2 简体中文语言包
 ##
-## 生效机制分两层：
-##  1. 读取 zh_CN.mo 并注册到 TranslationServer。Dialogic 界面中
-##     Label/Button/RichTextLabel 的文本、占位符、菜单项等属性，
-##     其 setter 在 Godot 引擎内部就走翻译（atr），注册后自动生效，
-##     无需改动 Dialogic 任何源码。
-##  2. 对引擎不自动翻译的属性做注入：Control.tooltip_text、Window.title、
-##     AcceptDialog.dialog_text、inspector 的 EditorProperty 标签。
-##     通过监听编辑器场景树的 node_added 信号，在新节点入树时
-##     查询翻译并重新赋值。
-##
-## 说明：刻意不经过 Godot 的资源导入管线（.mo -> .translation），
-## 而是直接解析 MO 字节格式构造 Translation。这样新装或更新语言包后
-## 无需等待编辑器重新导入。MO 解析支持小端/大端两种字节序。
+## 实现方式（刻意不依赖 TranslationServer）：
+## 实测在 Godot 4.7 编辑器进程里，无论项目设置原生加载还是运行时
+## add_translation，TranslationServer.translate 都查不到插件翻译
+## （域机制对编辑器 UI 不生效）。因此本插件把 zh_CN.po 读入自己的
+## 词典，在编辑器场景树中对 Dialogic 相关节点做文本替换：
+##   - Control.text / tooltip_text
+##   - Window.title / AcceptDialog.dialog_text
+##   - PopupMenu 的菜单项
+##   - inspector 的 EditorProperty 标签
+## 词典查不到的字符串原样保留，因此用户输入内容（对话文本、变量值等）
+## 不受任何影响；整体操作幂等，可重复调用。
 ##
 ## 使用前提：Godot 编辑器语言设置为简体中文（或 auto 且系统为中文）。
 ## 本插件只在编辑器中生效，不影响游戏运行时的行为。
 
-const TRANSLATION_PATH := "res://addons/dialogic_zh_cn/translations/zh_CN.mo"
-const LOCALE := "zh_CN"
+const PO_PATH := "res://addons/dialogic_zh_cn/translations/zh_CN.po"
 
-# MO 文件魔数（按小端读出时的两种排布）
-const MO_MAGIC_LE := 0x950412de
-const MO_MAGIC_BE := 0xde120495
-
-var _translation: Translation = null
+## msgid -> msgstr 词典
+var _dict: Dictionary = {}
 
 
 func _enter_tree() -> void:
-	_translation = _load_mo(TRANSLATION_PATH)
-	if _translation == null:
-		push_warning("[dialogic_zh_cn] 翻译加载失败，界面将保持英文。详见上方日志。")
+	_load_dict()
+	if _dict.is_empty():
+		push_warning("[dialogic_zh_cn] 词典为空或加载失败，界面将保持英文。")
 		return
-	_translation.locale = LOCALE
-	TranslationServer.add_translation(_translation)
-	printerr("[dialogic_zh_cn] 已注册 %d 条翻译，TranslationServer locale=%s" % [
-		_translation.get_message_count(), TranslationServer.get_locale()])
+	printerr("[dialogic_zh_cn] 已加载 %d 条翻译（编辑器 locale=%s）" % [
+		_dict.size(), TranslationServer.get_locale()])
 	get_tree().node_added.connect(_on_node_added)
-	# 若本插件晚于 dialogic 启用，界面上已渲染的文本不会自动重译，
-	# 对现有编辑器界面做一轮补翻。
+	# Dialogic 主界面在本插件之前加载，对已存在的界面做一轮补翻
 	_apply_to_existing_tree.call_deferred()
 
 
 func _exit_tree() -> void:
 	if get_tree().node_added.is_connected(_on_node_added):
 		get_tree().node_added.disconnect(_on_node_added)
-	if _translation != null:
-		TranslationServer.remove_translation(_translation)
-		_translation = null
 
 
-# ---------------------------------------------------------- MO 解析
-
-## 直接解析 gettext MO 二进制，绕开编辑器导入管线。
-func _load_mo(path: String) -> Translation:
-	if not FileAccess.file_exists(path):
-		push_warning("[dialogic_zh_cn] 找不到翻译文件: %s" % path)
-		return null
-	var buf := FileAccess.get_file_as_bytes(path)
-	if buf.size() < 28:
-		push_warning("[dialogic_zh_cn] 翻译文件损坏（过小）: %s" % path)
-		return null
-
-	var magic := _u32(buf, 0, false)
-	var big := false
-	if magic == MO_MAGIC_LE:
-		big = false
-	elif magic == MO_MAGIC_BE:
-		big = true
-	else:
-		push_warning("[dialogic_zh_cn] 不是有效的 MO 文件: %s" % path)
-		return null
-
-	var count := _u32(buf, 8, big)
-	# MO 头部：8=N 条目数，12=原文表偏移，16=译文表偏移，两张表互相独立
-	var src_table := _u32(buf, 12, big)
-	var dst_table := _u32(buf, 16, big)
-
-	var translation := Translation.new()
-	for i in range(count):
-		var src_entry := src_table + i * 8
-		var dst_entry := dst_table + i * 8
-		var src_len := _u32(buf, src_entry, big)
-		var src_off := _u32(buf, src_entry + 4, big)
-		var dst_len := _u32(buf, dst_entry, big)
-		var dst_off := _u32(buf, dst_entry + 4, big)
-		if src_off + src_len > buf.size() or dst_off + dst_len > buf.size():
-			continue
-		var msgid := buf.slice(src_off, src_off + src_len).get_string_from_utf8()
-		var msgstr := buf.slice(dst_off, dst_off + dst_len).get_string_from_utf8()
-		if msgid.is_empty():
-			continue  # 首条是 MO 元数据头
-		# 注：gettext 的复数形式用 NUL 分隔 msgid/msgstr，但本语言包
-		# Plural-Forms 为 nplurals=1（中文），polib 产出的 MO 中数据区
-		# 实测不含任何 NUL 字节，无需按 NUL 切分。
-		# 也因此这里禁止使用 String.chr(0) 构造 NUL 做防御性处理——
-		# GDScript 编译器的常量折叠会在编译期求值出 NUL 并每处报一条
-		# "Unicode parsing error"（Godot 4.7 实测）。
-		if msgstr.is_empty():
-			continue
-		translation.add_message(msgid, msgstr)
-	return translation
+## 解析 gettext PO 文本格式为词典。只需要 msgid/msgstr 对，
+## 不依赖外部 gettext 工具，也无法触发引擎导入/域机制的任何玄学。
+func _load_dict() -> void:
+	if not FileAccess.file_exists(PO_PATH):
+		push_warning("[dialogic_zh_cn] 找不到翻译文件: %s" % PO_PATH)
+		return
+	var f := FileAccess.open(PO_PATH, FileAccess.READ)
+	if f == null:
+		return
+	var msgid := ""
+	var msgstr := ""
+	var mode := ""            # "id" / "str" / ""
+	var in_block := false     # 多行字符串
+	var pending := []         # 待续写的字符串行
+	while f.get_position() < f.get_length():
+		var line := f.get_line()
+		var st := line.strip_edges()
+		if st.begins_with("msgid "):
+			_flush_entry(msgid, msgstr)
+			msgid = ""; msgstr = ""; mode = "id"; in_block = false; pending = []
+			msgid = _unquote(st.substr(6).strip_edges())
+		elif st.begins_with("msgstr "):
+			mode = "str"
+			msgstr = _unquote(st.substr(7).strip_edges())
+		elif st.begins_with("\""):
+			# 多行续写：追加到当前 msgid 或 msgstr
+			var piece := _unquote(st)
+			if mode == "id":
+				msgid += piece
+			elif mode == "str":
+				msgstr += piece
+		elif st.is_empty():
+			_flush_entry(msgid, msgstr)
+			msgid = ""; msgstr = ""; mode = ""
+	_flush_entry(msgid, msgstr)
 
 
-func _u32(b: PackedByteArray, off: int, big: bool) -> int:
-	if big:
-		return (b[off] << 24) | (b[off + 1] << 16) | (b[off + 2] << 8) | b[off + 3]
-	return b[off] | (b[off + 1] << 8) | (b[off + 2] << 16) | (b[off + 3] << 24)
+func _flush_entry(msgid: String, msgstr: String) -> void:
+	if msgid != "" and msgstr != "":
+		_dict[msgid] = msgstr
+
+
+## 去掉 PO 字符串两侧引号并还原基础转义
+func _unquote(s: String) -> String:
+	s = s.strip_edges()
+	if s.length() >= 2 and s.begins_with("\"") and s.ends_with("\""):
+		s = s.substr(1, s.length() - 2)
+	return s.replace("\\\"", "\"").replace("\\n", "\n").replace("\\t", "\t")
+
+
+## 词典查询：命中返回译文，否则返回原文
+func _lookup(s: String) -> String:
+	return _dict.get(s, s)
 
 
 # ---------------------------------------------------------- 注入层
@@ -118,41 +102,53 @@ func _on_node_added(node: Node) -> void:
 	_apply_translation.call_deferred(node)
 
 
-## 对单个节点做注入翻译。tr() 找不到条目时返回原文，重新赋值等于无操作，
-## 因此整体是幂等的，可以放心重复调用。
 func _apply_translation(node: Node) -> void:
 	if not is_instance_valid(node):
 		return
-	# tooltip：Control 的存取两端都不走引擎翻译
-	if node is Control and node.tooltip_text != "":
-		var tip := tr(node.tooltip_text)
-		if tip != node.tooltip_text:
-			node.tooltip_text = tip
-	# 文本类属性：Dialogic 主界面在本插件之前加载，text 已定格英文。
-	# 重新赋值会再次经过引擎 setter 的翻译路径，命中则变中文。
-	# 用属性名动态判断以覆盖 Label/Button/RichTextLabel 等不同类；
-	# tr() 查不到条目时返回原文，重新赋值等于无操作，用户输入内容不受影响。
-	if node is Control and "text" in node:
-		var txt: String = node.get("text")
-		if txt != "":
-			var t := tr(txt)
-			if t != txt:
-				node.set("text", t)
+	if node is Control:
+		var c := node as Control
+		# tooltip：Control 的存取两端都不走引擎翻译
+		if c.tooltip_text != "":
+			var tip := _lookup(c.tooltip_text)
+			if tip != c.tooltip_text:
+				c.tooltip_text = tip
+		# 文本类属性：Dialogic 部分界面为运行时创建，重赋值补翻
+		if "text" in c:
+			var txt: String = c.get("text")
+			if txt != "":
+				var t := _lookup(txt)
+				if t != txt:
+					c.set("text", t)
 	# 窗口与对话框标题
-	if node is Window and node.title != "":
-		var title := tr(node.title)
-		if title != node.title:
-			node.title = title
+	if node is Window:
+		var w := node as Window
+		if w.title != "":
+			var title := _lookup(w.title)
+			if title != w.title:
+				w.title = title
 	# 对话框正文
-	if node is AcceptDialog and node.dialog_text != "":
-		var text := tr(node.dialog_text)
-		if text != node.dialog_text:
-			node.dialog_text = text
+	if node is AcceptDialog:
+		var ad := node as AcceptDialog
+		if ad.dialog_text != "":
+			var dt := _lookup(ad.dialog_text)
+			if dt != ad.dialog_text:
+				ad.dialog_text = dt
+	# 菜单项
+	if node is PopupMenu:
+		var pm := node as PopupMenu
+		for i in range(pm.item_count):
+			var it := pm.get_item_text(i)
+			if it != "":
+				var it2 := _lookup(it)
+				if it2 != it:
+					pm.set_item_text(i, it2)
 	# inspector 属性控件的可读标签
-	if node is EditorProperty and node.label != "":
-		var label := tr(node.label)
-		if label != node.label:
-			node.label = label
+	if node is EditorProperty:
+		var ep := node as EditorProperty
+		if ep.label != "":
+			var lb := _lookup(ep.label)
+			if lb != ep.label:
+				ep.label = lb
 
 
 func _apply_to_existing_tree() -> void:
@@ -161,8 +157,5 @@ func _apply_to_existing_tree() -> void:
 
 func _walk(node: Node) -> void:
 	_apply_translation(node)
-	# 让引擎自己的重翻译逻辑跑一遍：Button 的 xl_text、Label 等内部
-	# 缓存都在 NOTIFICATION_TRANSLATION_CHANGED 时重算。
-	node.notification(Node.NOTIFICATION_TRANSLATION_CHANGED)
 	for child in node.get_children():
 		_walk(child)
