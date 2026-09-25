@@ -20,6 +20,10 @@ extends EditorPlugin
 
 const PO_PATH := "res://addons/dialogic_zh_cn/translations/zh_CN.po"
 
+## 全量英文探针开关：开启后每次启动会遍历编辑器树并写转储文件，
+## 供排查漏翻使用；日常使用保持关闭。
+const ENABLE_DUMP := false
+
 ## msgid -> msgstr 词典
 var _dict: Dictionary = {}
 
@@ -46,8 +50,8 @@ func _enter_tree() -> void:
 	_frame_counter = 0
 	# 诊断：启动数帧后统计漏网节点，输出样例帮助定位替换盲区。
 	_diagnose.call_deferred()
-	# 全量英文探针：收集所有疑似未翻译文本转储到文件
-	_dump_untranslated.call_deferred()
+	# 全量英文探针（默认关闭）：排查漏翻时把 ENABLE_DUMP 改为 true
+	if ENABLE_DUMP:/n/t/t_dump_untranslated.call_deferred()
 
 
 ## 启动数秒后统计漏网节点，输出样例帮助定位替换盲区。
