@@ -185,6 +185,32 @@ func _apply_translation(node: Node) -> void:
 				var it2 := _lookup(it)
 				if it2 != it:
 					pm.set_item_text(i, it2)
+	# 标签页标题（Dialogic 顶部导航：时间轴/角色/术语表/样式/变量/设置）
+	if node is TabContainer:
+		var tc := node as TabContainer
+		for i in range(tc.get_tab_count()):
+			var tt := tc.get_tab_title(i)
+			if tt != "":
+				var tt2 := _lookup(tt)
+				if tt2 != tt:
+					tc.set_tab_title(i, tt2)
+	if node is TabBar:
+		var tb := node as TabBar
+		for i in range(tb.tab_count):
+			var tt3 := tb.get_tab_title(i)
+			if tt3 != "":
+				var tt4 := _lookup(tt3)
+				if tt4 != tt3:
+					tb.set_tab_title(i, tt4)
+	# Tree 列头（如变量编辑器的 Name/Default Value）
+	if node is Tree:
+		var tree := node as Tree
+		for i in range(tree.columns):
+			var ct := tree.get_column_title(i)
+			if ct != "":
+				var ct2 := _lookup(ct)
+				if ct2 != ct:
+					tree.set_column_title(i, ct2)
 	# inspector 属性控件的可读标签
 	if node is EditorProperty:
 		var ep := node as EditorProperty

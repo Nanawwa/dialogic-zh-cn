@@ -1,17 +1,17 @@
 {
-  "total": 557,
+  "total": 655,
   "by_layer": {
     "L0_AUTO": {
-      "count": 252,
-      "files": 62
+      "count": 344,
+      "files": 73
     },
     "L1_HOOK": {
-      "count": 160,
-      "files": 57
+      "count": 163,
+      "files": 58
     },
     "L2_INSP": {
-      "count": 145,
-      "files": 49
+      "count": 148,
+      "files": 68
     }
   }
 }

@@ -95,6 +95,8 @@ GD_PATTERNS = [
     (_p(r"\bset_placeholder\(\s*(<STR>)"), "L0_AUTO", "占位符"),
     (_p(r"\bevent_name\s*=\s*(<STR>)"), "L2_INSP", "事件显示名(event_name)"),
     (_p(r"['\"]text['\"]\s*:\s*(<STR>)"), "L2_INSP", "快捷键说明(shortcut_popup)"),
+    (_p(r"\bset_column_title\([^,]+,\s*(<STR>)"), "L2_INSP", "Tree 列头(set_column_title)"),
+    (_p(r"\bset_tab_title\([^,]+,\s*(<STR>)"), "L2_INSP", "标签页标题(set_tab_title)"),
 ]
 
 # Dialogic 事件编辑器：add_header_edit / add_body_edit 的第一个参数是字段键，
@@ -179,25 +181,54 @@ class Catalog:
 def scan_tscn(path: str, rel: str, cat: Catalog):
     cur_type = None
     with open(path, encoding="utf-8", errors="ignore") as f:
-        for ln, line in enumerate(f, 1):
-            if line.startswith("["):
-                m = TSCN_NODE_RE.match(line)
-                if m:
-                    tm = TSCN_TYPE_RE.search(m.group(1))
-                    cur_type = tm.group(1) if tm else None
-                continue
-            m = TSCN_ASSIGN_RE.match(line)
-            if not m:
-                continue
-            field, raw = m.group(1), m.group(2)
-            leaf = field.split("/")[-1]
-            if leaf not in TSCN_FIELDS:
-                continue
-            val = unescape_godot(raw)
-            if not is_translatable(val):
-                continue
-            layer, kind = TSCN_FIELDS[leaf]
-            node = f"{cur_type or '?'}.{field}"
+        lines = f.readlines()
+    ln = 0
+    while ln < len(lines):
+        line = lines[ln]
+        ln += 1
+        if line.startswith("["):
+            m = TSCN_NODE_RE.match(line)
+            if m:
+                tm = TSCN_TYPE_RE.search(m.group(1))
+                cur_type = tm.group(1) if tm else None
+            continue
+        m = TSCN_ASSIGN_RE.match(line)
+        if not m:
+            # 多行字符串：属性以 " 开头但本行未闭合，跨行收集到闭合为止
+            ml = TSCN_ASSIGN_RE.match(line.rstrip("\n") + "")
+            raw = None
+            field = None
+            mm = re.match(r"^\s*([A-Za-z_][\w/]*)\s*=\s*\"(.*)$", line.rstrip("\n"))
+            if mm and mm.group(2).count('"') % 2 == 1:
+                field = mm.group(1)
+                raw = mm.group(2)
+                while ln < len(lines):
+                    nxt = lines[ln].rstrip("\n")
+                    ln += 1
+                    raw += "\n" + nxt
+                    if nxt.count('"') % 2 == 1:
+                        break
+                # 收集串以 " 结束，去掉最后一个引号
+                if raw.endswith('"'):
+                    raw = raw[:-1]
+                leaf = field.split("/")[-1]
+                if leaf in TSCN_FIELDS:
+                    val = unescape_godot(raw)
+                    layer, kind = TSCN_FIELDS[leaf]
+                    node = f"{cur_type or '?'}.{field}"
+                    cat.add(val, layer, f"{kind} | {node} (多行)", f"{rel}:{ln}")
+            continue
+        field, raw = m.group(1), m.group(2)
+        leaf = field.split("/")[-1]
+        if leaf not in TSCN_FIELDS:
+            continue
+        val = unescape_godot(raw)
+        # .tscn 里的 text/tooltip/title 都是刻意的 UI 文案：
+        # 单词形式（Timeline/Variables 等标签页标题）也必须收录，
+        # 否则导航按钮整片漏翻（用户实机反馈）。
+        layer, kind = TSCN_FIELDS[leaf]
+        node = f"{cur_type or '?'}.{field}"
+        if is_translatable(val) or leaf in ("title", "text", "dialog_text"):
             cat.add(val, layer, f"{kind} | {node}", f"{rel}:{ln}")
 
 
@@ -221,7 +252,7 @@ def scan_gd(path: str, rel: str, cat: Catalog):
                 val = unquote(m.group(1))
                 # 事件显示名与快捷键说明是刻意的人工文案，单词形式
                 # （Search/Copy 等）也要收录，不套用通用过滤
-                if is_translatable(val) or kind.startswith("事件显示名") or kind.startswith("快捷键"):
+                if is_translatable(val) or kind.startswith(("事件显示名", "快捷键", "Tree 列头", "标签页标题")):
                     cat.add(val, layer, kind, f"{rel}:{ln}")
 
         # 事件编辑器字段键：'character_identifier' -> "Character Identifier"
