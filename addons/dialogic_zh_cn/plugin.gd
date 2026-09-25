@@ -29,8 +29,12 @@ const MO_MAGIC_BE := 0xde120495
 
 var _translation: Translation = null
 
+# GDScript 不允许字符串字面量中出现 NUL（Godot 4.7 会对每一处字面量
+# 报一条 Unicode parsing error），运行时构造即可。
+var _NUL: String
 
-func _enter_tree() -> void:
+
+func _enter_tree() -> void:/n/t_NUL = String.chr(0)
 	_translation = _load_mo(TRANSLATION_PATH)
 	if _translation == null:
 		push_warning("[dialogic_zh_cn] 翻译加载失败，界面将保持英文。详见上方日志。")
@@ -93,10 +97,10 @@ func _load_mo(path: String) -> Translation:
 		if msgid.is_empty():
 			continue  # 首条是 MO 元数据头
 		# 复数形式：msgid/msgstr 内部用 \x00 分隔；中文 nplurals=1，取首段即可
-		if msgid.contains("\u0000"):
-			msgid = msgid.split("\u0000")[0]
-		if msgstr.contains("\u0000"):
-			msgstr = msgstr.split("\u0000")[0]
+		if msgid.contains(_NUL):
+			msgid = msgid.split(_NUL)[0]
+		if msgstr.contains(_NUL):
+			msgstr = msgstr.split(_NUL)[0]
 		if msgstr.is_empty():
 			continue
 		translation.add_message(msgid, msgstr)
