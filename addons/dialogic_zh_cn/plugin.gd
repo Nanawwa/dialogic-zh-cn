@@ -51,7 +51,8 @@ func _enter_tree() -> void:
 	# 诊断：启动数帧后统计漏网节点，输出样例帮助定位替换盲区。
 	_diagnose.call_deferred()
 	# 全量英文探针（默认关闭）：排查漏翻时把 ENABLE_DUMP 改为 true
-	if ENABLE_DUMP:/n/t/t_dump_untranslated.call_deferred()
+	if ENABLE_DUMP:
+		_dump_untranslated.call_deferred()
 
 
 ## 启动数秒后统计漏网节点，输出样例帮助定位替换盲区。
