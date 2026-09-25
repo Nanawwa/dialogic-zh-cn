@@ -11,3 +11,13 @@ __pycache__/
 
 # 编辑器杂项
 *.tmp
+# 提取器中间产物（可再生，不入库）
+docs/entries.json
+docs/entries_prev.json
+docs/ids_by_layer.txt
+
+# 本地临时文件
+*.new
+*.bak
+*.log
+scan_result.json

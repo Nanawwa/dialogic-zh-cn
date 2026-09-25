@@ -6,6 +6,21 @@
 不修改 Dialogic 任何源码。官方插件原样安装，本语言包作为独立插件叠加启用，
 上游怎么更新都不冲突。
 
+## 声明
+
+- 本项目是**非官方**的第三方语言包，与 Dialogic 官方团队无隶属关系。
+- Dialogic 2 及其全部原始界面文案、资源版权归
+  [dialogic-godot/dialogic](https://github.com/dialogic-godot/dialogic)
+  及其贡献者所有；本项目仅包含面向简体中文的翻译字符串（`zh_CN.po/.mo`）、
+  由上游文案自动提取的翻译模板（`dialogic.pot`），以及本项目原创的加载与
+  同步工具脚本，**不包含、不分发上游插件的任何源码或资源**。
+  使用本语言包仍需自行安装官方 Dialogic 插件并遵守其
+  [MIT 许可证](https://github.com/dialogic-godot/dialogic/blob/main/LICENSE)。
+- 本项目自身的代码与译文同样以 MIT 许可证发布。
+- 界面文案随上游版本变动，使用时请以 `tools/sync_upstream.py` 重新对齐；
+  译文问题欢迎 issue 反馈，也可以考虑将改进回馈上游（上游的本地化支持
+  进度以官方仓库为准）。
+
 ## 生效原理
 
 经核实（阅读 Godot 引擎源码），Dialogic 界面文本的翻译分两种情况：
