@@ -37,6 +37,8 @@ func _enter_tree() -> void:
 		return
 	_translation.locale = LOCALE
 	TranslationServer.add_translation(_translation)
+	printerr("[dialogic_zh_cn] 已注册 %d 条翻译，TranslationServer locale=%s" % [
+		_translation.get_message_count(), TranslationServer.get_locale()])
 	get_tree().node_added.connect(_on_node_added)
 	# 若本插件晚于 dialogic 启用，界面上已渲染的文本不会自动重译，
 	# 对现有编辑器界面做一轮补翻。
@@ -126,6 +128,16 @@ func _apply_translation(node: Node) -> void:
 		var tip := tr(node.tooltip_text)
 		if tip != node.tooltip_text:
 			node.tooltip_text = tip
+	# 文本类属性：Dialogic 主界面在本插件之前加载，text 已定格英文。
+	# 重新赋值会再次经过引擎 setter 的翻译路径，命中则变中文。
+	# 用属性名动态判断以覆盖 Label/Button/RichTextLabel 等不同类；
+	# tr() 查不到条目时返回原文，重新赋值等于无操作，用户输入内容不受影响。
+	if node is Control and "text" in node:
+		var txt: String = node.get("text")
+		if txt != "":
+			var t := tr(txt)
+			if t != txt:
+				node.set("text", t)
 	# 窗口与对话框标题
 	if node is Window and node.title != "":
 		var title := tr(node.title)
@@ -149,5 +161,8 @@ func _apply_to_existing_tree() -> void:
 
 func _walk(node: Node) -> void:
 	_apply_translation(node)
+	# 让引擎自己的重翻译逻辑跑一遍：Button 的 xl_text、Label 等内部
+	# 缓存都在 NOTIFICATION_TRANSLATION_CHANGED 时重算。
+	node.notification(Node.NOTIFICATION_TRANSLATION_CHANGED)
 	for child in node.get_children():
 		_walk(child)
