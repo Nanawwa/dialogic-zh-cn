@@ -29,11 +29,54 @@ func _enter_tree() -> void:
 	if _dict.is_empty():
 		push_warning("[dialogic_zh_cn] 词典为空或加载失败，界面将保持英文。")
 		return
-	printerr("[dialogic_zh_cn] 已加载 %d 条翻译（编辑器 locale=%s）" % [
+	print("[dialogic_zh_cn] 已加载 %d 条翻译（编辑器 locale=%s）" % [
 		_dict.size(), TranslationServer.get_locale()])
 	get_tree().node_added.connect(_on_node_added)
 	# Dialogic 主界面在本插件之前加载，对已存在的界面做一轮补翻
 	_apply_to_existing_tree.call_deferred()
+	# 自愈兜底：部分菜单项/默认值在补翻之后才动态填充（如 PopupMenu 的
+	# 事件分类项、LineEdit 默认值），node_added 抓不到。用低频定时补翻
+	# 收尾，任何时序的文本最终都会被替换。替换是幂等的，重复跑无副作用。
+	var timer := Timer.new()
+	timer.wait_time = 2.0
+	timer.timeout.connect(_apply_to_existing_tree)
+	timer.autostart = true
+	add_child(timer)
+	# 诊断：启动数帧后统计漏网节点，输出样例帮助定位替换盲区。
+	_diagnose.call_deferred()
+
+
+## 启动数秒后统计漏网节点，输出样例帮助定位替换盲区。
+func _diagnose() -> void:
+	# 等 3 秒真实时间：让自愈定时器至少跑过一轮，再统计残留
+	await get_tree().create_timer(3.0).timeout
+	var missed: Array[String] = []
+	_collect_missed(get_tree().root, missed)
+	if missed.is_empty():
+		print("[dialogic_zh_cn] 诊断：无漏网节点")
+	else:
+		print("[dialogic_zh_cn] 诊断：词典可命中但仍为英文的节点 %d 个，样例：" % missed.size())
+		for m in missed.slice(0, 12):
+			print("    - ", m)
+
+
+func _collect_missed(node: Node, missed: Array[String]) -> void:
+	if node is Control:
+		var c := node as Control
+		if c.tooltip_text != "" and _dict.has(c.tooltip_text):
+			missed.append("%s(%s).tooltip = %s" % [node.get_class(), node.name, c.tooltip_text])
+		if "text" in c:
+			var t: String = c.get("text")
+			if t != "" and _dict.has(t):
+				missed.append("%s(%s).text = %s" % [node.get_class(), node.name, t])
+	if node is PopupMenu:
+		var pm := node as PopupMenu
+		for i in range(pm.item_count):
+			var it := pm.get_item_text(i)
+			if it != "" and _dict.has(it):
+				missed.append("PopupMenu(%s) item %d = %s" % [node.name, i, it])
+	for child in node.get_children():
+		_collect_missed(child, missed)
 
 
 func _exit_tree() -> void:
