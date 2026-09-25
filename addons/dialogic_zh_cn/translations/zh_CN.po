@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dialogic 2.0-Alpha-21 WIP (Godot 4.5+)\n"
+"Project-Id-Version: Dialogic \n"
 "Report-Msgid-Bugs-To: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -604,6 +604,11 @@ msgstr "（隐藏）"
 msgid "Placeholder Text"
 msgstr "占位文本"
 
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
+#: addons/dialogic/Editor/HomePage/home_page.tscn:242
+msgid "  Getting Started"
+msgstr "  快速入门"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/HomePage/home_page.tscn:253
 msgid "Get in touch"
@@ -969,6 +974,136 @@ msgstr "时间轴中没有标记。"
 msgid "New Save"
 msgstr "新存档"
 
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:7
+msgid "Add Text event"
+msgstr "添加文本事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:8
+msgid "Add Text event with current character"
+msgstr "添加文本事件（当前角色）"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:9
+msgid "Add Text event with previous character"
+msgstr "添加文本事件（上一角色）"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:10
+msgid "Add Character join event"
+msgstr "添加角色加入事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:11
+msgid "Add Character update event"
+msgstr "添加角色更新事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:12
+msgid "Add Character leave event"
+msgstr "添加角色离开事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:13
+msgid "Add Jump event"
+msgstr "添加跳转事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:14
+msgid "Add Label event"
+msgstr "添加标记事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:16
+msgid "Move selected events/lines up"
+msgstr "上移所选事件/行"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:17
+msgid "Move selected events/lines down"
+msgstr "下移所选事件/行"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:19
+msgid "Search"
+msgstr "搜索"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:20
+msgid "Replace"
+msgstr "替换"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:22 addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:23
+msgid "Play timeline"
+msgstr "播放时间轴"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:24 addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:25
+msgid "Play timeline from here"
+msgstr "从此处播放时间轴"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:28
+msgid "Copy"
+msgstr "复制"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:29
+msgid "Paste"
+msgstr "粘贴"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:30
+msgid "Duplicate selected events/lines"
+msgstr "复制所选事件/行"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:31
+msgid "Cut selected events/lines"
+msgstr "剪切所选事件/行"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:32
+msgid "Toggle Comment"
+msgstr "切换注释"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:33
+msgid "Delete events"
+msgstr "删除事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:35
+msgid "Select All"
+msgstr "全选"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:36
+msgid "Select Nothing"
+msgstr "取消全部选择"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:37
+msgid "Select previous event"
+msgstr "选择上一事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:38
+msgid "Select next event"
+msgstr "选择下一事件"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:40
+msgid "Undo"
+msgstr "撤销"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Editor/TimelineEditor/shortcut_popup.gd:41
+msgid "Redo"
+msgstr "重做"
+
 #. [L0_AUTO] 代码设置节点文本
 #: addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:53 addons/dialogic/Editor/TimelineEditor/timeline_editor.gd:144
 msgid "Text Editor"
@@ -1043,6 +1178,16 @@ msgstr "时间轴："
 #: addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_main_panel.gd:21
 msgid "State: "
 msgstr "状态："
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Example Assets/default_event.gd:17 addons/dialogic/Modules/Character/event_character.gd:395 addons/dialogic/Modules/Character/event_character.gd:416 addons/dialogic/Modules/Character/event_character.gd:427 addons/dialogic/Modules/Style/event_style.gd:60 addons/dialogic/Modules/TextInput/event_text_input.gd:107
+msgid "Default"
+msgstr "默认"
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Audio/event_audio.gd:76 addons/dialogic/Modules/Audio/index.gd:10
+msgid "Audio"
+msgstr "音频"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Audio/event_audio.gd:268 addons/dialogic/Modules/Audio/event_audio.gd:274 addons/dialogic/Modules/Voice/event_voice.gd:77 addons/dialogic/Modules/Voice/event_voice.gd:84
@@ -1159,11 +1304,6 @@ msgstr "同步至："
 msgid "(No Sync)"
 msgstr "（不同步）"
 
-#. [L2_INSP] inspector 属性名(_get_property_list)
-#: addons/dialogic/Modules/Audio/index.gd:10
-msgid "Audio"
-msgstr "音频"
-
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Audio/settings_audio.tscn:29
 msgid "Typing Sounds"
@@ -1183,6 +1323,11 @@ msgstr "输入通道名称"
 #: addons/dialogic/Modules/Audio/settings_audio.tscn:110
 msgid "Add channel"
 msgstr "添加通道"
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Background/event_background.gd:99
+msgid "Background"
+msgstr "背景"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Background/event_background.gd:133
@@ -1269,6 +1414,11 @@ msgstr "等待淡入淡出："
 msgid "Backgrounds"
 msgstr "背景"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Call/event_call.gd:75
+msgid "Call"
+msgstr "调用"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Call/event_call.gd:149
 msgid "Autoload Name"
@@ -1299,6 +1449,11 @@ msgstr "参数"
 msgid "Arguments:"
 msgstr "参数："
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Character/event_character.gd:212 addons/dialogic/Modules/Character/event_character.gd:384
+msgid "Character"
+msgstr "角色"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Character/event_character.gd:363 addons/dialogic/Modules/History/event_history.gd:65
 msgid "Action"
@@ -1309,11 +1464,6 @@ msgstr "动作"
 msgid "Character Identifier"
 msgstr "角色标识符"
 
-#. [L0_AUTO] 事件编辑器占位符(placeholder)
-#: addons/dialogic/Modules/Character/event_character.gd:384
-msgid "Character"
-msgstr "角色"
-
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Character/event_character.gd:391
 msgid "Set Portrait"
@@ -1323,11 +1473,6 @@ msgstr "设置立绘"
 #: addons/dialogic/Modules/Character/event_character.gd:394 addons/dialogic/Modules/Text/event_text.gd:425
 msgid "Portrait"
 msgstr "立绘"
-
-#. [L2_INSP] 事件编辑器字段名
-#: addons/dialogic/Modules/Character/event_character.gd:395 addons/dialogic/Modules/Character/event_character.gd:416 addons/dialogic/Modules/Character/event_character.gd:427 addons/dialogic/Modules/Style/event_style.gd:60 addons/dialogic/Modules/TextInput/event_text_input.gd:107
-msgid "Default"
-msgstr "默认"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Character/event_character.gd:400
@@ -1514,10 +1659,20 @@ msgstr "若设置了此项，未指定场景的立绘将默认使用此场景"
 msgid "Default Animations"
 msgstr "默认动画"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Choice/event_choice.gd:51
+msgid "Choice"
+msgstr "选项"
+
 #. [L2_INSP] 事件编辑器字段名
-#: addons/dialogic/Modules/Choice/event_choice.gd:149 addons/dialogic/Modules/Comment/event_comment.gd:61 addons/dialogic/Modules/Text/event_text.gd:431 addons/dialogic/Modules/Text/index.gd:10 addons/dialogic/Modules/TextInput/event_text_input.gd:105
+#: addons/dialogic/Modules/Choice/event_choice.gd:149 addons/dialogic/Modules/Comment/event_comment.gd:61 addons/dialogic/Modules/Text/event_text.gd:291 addons/dialogic/Modules/Text/event_text.gd:431 addons/dialogic/Modules/Text/index.gd:10 addons/dialogic/Modules/TextInput/event_text_input.gd:105
 msgid "Text"
 msgstr "文本"
+
+#. [L2_INSP] 快捷键说明(shortcut_popup)
+#: addons/dialogic/Modules/Choice/event_choice.gd:150
+msgid "Condition:"
+msgstr "条件："
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Choice/event_choice.gd:151 addons/dialogic/Modules/Choice/event_choice.gd:153
@@ -1525,7 +1680,7 @@ msgid "Has Condition"
 msgstr "有条件"
 
 #. [L2_INSP] 事件编辑器字段名
-#: addons/dialogic/Modules/Choice/event_choice.gd:152 addons/dialogic/Modules/Condition/event_condition.gd:123
+#: addons/dialogic/Modules/Choice/event_choice.gd:152 addons/dialogic/Modules/Condition/event_condition.gd:44 addons/dialogic/Modules/Condition/event_condition.gd:123
 msgid "Condition"
 msgstr "条件"
 
@@ -1644,6 +1799,11 @@ msgstr "选项结束 ("
 msgid "Add Choice"
 msgstr "添加选项"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Clear/event_clear.gd:78
+msgid "Clear"
+msgstr "清空"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Clear/event_clear.gd:116 addons/dialogic/Modules/Wait/event_wait.gd:68
 msgid "Time"
@@ -1699,6 +1859,11 @@ msgstr "清空样式"
 msgid "Clear Portrait Positions"
 msgstr "清空立绘位置"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Comment/event_comment.gd:28
+msgid "Comment"
+msgstr "注释"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Condition/event_condition.gd:108
 msgid "Condition Type"
@@ -1729,6 +1894,11 @@ msgstr "添加 Elif"
 msgid "Add Else"
 msgstr "添加 Else"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Core/event_end_branch.gd:59
+msgid "End Branch"
+msgstr "结束分支"
+
 #. [L2_INSP] inspector 属性名(_get_property_list)
 #: addons/dialogic/Modules/Core/index.gd:11
 msgid "Expressions"
@@ -1748,6 +1918,16 @@ msgstr "输入"
 #: addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn:67
 msgid "Please enter some text:"
 msgstr "请输入一些文本："
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/End/event_end.gd:21
+msgid "End"
+msgstr "结束"
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Glossary/event_glossary.gd:22 addons/dialogic/Modules/Glossary/index.gd:13
+msgid "Glossary"
+msgstr "术语表"
 
 #. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
 #: addons/dialogic/Modules/Glossary/glossary_editor.tscn:45
@@ -1795,17 +1975,12 @@ msgid "Enter unique name..."
 msgstr "输入唯一名称..."
 
 #. [L2_INSP] inspector 属性名(_get_property_list)
-#: addons/dialogic/Modules/Glossary/index.gd:13
-msgid "Glossary"
-msgstr "术语表"
-
-#. [L2_INSP] inspector 属性名(_get_property_list)
 #: addons/dialogic/Modules/HighlightPortrait/index.gd:9
 msgid "Simple Highlight Portrait"
 msgstr "简单高亮立绘"
 
-#. [L2_INSP] inspector 属性名(_get_property_list)
-#: addons/dialogic/Modules/History/index.gd:10
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/History/event_history.gd:36 addons/dialogic/Modules/History/index.gd:10
 msgid "History"
 msgstr "历史"
 
@@ -1854,6 +2029,11 @@ msgstr "在自动存档信号时保存"
 msgid "Save on Save signal"
 msgstr "在存档信号时保存"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Jump/event_jump.gd:57 addons/dialogic/Modules/Jump/index.gd:9
+msgid "Jump"
+msgstr "跳转"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Jump/event_jump.gd:112
 msgid "Timeline Identifier"
@@ -1874,30 +2054,35 @@ msgstr "标记名称"
 msgid "at"
 msgstr "于"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Jump/event_label.gd:36 addons/dialogic/Modules/Jump/event_label.gd:102
+msgid "Label"
+msgstr "标记"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Jump/event_label.gd:102 addons/dialogic/Modules/Settings/event_setting.gd:170 addons/dialogic/Modules/Variable/event_variable.gd:252
 msgid "Name"
 msgstr "名称"
 
 #. [L1_HOOK] 事件编辑器左标签(left_text)
-#: addons/dialogic/Modules/Jump/event_label.gd:102
-msgid "Label"
-msgstr "标记"
-
-#. [L1_HOOK] 事件编辑器左标签(left_text)
 #: addons/dialogic/Modules/Jump/event_label.gd:103
 msgid "Display Name:"
 msgstr "显示名称："
 
-#. [L2_INSP] inspector 属性名(_get_property_list)
-#: addons/dialogic/Modules/Jump/index.gd:9
-msgid "Jump"
-msgstr "跳转"
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Jump/event_return.gd:25
+msgid "Return"
+msgstr "返回"
 
 #. [L2_INSP] inspector 属性名(_get_property_list)
 #: addons/dialogic/Modules/LayeredPortrait/index.gd:9
 msgid "Layered Portrait"
 msgstr "分层立绘"
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Save/event_save.gd:35 addons/dialogic/Modules/Save/index.gd:10
+msgid "Save"
+msgstr "保存"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Save/event_save.gd:68
@@ -1908,11 +2093,6 @@ msgstr "存档位名称"
 #: addons/dialogic/Modules/Save/event_save.gd:68
 msgid "Save to slot"
 msgstr "存入存档位"
-
-#. [L2_INSP] inspector 属性名(_get_property_list)
-#: addons/dialogic/Modules/Save/index.gd:10
-msgid "Save"
-msgstr "保存"
 
 #. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text
 #: addons/dialogic/Modules/Save/settings_save.tscn:37
@@ -1964,6 +2144,11 @@ msgstr "用于加密存档文件的密码。留空则不加密存档文件。"
 msgid "Use on exports only"
 msgstr "仅在导出时使用"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Settings/event_setting.gd:72
+msgid "Setting"
+msgstr "设置"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Settings/event_setting.gd:154
 msgid "Mode"
@@ -1999,6 +2184,11 @@ msgstr "选择变量"
 msgid "Settings"
 msgstr "设置"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Signal/event_signal.gd:42
+msgid "Signal"
+msgstr "信号"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Signal/event_signal.gd:77
 msgid "Argument Type"
@@ -2013,6 +2203,11 @@ msgstr "参数类型："
 #: addons/dialogic/Modules/Signal/event_signal.gd:88
 msgid "Dictionary"
 msgstr "字典"
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Style/event_style.gd:30
+msgid "Change Style"
+msgstr "更换样式"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Style/event_style.gd:58
@@ -2379,6 +2574,11 @@ msgstr "打字音情绪："
 msgid "Select Mood"
 msgstr "选择情绪"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:52
+msgid "Text Input"
+msgstr "文本输入"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/TextInput/event_text_input.gd:101
 msgid "Variable"
@@ -2418,6 +2618,11 @@ msgstr "允许为空："
 #: addons/dialogic/Modules/TextInput/index.gd:10
 msgid "TextInput"
 msgstr "文本输入"
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Variable/event_variable.gd:139
+msgid "Set Variable"
+msgstr "设置变量"
 
 #. [L1_HOOK] 事件编辑器左标签(left_text)
 #: addons/dialogic/Modules/Variable/event_variable.gd:253 addons/dialogic/Modules/Voice/event_voice.gd:78
@@ -2484,6 +2689,11 @@ msgstr "你修改了现有变量！请使用引用管理器检查是否有引用
 msgid "How to use variables"
 msgstr "如何使用变量"
 
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Voice/event_voice.gd:46 addons/dialogic/Modules/Voice/index.gd:10
+msgid "Voice"
+msgstr "配音"
+
 #. [L0_AUTO] 事件编辑器右标签(right_text)
 #: addons/dialogic/Modules/Voice/event_voice.gd:79
 msgid "as the next voice audio"
@@ -2494,13 +2704,8 @@ msgstr "作为下一段配音"
 msgid "Select file"
 msgstr "选择文件"
 
-#. [L2_INSP] inspector 属性名(_get_property_list)
-#: addons/dialogic/Modules/Voice/index.gd:10
-msgid "Voice"
-msgstr "配音"
-
-#. [L2_INSP] inspector 属性名(_get_property_list)
-#: addons/dialogic/Modules/Wait/event_wait.gd:68 addons/dialogic/Modules/Wait/index.gd:10
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/Wait/event_wait.gd:37 addons/dialogic/Modules/Wait/event_wait.gd:68 addons/dialogic/Modules/Wait/index.gd:10
 msgid "Wait"
 msgstr "等待"
 
@@ -2523,6 +2728,11 @@ msgstr "可跳过"
 #: addons/dialogic/Modules/Wait/event_wait.gd:72
 msgid "Skippable:"
 msgstr "可跳过："
+
+#. [L2_INSP] 事件显示名(event_name)
+#: addons/dialogic/Modules/WaitInput/event_wait_input.gd:28
+msgid "Wait for Input"
+msgstr "等待输入"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/WaitInput/event_wait_input.gd:53

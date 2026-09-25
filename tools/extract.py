@@ -93,6 +93,8 @@ GD_PATTERNS = [
     (_p(r"\btitle\s*=\s*(<STR>)"), "L1_HOOK", "窗口标题"),
     (_p(r"\badd_header_button\(\s*(<STR>)"), "L0_AUTO", "事件头部按钮"),
     (_p(r"\bset_placeholder\(\s*(<STR>)"), "L0_AUTO", "占位符"),
+    (_p(r"\bevent_name\s*=\s*(<STR>)"), "L2_INSP", "事件显示名(event_name)"),
+    (_p(r"['\"]text['\"]\s*:\s*(<STR>)"), "L2_INSP", "快捷键说明(shortcut_popup)"),
 ]
 
 # Dialogic 事件编辑器：add_header_edit / add_body_edit 的第一个参数是字段键，
@@ -217,7 +219,9 @@ def scan_gd(path: str, rel: str, cat: Catalog):
         for rx, layer, kind in GD_PATTERNS:
             for m in rx.finditer(line):
                 val = unquote(m.group(1))
-                if is_translatable(val):
+                # 事件显示名与快捷键说明是刻意的人工文案，单词形式
+                # （Search/Copy 等）也要收录，不套用通用过滤
+                if is_translatable(val) or kind.startswith("事件显示名") or kind.startswith("快捷键"):
                     cat.add(val, layer, kind, f"{rel}:{ln}")
 
         # 事件编辑器字段键：'character_identifier' -> "Character Identifier"
