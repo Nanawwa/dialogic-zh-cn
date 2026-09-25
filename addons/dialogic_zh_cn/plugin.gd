@@ -4,27 +4,38 @@ extends EditorPlugin
 ## Dialogic 2 简体中文语言包
 ##
 ## 生效机制分两层：
-##  1. 加载 zh_CN.mo 到 TranslationServer。Dialogic 界面中 Label/Button/
-##     RichTextLabel 的文本、占位符、菜单项等属性，其 setter 在 Godot 引擎
-##     内部就走翻译（atr），翻译注册后自动生效，无需改动 Dialogic 任何源码。
-##  2. 对 Godot 引擎不自动翻译的属性做注入：Control.tooltip_text、
-##     Window.title、AcceptDialog.dialog_text、inspector 的 EditorProperty
-##     标签。通过监听编辑器场景树的 node_added 信号，在新节点入树时
+##  1. 读取 zh_CN.mo 并注册到 TranslationServer。Dialogic 界面中
+##     Label/Button/RichTextLabel 的文本、占位符、菜单项等属性，
+##     其 setter 在 Godot 引擎内部就走翻译（atr），注册后自动生效，
+##     无需改动 Dialogic 任何源码。
+##  2. 对引擎不自动翻译的属性做注入：Control.tooltip_text、Window.title、
+##     AcceptDialog.dialog_text、inspector 的 EditorProperty 标签。
+##     通过监听编辑器场景树的 node_added 信号，在新节点入树时
 ##     查询翻译并重新赋值。
 ##
-## 使用前提：Godot 编辑器语言设置为简体中文（zh_CN）。
-## 本插件只在编辑器中生效，不会影响游戏运行时的行为。
+## 说明：刻意不经过 Godot 的资源导入管线（.mo -> .translation），
+## 而是直接解析 MO 字节格式构造 Translation。这样新装或更新语言包后
+## 无需等待编辑器重新导入。MO 解析支持小端/大端两种字节序。
+##
+## 使用前提：Godot 编辑器语言设置为简体中文（或 auto 且系统为中文）。
+## 本插件只在编辑器中生效，不影响游戏运行时的行为。
 
 const TRANSLATION_PATH := "res://addons/dialogic_zh_cn/translations/zh_CN.mo"
+const LOCALE := "zh_CN"
+
+# MO 文件魔数（按小端读出时的两种排布）
+const MO_MAGIC_LE := 0x950412de
+const MO_MAGIC_BE := 0xde120495
 
 var _translation: Translation = null
 
 
 func _enter_tree() -> void:
-	if not ResourceLoader.exists(TRANSLATION_PATH):
-		push_warning("[dialogic_zh_cn] 未找到翻译文件: %s，请重新构建语言包。" % TRANSLATION_PATH)
+	_translation = _load_mo(TRANSLATION_PATH)
+	if _translation == null:
+		push_warning("[dialogic_zh_cn] 翻译加载失败，界面将保持英文。详见上方日志。")
 		return
-	_translation = load(TRANSLATION_PATH)
+	_translation.locale = LOCALE
 	TranslationServer.add_translation(_translation)
 	get_tree().node_added.connect(_on_node_added)
 	# 若本插件晚于 dialogic 启用，界面上已渲染的文本不会自动重译，
@@ -39,6 +50,66 @@ func _exit_tree() -> void:
 		TranslationServer.remove_translation(_translation)
 		_translation = null
 
+
+# ---------------------------------------------------------- MO 解析
+
+## 直接解析 gettext MO 二进制，绕开编辑器导入管线。
+func _load_mo(path: String) -> Translation:
+	if not FileAccess.file_exists(path):
+		push_warning("[dialogic_zh_cn] 找不到翻译文件: %s" % path)
+		return null
+	var buf := FileAccess.get_file_as_bytes(path)
+	if buf.size() < 28:
+		push_warning("[dialogic_zh_cn] 翻译文件损坏（过小）: %s" % path)
+		return null
+
+	var magic := _u32(buf, 0, false)
+	var big := false
+	if magic == MO_MAGIC_LE:
+		big = false
+	elif magic == MO_MAGIC_BE:
+		big = true
+	else:
+		push_warning("[dialogic_zh_cn] 不是有效的 MO 文件: %s" % path)
+		return null
+
+	var count := _u32(buf, 8, big)
+	# MO 头部：8=N 条目数，12=原文表偏移，16=译文表偏移，两张表互相独立
+	var src_table := _u32(buf, 12, big)
+	var dst_table := _u32(buf, 16, big)
+
+	var translation := Translation.new()
+	for i in range(count):
+		var src_entry := src_table + i * 8
+		var dst_entry := dst_table + i * 8
+		var src_len := _u32(buf, src_entry, big)
+		var src_off := _u32(buf, src_entry + 4, big)
+		var dst_len := _u32(buf, dst_entry, big)
+		var dst_off := _u32(buf, dst_entry + 4, big)
+		if src_off + src_len > buf.size() or dst_off + dst_len > buf.size():
+			continue
+		var msgid := buf.slice(src_off, src_off + src_len).get_string_from_utf8()
+		var msgstr := buf.slice(dst_off, dst_off + dst_len).get_string_from_utf8()
+		if msgid.is_empty():
+			continue  # 首条是 MO 元数据头
+		# 复数形式：msgid/msgstr 内部用 \x00 分隔；中文 nplurals=1，取首段即可
+		if msgid.contains("\u0000"):
+			msgid = msgid.split("\u0000")[0]
+		if msgstr.contains("\u0000"):
+			msgstr = msgstr.split("\u0000")[0]
+		if msgstr.is_empty():
+			continue
+		translation.add_message(msgid, msgstr)
+	return translation
+
+
+func _u32(b: PackedByteArray, off: int, big: bool) -> int:
+	if big:
+		return (b[off] << 24) | (b[off + 1] << 16) | (b[off + 2] << 8) | b[off + 3]
+	return b[off] | (b[off + 1] << 8) | (b[off + 2] << 16) | (b[off + 3] << 24)
+
+
+# ---------------------------------------------------------- 注入层
 
 func _on_node_added(node: Node) -> void:
 	_apply_translation.call_deferred(node)
