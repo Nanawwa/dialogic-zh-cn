@@ -17,6 +17,7 @@
   使用本语言包仍需自行安装官方 Dialogic 插件并遵守其
   [MIT 许可证](https://github.com/dialogic-godot/dialogic/blob/main/LICENSE)。
 - 本项目自身的代码与译文同样以 MIT 许可证发布。
+- 维护者：[Nanawwa](https://github.com/Nanawwa)
 - 界面文案随上游版本变动，使用时请以 `tools/sync_upstream.py` 重新对齐；
   译文问题欢迎 issue 反馈，也可以考虑将改进回馈上游（上游的本地化支持
   进度以官方仓库为准）。
