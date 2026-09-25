@@ -214,6 +214,15 @@ msgstr "适配预览"
 msgid "My Character"
 msgstr "我的角色"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:52
+msgid ""
+"This unique identifier is based on the file name. You can change it in the Reference Manager.\n"
+"Use this name in timelines to reference this character."
+msgstr ""
+"此唯一标识符基于文件名。可在引用管理器中更改。\n"
+"在时间轴中引用此角色时，请使用该名称。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:84
 msgid "Main Settings"
@@ -279,6 +288,15 @@ msgstr "设为默认"
 msgid "Some portraits were renamed. Make sure no references broke!"
 msgstr "部分立绘已被重命名。请确认引用没有失效！"
 
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text (多行)
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:227
+msgid ""
+"Reference\n"
+"Manager"
+msgstr ""
+"引用\n"
+"管理器"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:287
 msgid "Custom scenes can only be viewed in \"Full mode\" if they are in @tool mode and override _get_covered_rect"
@@ -293,6 +311,15 @@ msgstr "立绘设置"
 #: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:384
 msgid "Switch position"
 msgstr "切换位置"
+
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text (多行)
+#: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:425
+msgid ""
+"No character opened. \n"
+"Create a character or double-click one in the file system dock."
+msgstr ""
+"未打开任何角色。\n"
+"新建一个角色，或在文件系统中双击打开。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
 #: addons/dialogic/Editor/CharacterEditor/character_editor.tscn:432
@@ -674,6 +701,24 @@ msgstr "安装成功，需要重启！"
 msgid "Download failed."
 msgstr "下载失败。"
 
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text (多行)
+#: addons/dialogic/Editor/Common/update_install_window.tscn:144
+msgid "Refresh\n"
+msgstr "刷新"
+
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | RichTextLabel.text (多行)
+#: addons/dialogic/Editor/Common/update_install_window.tscn:158
+msgid ""
+"[font_size=25]🎉 New alpha, new stuff![/font_size]\n"
+"If you are using dialogic 2 alphas then we've got an exciting update. It's not the beta yet, but we are getting closer! As always if you have questions or feedback it's best to reach out on [url=https://discord.gg/2hHQzkf2pX]emilios discord[/url].\n"
+"\n"
+"This alpha brings a couple of very useful new features to dialogic as well as some syntax changes and a design overhaul (and many, many bug fixes).\n"
+msgstr ""
+"[font_size=25]🎉 新的 alpha，新内容！[/font_size]\n"
+"如果你一直在使用 Dialogic 2 的 alpha 版本，这次更新会让你兴奋。虽然还不是 beta，但我们越来越近了！和老往常一样，有问题或反馈最好到 [url=https://discord.gg/2hHQzkf2pX]emilios discord[/url] 交流。\n"
+"\n"
+"这个 alpha 为 Dialogic 带来了几个非常实用的新功能，以及一些语法变更和一次界面大改（还有非常非常多的 bug 修复）。\n"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | LinkButton.text
 #: addons/dialogic/Editor/Common/update_install_window.tscn:211
 msgid "Read Full Announcement"
@@ -688,6 +733,15 @@ msgstr "立即重启"
 #: addons/dialogic/Editor/Common/update_install_window.tscn:263
 msgid "Install"
 msgstr "安装"
+
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text (多行)
+#: addons/dialogic/Editor/Common/update_install_window.tscn:285
+msgid ""
+"Be careful. This will delete the addons/dialogic folder and install the new version. Any custom changes in that folder will be lost.\n"
+"To be on the safe side, use version control!"
+msgstr ""
+"请务必小心。此操作会删除 addons/dialogic 文件夹并安装新版本，该文件夹内的所有自定义修改都会丢失。\n"
+"为保险起见，请使用版本控制！"
 
 #. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
 #: addons/dialogic/Editor/Events/BranchEnd.tscn:27
@@ -774,6 +828,17 @@ msgstr "  网站"
 msgid "  Donate"
 msgstr "  捐赠"
 
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | RichTextLabel.text (多行)
+#: addons/dialogic/Editor/HomePage/home_page.tscn:297
+msgid ""
+"[center]Welcome to Dialogic, a plugin that lets you easily create stories and dialogs for your game!\n"
+"\n"
+"If you are new, start by creating a timeline or character!"
+msgstr ""
+"[center]欢迎使用 Dialogic——一个让你轻松为游戏创作故事与对话的插件！\n"
+"\n"
+"如果你是新手，请从创建时间轴或角色开始！"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/HomePage/home_page.tscn:311
 msgid "Random Tip"
@@ -859,6 +924,15 @@ msgstr "工具"
 msgid "Layout Node Behaviour"
 msgstr "布局节点行为"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:58
+msgid ""
+"The layout scene configured in the Layout editor is automatically \n"
+"instanced when calling Dialogic.start(). Depending on your game, \n"
+"you might want it to be deleted after the dialogue, be hidden \n"
+"(as reinstancing often is wasting resources) or kept visible. "
+msgstr "布局编辑器中配置的布局场景，会在调用 Dialogic.start() 时自动实例化。根据你的游戏，你可能希望它在对话结束后被删除、被隐藏，或保留在场景中。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:70
 msgid "On timeline end"
@@ -883,6 +957,17 @@ msgstr "保留布局节点"
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:101
 msgid "Extensions"
 msgstr "扩展"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:107
+msgid ""
+"Configure where dialogic looks for custom modules.\n"
+"\n"
+"You will have to restart the project to see the change take action."
+msgstr ""
+"配置 Dialogic 查找自定义模块的位置。\n"
+"\n"
+"你需要重启项目才能看到更改生效。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_general.tscn:115
@@ -1089,6 +1174,15 @@ msgstr "测试"
 msgid "Testing locale"
 msgstr "测试语言"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:75
+msgid ""
+"Change this locale to test your game in a different language (only in-editor).\n"
+"Equivalent of the testing local project setting. "
+msgstr ""
+"更改此语言区域，可在编辑器内用其他语言测试游戏。\n"
+"等同于测试用的本地项目设置。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:111
 msgid "Default locale"
@@ -1104,10 +1198,36 @@ msgstr "时间轴所使用语言的区域代码。"
 msgid "Translation folder"
 msgstr "翻译文件夹"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:133
+msgid ""
+"Choose a folder to let Dialogic save CSV files in.\n"
+"Also used when saving \"Inside Translation Folder\""
+msgstr ""
+"选择一个文件夹，供 Dialogic 保存 CSV 文件。\n"
+"以“翻译文件夹内”方式保存时同样使用此设置。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:149
 msgid "Output mode"
 msgstr "输出模式"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:161
+msgid ""
+"Decides how many CSV files will be created.\n"
+"\n"
+"• \"Per Type\": Uses one CSV file for each type of resource: Timelines, characters, and glossaries.\n"
+"For example, 10 timelines will be combined into 1 CSV file.\n"
+"\n"
+"• \"Per File\": Uses one CSV file for each resource file.\n"
+"For example, 10 timelines will result in 10 CSV files.\n"
+"\n"
+"The \"Per File\" option utilises \"Output location\", in contrast, the \"Per Type\" will always use the Translation folder."
+msgstr ""
+"决定创建多少个 CSV 文件。\n"
+"\n"
+"• “按类型”：为每种资源（时间轴、角色、术语表）各建一个 CSV 文件。例如 10 个时间轴会共用同一个 CSV。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:178
@@ -1124,6 +1244,24 @@ msgstr "按文件"
 msgid "Output location"
 msgstr "输出位置"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:199
+msgid ""
+"Decides where to save the generated CSV files.\n"
+"\n"
+"• \"Inside Translation Folder\": Uses the \"Translation folder\".\n"
+"\n"
+"• \"Next To Timeline\": Places them in the resource type's folder.\n"
+"\n"
+"This button requires the \"Per File\" Output mode.\n"
+"A resource type can be: Timelines, characters, and glossaries."
+msgstr ""
+"决定生成的 CSV 文件的保存位置。\n"
+"\n"
+"• “翻译文件夹内”：使用“翻译文件夹”。\n"
+"\n"
+"• “时间轴旁”：放在对应资源类型的文件夹里。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:216
 msgid "Inside Translation Folder"
@@ -1139,6 +1277,17 @@ msgstr "文件旁"
 msgid "Add Separator Lines"
 msgstr "添加分隔行"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:236
+msgid ""
+"Adds an empty line into per-project CSVs to differentiate between sections.\n"
+"\n"
+"For example, when a new glossary item or timeline starts, an empty line will be added."
+msgstr ""
+"在项目级 CSV 中插入空行以区分不同段落。\n"
+"\n"
+"例如，当出现新的术语表条目或时间轴时，会插入一个空行。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:259
 msgid "Actions"
@@ -1149,15 +1298,53 @@ msgstr "动作"
 msgid "Update CSV files"
 msgstr "更新 CSV 文件"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:278
+msgid ""
+"This button will scan all timelines and generate or update their CSV files.\n"
+"\n"
+"A Dialogic CSV file will be prefixed with \"dialogic_\".\n"
+"\n"
+"This action will be disabled if the \"Translation folder\" is missing or has an invalid path."
+msgstr ""
+"此按钮会扫描所有时间轴并生成或更新其 CSV 文件。\n"
+"\n"
+"Dialogic 的 CSV 文件会以“dialogic_”作为前缀。\n"
+"\n"
+"若“翻译文件夹”设置有误，此操作将被禁用。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:289
 msgid "Collect translations"
 msgstr "收集翻译"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:296
+msgid ""
+"Godot imports CSV files as \".translation\" files.\n"
+"This buttons adds them to \"Project Settings -> Localization\".\n"
+msgstr ""
+"Godot 会把 CSV 文件导入为“.translation”文件。\n"
+"此按钮会把它们加入“项目设置 -> 本地化”。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:313
 msgid "Remove translations"
 msgstr "移除翻译"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:323
+msgid ""
+"Be very careful with this button!\n"
+"\n"
+"It will try to delete any \".csv\" and \".translation\" files that are related to Dialogic.\n"
+"CSV and translation files prefixed with \"dialogic_\" are treated as Dialogic-related.\n"
+"\n"
+"Removes translation IDs (eg. #id:33) from timelines and characters."
+msgstr ""
+"使用此按钮请务必小心！\n"
+"\n"
+"它会尝试删除所有与 Dialogic 相关的“.csv”与“.translation”文件。带“dialogic_”前缀的 CSV 与翻译文件都会被视为 Dialogic 的文件。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:335
@@ -1168,6 +1355,36 @@ msgstr "⛔ 需要有效的翻译文件夹，才能翻译角色名和项目 CSV 
 #: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:340
 msgid "Please Decide..."
 msgstr "请选择..."
+
+#. [L1_HOOK] 对话框正文 (保守归类，由注入层覆盖) | ConfirmationDialog.dialog_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:345
+msgid ""
+"You have previously generated CSVs and translation files with different Translation Settings!\n"
+"\n"
+"Please consider to delete the old CSVs and then generate new changes."
+msgstr ""
+"你之前用不同的翻译设置生成过 CSV 与翻译文件！\n"
+"\n"
+"建议删除旧的 CSV 后按新设置重新生成。"
+
+#. [L1_HOOK] 对话框正文 (保守归类，由注入层覆盖) | ConfirmationDialog.dialog_text (多行)
+#: addons/dialogic/Editor/Settings/CoreSettingsPages/settings_translation.tscn:360
+msgid ""
+"You are about to:\n"
+"-   Delete all CSVs prefixed with \"dialogic_\".\n"
+"-   Delete the related CSV import files.\n"
+"-   Delete the related translation files.\n"
+"-   Remove translation IDs from timelines and characters.\n"
+"-   Remove all \"dialogic\" prefixed translations from \"Project Settings -> Localization\".\n"
+"-   Remove the \"_translation_keys\" and \"entries\" starting with \"Glossary/\"."
+msgstr ""
+"你即将：\n"
+"-   删除所有带“dialogic_”前缀的 CSV。\n"
+"-   删除相关的 CSV 导入文件。\n"
+"-   删除相关的翻译文件。\n"
+"-   从时间轴和角色中移除翻译 ID。\n"
+"-   从“项目设置 -> 本地化”中移除所有带“dialogic”前缀的翻译。\n"
+"-   删除以“Glossary/”开头的“_translation_keys”与“entries”。"
 
 #. [L2_INSP] inspector 属性名(_get_property_list)
 #: addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:81 addons/dialogic/Modules/StyleEditor/style_layer_editor.gd:468
@@ -1193,6 +1410,16 @@ msgstr "时间轴中没有标记。"
 #: addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:193
 msgid "SaveLoad"
 msgstr "存读档"
+
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text (多行)
+#: addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:221
+msgid ""
+"Doubleclick to load\n"
+"Middleclick to delete"
+msgstr ""
+"双击载入\n"
+"中键点击删除\n"
+"Middleclick to delete"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
 #: addons/dialogic/Editor/TimelineEditor/dialogic_debug_overlay.tscn:226
@@ -1359,6 +1586,17 @@ msgstr "无匹配"
 msgid "Cool Name"
 msgstr "示例名称"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:88
+msgid ""
+"This unique identifier is based on the file name. You can change it in the Reference Manager.\n"
+"This is what you should use in a jump event to reference this timeline.\n"
+"\n"
+"You can also use this name in Dialogic.start()."
+msgstr ""
+"此唯一标识符基于文件名。可在引用管理器中更改。\n"
+"在跳转事件中引用此时间轴时，请使用该名称。"
+
 #. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | Button.tooltip_text
 #: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:101
 msgid "Switch between Text Editor and Visual Editor"
@@ -1378,6 +1616,15 @@ msgstr "全部替换"
 #: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:196
 msgid "Replace in all timelines"
 msgstr "在所有时间轴中替换"
+
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text (多行)
+#: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:232
+msgid ""
+"No timeline opened. \n"
+"Create a timeline or double-click one in the file system dock."
+msgstr ""
+"未打开任何时间轴。\n"
+"新建一个时间轴，或在文件系统中双击打开。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
 #: addons/dialogic/Editor/TimelineEditor/timeline_editor.tscn:239
@@ -1408,6 +1655,11 @@ msgstr "时间轴："
 #: addons/dialogic/Editor/TimelineEditor/RuntimeDebug/debug_main_panel.gd:21
 msgid "State: "
 msgstr "状态："
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Audio/event_audio.gd:77
+msgid "Plays an audio file (sound effect or music) on one of the audio layers (configured in the settings)."
+msgstr "在某一音频层（在设置中配置）上播放音频文件（音效或音乐）。"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Audio/event_audio.gd:268 addons/dialogic/Modules/Audio/event_audio.gd:274 addons/dialogic/Modules/Voice/event_voice.gd:77 addons/dialogic/Modules/Voice/event_voice.gd:84
@@ -1549,6 +1801,11 @@ msgstr "添加通道"
 msgid "Background"
 msgstr "背景"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Background/event_background.gd:100
+msgid "Shows or hides a background image or scene."
+msgstr "显示或隐藏背景图片或场景。"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Background/event_background.gd:133
 msgid "Scene Type"
@@ -1639,6 +1896,11 @@ msgstr "背景"
 msgid "Call"
 msgstr "调用"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Call/event_call.gd:76
+msgid "Calls a method on an autoload script or scene."
+msgstr "调用某个 Autoload 脚本或场景上的方法。"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Call/event_call.gd:149
 msgid "Autoload Name"
@@ -1669,6 +1931,11 @@ msgstr "参数"
 msgid "Arguments:"
 msgstr "参数："
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Character/event_character.gd:213
+msgid "Allows joining or leaving a character or updating its portrait, position, mirroring, z-index or animation."
+msgstr "允许角色加入或离开，或更新其立绘、位置、镜像、Z 索引或动画。"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Character/event_character.gd:363 addons/dialogic/Modules/History/event_history.gd:65
 msgid "Action"
@@ -1693,6 +1960,11 @@ msgstr "设置变换"
 #: addons/dialogic/Modules/Character/event_character.gd:404
 msgid "Transform"
 msgstr "变换"
+
+#. [L0_AUTO] 事件编辑器占位符(placeholder)
+#: addons/dialogic/Modules/Character/event_character.gd:405
+msgid "center"
+msgstr "居中"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Character/event_character.gd:412
@@ -1864,6 +2136,18 @@ msgstr "若设置了此项，未指定场景的立绘将默认使用此场景"
 msgid "Default Animations"
 msgstr "默认动画"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Character/settings_portraits.tscn:79
+msgid ""
+"These settings are used for Leave and Join events if no animation is selected.\n"
+"\n"
+"The Cross-Fade will play if the portrait of a character changes and \n"
+"no animation is set."
+msgstr ""
+"当加入/离开事件未选择动画时，使用这些设置。\n"
+"\n"
+"角色立绘变化且未设置动画时，将播放交叉淡入淡出。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Character/settings_portraits.tscn:92
 msgid "Join"
@@ -1888,6 +2172,11 @@ msgstr "交叉淡入淡出"
 #: addons/dialogic/Modules/Choice/event_choice.gd:51
 msgid "Choice"
 msgstr "选项"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Choice/event_choice.gd:52
+msgid "Shows a clickable option. Should be grouped together with other choices. Contains events that are played when chosen. Can have a condition."
+msgstr "显示一个可点击的选项。应与其他选项组合使用。包含被选中时执行的事件。可以带条件。"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Choice/event_choice.gd:149 addons/dialogic/Modules/Comment/event_comment.gd:61 addons/dialogic/Modules/Text/event_text.gd:291 addons/dialogic/Modules/Text/event_text.gd:431 addons/dialogic/Modules/Text/index.gd:10 addons/dialogic/Modules/TextInput/event_text_input.gd:105
@@ -1999,6 +2288,17 @@ msgstr "在选项可激活前加入一小段延迟，可以避免误选。"
 msgid "Default behaviour for false choices"
 msgstr "未满足条件选项的默认行为"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Choice/settings_choices.tscn:119
+msgid ""
+"Define the default behaviour (hide or disable) for choices that have a condition that isn't met.\n"
+"\n"
+"Choices can overwrite this setting individually."
+msgstr ""
+"定义未满足条件的选项的默认行为（隐藏或禁用）。\n"
+"\n"
+"各选项可单独覆盖此设置。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
 #: addons/dialogic/Modules/Choice/settings_choices.tscn:130
 msgid "Hide"
@@ -2048,6 +2348,11 @@ msgstr "添加选项"
 #: addons/dialogic/Modules/Clear/event_clear.gd:78
 msgid "Clear"
 msgstr "清空"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Clear/event_clear.gd:79
+msgid "Clears current state like text, background, portraits, style or audio."
+msgstr "清除当前状态，如文本、背景、立绘、样式或音频。"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Clear/event_clear.gd:116 addons/dialogic/Modules/Wait/event_wait.gd:68
@@ -2109,6 +2414,16 @@ msgstr "清空立绘位置"
 msgid "Comment"
 msgstr "注释"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Comment/event_comment.gd:29
+msgid "Has no effect on gameplay, but can help organize your timeline."
+msgstr "对游戏没有实际影响，但有助于整理时间轴。"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Condition/event_condition.gd:45
+msgid "Allows playing the contained events only if the condition is true."
+msgstr "仅在条件为真时执行所包含的事件。"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Condition/event_condition.gd:108
 msgid "Condition Type"
@@ -2159,6 +2474,19 @@ msgstr "动画"
 msgid "Inputs"
 msgstr "输入"
 
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | RichTextLabel.text (多行)
+#: addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.tscn:43
+msgid ""
+"This is a fallback bubble, that is not actually connected to any character. In game use the following code to add speech bubbles to a character:\n"
+"[color=darkgray]\n"
+"var layout = Dialogic.start(timeline_path)\n"
+"layout.register_character(character_resource, node)\n"
+"[/color]\n"
+"- [color=lightblue]character_resource[/color] should be a loaded DialogicCharacter (a .dch file).\n"
+"- [color=lightblue]node[/color] should be the 2D or 3D node the bubble should point at.\n"
+"\t-> E.g. [color=darkgray]layout.register_character(load(\"res://path/to/my/character.dch\"), $BubbleMarker)"
+msgstr "这是一个后备气泡，并未实际绑定任何角色。在游戏中请用以下代码为角色添加气泡："
+
 #. [L2_INSP] 事件显示名(event_name)
 #: addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn:75 addons/dialogic/Modules/History/event_history.gd:36 addons/dialogic/Modules/History/index.gd:10
 msgid "History"
@@ -2188,6 +2516,11 @@ msgstr "确认"
 #: addons/dialogic/Modules/End/event_end.gd:21
 msgid "End"
 msgstr "结束"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/End/event_end.gd:22
+msgid "Ends the timeline early. Not required at the timeline end."
+msgstr "提前结束时间轴。时间轴末尾无需此事件。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Glossary/glossary_editor.tscn:25
@@ -2279,10 +2612,24 @@ msgstr "已启用"
 msgid "Simple Highlight Portrait"
 msgstr "简单高亮立绘"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/History/event_history.gd:37
+msgid "Performs an action on the simple history."
+msgstr "对简单历史执行一项操作。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/History/settings_history.tscn:35
 msgid "Simple History"
 msgstr "简单历史"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/History/settings_history.tscn:47
+msgid ""
+"When enabled, some events (Text, Join, Leave, Choice) will store a log.\n"
+"Also, the default layout will feature the log panel option."
+msgstr ""
+"启用后，部分事件（文本、加入、离开、选项）会记录日志。\n"
+"此外，默认布局会提供日志面板选项。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/History/settings_history.tscn:61 addons/dialogic/Modules/History/settings_history.tscn:100
@@ -2314,20 +2661,54 @@ msgstr "启用后，完整历史将包含在存档中。"
 msgid "Seen Events History"
 msgstr "已见事件历史"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/History/settings_history.tscn:128
+msgid ""
+"Remembers whether events were already met in the timeline.\n"
+"When enabled the signals \"Dialogic.History.visited_event\" and \"Dialogic.History.unvisited_event\" are emitted.\n"
+msgstr ""
+"记录事件是否已在时间轴中出现过。\n"
+"启用后会发出 \"Dialogic.History.visited_event\" 与 \"Dialogic.History.unvisited_event\" 信号。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/History/settings_history.tscn:143
 msgid "Save on Auto-Save signal"
 msgstr "在自动存档信号时保存"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/History/settings_history.tscn:148
+msgid ""
+"Stores the already-visited history in a global save file when an Auto-Save occurs.\n"
+"The Auto-Save is part of the Save settings."
+msgstr ""
+"自动存档时，把已见历史存入全局存档文件。\n"
+"自动存档属于保存设置的一部分。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/History/settings_history.tscn:162
 msgid "Save on Save signal"
 msgstr "在存档信号时保存"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/History/settings_history.tscn:168
+msgid ""
+"Stores the already-visited history in a global save file when a normal Save occurs.\n"
+"This can be done via the Dialogic.Save.save method.\n"
+"This setting ignores Auto-Saves."
+msgstr ""
+"普通存档时，把已见历史存入全局存档文件。\n"
+"可通过 Dialogic.Save.save 方法实现。\n"
+"此设置不受自动存档影响。"
+
 #. [L2_INSP] 事件显示名(event_name)
 #: addons/dialogic/Modules/Jump/event_jump.gd:57 addons/dialogic/Modules/Jump/index.gd:9
 msgid "Jump"
 msgstr "跳转"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Jump/event_jump.gd:58
+msgid "Allows going to another timeline or jumping to a label event in this timeline."
+msgstr "允许跳到其他时间轴，或跳到本时间轴中的标记事件。"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Jump/event_jump.gd:112
@@ -2354,10 +2735,20 @@ msgstr "于"
 msgid "Label"
 msgstr "标记"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Jump/event_label.gd:37
+msgid "Provides a point to jump to with the jump event. Can be used to split a timeline into sections."
+msgstr "提供一个供跳转事件使用的锚点。可用于把时间轴分成多个段落。"
+
 #. [L1_HOOK] 事件编辑器左标签(left_text)
 #: addons/dialogic/Modules/Jump/event_label.gd:103
 msgid "Display Name:"
 msgstr "显示名称："
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Jump/event_return.gd:26
+msgid "Returns to the last jump event or ends the timeline (if no jump happened before)."
+msgstr "返回上一个跳转事件，或结束时间轴（若之前没有跳转）。"
 
 #. [L2_INSP] inspector 属性名(_get_property_list)
 #: addons/dialogic/Modules/LayeredPortrait/index.gd:9
@@ -2368,6 +2759,11 @@ msgstr "分层立绘"
 #: addons/dialogic/Modules/Save/event_save.gd:35 addons/dialogic/Modules/Save/index.gd:10
 msgid "Save"
 msgstr "保存"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Save/event_save.gd:36
+msgid "Performs a save to a save slot using Dialogics built-in saving API."
+msgstr "使用 Dialogic 内置的存档 API 保存到某个存档位。"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Save/event_save.gd:68
@@ -2434,10 +2830,25 @@ msgstr "用于加密存档文件的密码。留空则不加密存档文件。"
 msgid "Use on exports only"
 msgstr "仅在导出时使用"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Save/settings_save.tscn:128
+msgid ""
+"For easier debugging dialogic will only encrypt saves made by exported project.\n"
+"Exported projects with debug mode on or saves made when running in editor \n"
+"will not use encryption."
+msgstr ""
+"为便于调试，Dialogic 只对导出项目生成的存档加密。\n"
+"开启调试模式的导出项目，或在编辑器中运行时的存档不会加密。"
+
 #. [L2_INSP] 事件显示名(event_name)
 #: addons/dialogic/Modules/Settings/event_setting.gd:72
 msgid "Setting"
 msgstr "设置"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Settings/event_setting.gd:73
+msgid "Advanced: Changes a setting from the Settings subsystem."
+msgstr "高级：修改设置子系统（Settings）中的一项设置。"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Settings/event_setting.gd:154
@@ -2474,6 +2885,11 @@ msgstr "选择变量"
 msgid "Signal"
 msgstr "信号"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Signal/event_signal.gd:43
+msgid "Emits the Dialogic.signal_event signal with a given argument. You can react to this signal in your code by connecting to it."
+msgstr "发出带有指定参数的 Dialogic.signal_event 信号。你可以在代码中连接该信号做出响应。"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Signal/event_signal.gd:77
 msgid "Argument Type"
@@ -2499,6 +2915,11 @@ msgstr "样式："
 msgid "Change Style"
 msgstr "更换样式"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Style/event_style.gd:31
+msgid "Changes to one of the styles configured in the style editor."
+msgstr "切换到样式编辑器中配置的某一样式。"
+
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Style/event_style.gd:58
 msgid "Style Name"
@@ -2523,6 +2944,16 @@ msgstr "是否默认"
 #: addons/dialogic/Modules/StyleEditor/style_editor.gd:220
 msgid "Inherits "
 msgstr "继承 "
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:68
+msgid ""
+"Each style consist of a list of layers and settings for each layer.\n"
+"A style can inherit from another style (inherited styles can only overwrite settings of their layers).\n"
+"When one style is selected as default dialogic will use that style when calling Dialogic.start() otherwise a fallback is used.\n"
+"You can change the style with the Change Style event, by setting a style on a character or by calling\n"
+"Dialogic.Styles.load_style(\"Style Name\") before calling Dialogic.start()."
+msgstr "每个样式由一组图层及各图层的设置组成。样式可以继承自其他样式（继承的样式只能覆盖其图层的设置）。"
 
 #. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text
 #: addons/dialogic/Modules/StyleEditor/style_editor.tscn:83
@@ -2593,6 +3024,15 @@ msgstr "测试样式"
 #: addons/dialogic/Modules/StyleEditor/style_editor.tscn:192
 msgid "Layers"
 msgstr "图层"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/StyleEditor/style_editor.tscn:197
+msgid ""
+"Each layer is a scene and settings that will be applied to that scene.\n"
+"A layer can either be a premade scene or a scene you've made yourself."
+msgstr ""
+"每个图层是一个场景，以及将应用到该场景上的设置。\n"
+"图层可以使用预制场景，也可以使用你自己制作的场景。"
 
 #. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | MenuButton.tooltip_text
 #: addons/dialogic/Modules/StyleEditor/style_editor.tscn:209
@@ -2694,6 +3134,11 @@ msgstr "此图层没有可调设置。"
 msgid "Dialogic Style Browser"
 msgstr "Dialogic 样式浏览器"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Text/event_text.gd:292
+msgid "Displays text. Can be said by a character. Can contain all kinds of bbcode, text effects or variables."
+msgstr "显示文本。可由角色说出。可包含各种 BBCode、文本效果或变量。"
+
 #. [L0_AUTO] 事件编辑器占位符(placeholder)
 #: addons/dialogic/Modules/Text/event_text.gd:423
 msgid "(No one)"
@@ -2719,20 +3164,60 @@ msgstr "每个字符的显示时长（秒）。设为 0 将立即显示全部文
 msgid "Input action"
 msgstr "输入动作"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:56
+msgid ""
+"The action that skips text and generally advances to the next event.\n"
+"You can modify actions in the Project Settings > Input Map."
+msgstr ""
+"用于跳过文本并推进到下一事件的输入动作。\n"
+"可在 项目设置 > 输入映射 中修改这些动作。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:71
 msgid "Text Reveal Skippable"
 msgstr "文本显示可跳过"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:76
+msgid ""
+"If enabled the revealing of text can be skipped with the input action.\n"
+"If disabled you can only advance to the next event when revealing has finnished."
+msgstr ""
+"启用后，文本的逐字显示可以随时被跳过。\n"
+"禁用时，只有文本显示完毕才能推进到下一事件。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:93
 msgid "Skip Delay:"
 msgstr "跳过延迟："
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:99
+msgid ""
+"Delay before you can skip. \n"
+"\n"
+"Use this to prevent users from skipping through your timeline to quickly."
+msgstr ""
+"可以开始跳过前的延迟。\n"
+"\n"
+"用于防止玩家把时间轴推进得过快。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:117
 msgid "Advance Delay:"
 msgstr "推进延迟："
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:123
+msgid ""
+"Delay before you can advance (if the text finishes revealing on its own). \n"
+"\n"
+"This is used to prevent players from advancing when they actually wanted to skip the revealing, but did so very shortly after the text was already fully revealed."
+msgstr ""
+"可以推进前的延迟（仅当文本自行完成显示时生效）。\n"
+"\n"
+"用于避免玩家本想跳过逐字显示、却因提前点击而看似在等待输入的情况。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:141
@@ -2764,6 +3249,15 @@ msgstr "会放在文本之前。可用于对所有文本应用 BBCode 效果。"
 msgid "New lines as new events"
 msgstr "换行作为新事件"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:197
+msgid ""
+"If enabled dialogic, new lines will be treated as [n] effects,\n"
+"seemingly waiting for input before starting a new text."
+msgstr ""
+"启用后，Dialogic 会把换行视为 [n] 效果，\n"
+"看起来像在等待输入后再开始新的一段文本。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
 #: addons/dialogic/Modules/Text/settings_text.tscn:215
 msgid "As new event"
@@ -2778,6 +3272,24 @@ msgstr "已追加"
 #: addons/dialogic/Modules/Text/settings_text.tscn:229
 msgid "Auto-Advance"
 msgstr "自动推进"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:242
+msgid ""
+"Autoadvance is the concept of automatically progressing to the next event upon completing text display, usually after a certain delay.\n"
+"\n"
+"You can enabled Auto-Advance from code using either:\n"
+"- Dialogic.Inputs.auto_advance.enabled_until_user_input = true\n"
+"- Dialogic.Inputs.auto_advance.enabled_until_next_event = true\n"
+"- Dialogic.Inputs.auto_advance.enabled_forced = true\n"
+"These add up, so if any of them is true, Auto-Advance will happen.\n"
+"Unless manual advancement is disabled, the Auto-Advance time can always be skipped by the player.\n"
+"\n"
+"The Auto-Advance will wait for Voice audio to finish playing. This behaviour can be disabled via code. "
+msgstr ""
+"自动推进指文本显示完成后自动进入下一事件，通常会有一定延迟。\n"
+"\n"
+"你可以通过代码启用自动推进："
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:264
@@ -2794,6 +3306,22 @@ msgstr "这是自动推进的基础延迟。"
 msgid "Additional Delay"
 msgstr "附加延迟"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:291
+msgid ""
+"An additional delay per character or word can be added.\n"
+"\n"
+"Note: When changing values via code, you can actually use both modes simultaniously."
+msgstr ""
+"可以按字符或按词追加额外延迟。\n"
+"\n"
+"注意：通过代码修改数值时，两种模式实际上可以同时生效。"
+
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
+#: addons/dialogic/Modules/Text/settings_text.tscn:306
+msgid "None"
+msgstr "无"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_1/text
 #: addons/dialogic/Modules/Text/settings_text.tscn:308
 msgid "Per Word"
@@ -2809,25 +3337,86 @@ msgstr "按字符"
 msgid "Ignored Characters"
 msgstr "忽略的字符"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:331
+msgid ""
+"An ignored character will add no delay, this is useful to exclude interpunction and whitespaces.\n"
+"\n"
+"If disabled, the general line of text length will be used, stripping the BBCode tags first.\n"
+"If enabled, the text will be scanned and the matching characters will be skipped."
+msgstr ""
+"被忽略的字符不产生延迟，适合排除标点与空白。\n"
+"\n"
+"禁用时，将按整行文本长度计算延迟（先剔除 BBCode 标签）。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:353
 msgid "Enabled at the start"
 msgstr "开局启用"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:359
+msgid ""
+"While you would usually enable Auto-Advance via code,\n"
+"if this is true it will be initially enabled.\n"
+"This kind of Auto-Advance (system) only stops when disabled via code. "
+msgstr ""
+"自动推进通常通过代码启用，\n"
+"勾选此项后会在开局默认启用。\n"
+"这种自动推进（系统级）只有通过代码禁用才会停止。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:378
 msgid "Auto-Skip"
 msgstr "自动跳过"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:389
+msgid ""
+"Auto-Skip is the concept of automatically skipping Timeline Events to the next unread Text Event or Event demanding user inputs (e.g. Choice, Wait Input, and Text Input).\n"
+"\n"
+"You can enable Auto-Skip from code via:\n"
+"Dialogic.Inputs.auto_skip.enabled = true\n"
+"\n"
+"By default, Auto-Skip will cancel on user input.\n"
+"You can disable this by calling:\n"
+"Dialogic.Inputs.auto_skip.disable_on_user_input = false"
+msgstr "自动跳过指自动跳过时间轴事件，直到下一条未读的文本事件，或需要玩家输入的事件（如选项、等待输入、文本输入）。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:409
 msgid "Time per Event"
 msgstr "每个事件的时长"
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:416
+msgid ""
+"The time until Auto-Skip will execute the next event.\n"
+"\n"
+"If this is set to 0.1s, each event should finish within that time.\n"
+"Custom events must respect this time, built-in events already handle Auto-Skip."
+msgstr ""
+"自动跳过执行下一事件前的等待时间。\n"
+"\n"
+"若设为 0.1 秒，则每个事件最多在该时间内完成。\n"
+"自定义事件也必须遵守该时间，内置事件已经处理好了自动跳过。"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Label.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:440
 msgid "Auto-Pauses"
 msgstr "自动暂停"
+
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | ?.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/settings_text.tscn:447
+msgid ""
+"Adds pauses after certain letters.\n"
+"\n"
+"Each set can contain multiple letters that will (individually)\n"
+"have a pause of the given length added after them."
+msgstr ""
+"在特定字母后插入停顿。\n"
+"\n"
+"每组可包含多个字母，这些字母（分别）之后都会加上相应时长的停顿。"
 
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | Button.text
 #: addons/dialogic/Modules/Text/settings_text.tscn:458
@@ -2889,6 +3478,17 @@ msgstr "输入情绪名称"
 msgid "Mode:"
 msgstr "模式："
 
+#. [L1_HOOK] 悬浮提示 (Control 存取均不走翻译，需注入) | OptionButton.tooltip_text (多行)
+#: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:121
+msgid ""
+"Interrupt = The next sound will stop the previous\n"
+"Overlap = Multiple sounds may play at once\n"
+"Await = A sound will only be played if the previous has finished"
+msgstr ""
+"打断 = 下一音效会停止上一个\n"
+"重叠 = 多个音效可同时播放\n"
+"等待 = 上一个播放完毕后才会播放下一个"
+
 #. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | OptionButton.popup/item_0/text
 #: addons/dialogic/Modules/Text/character_settings/character_moods_settings.tscn:124
 msgid "Interrupt"
@@ -2934,6 +3534,11 @@ msgstr "选择情绪"
 msgid "Text Input"
 msgstr "文本输入"
 
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/TextInput/event_text_input.gd:53
+msgid "Shows a text input field and stores it to a dialogic variable."
+msgstr "显示一个文本输入框，并把输入存入 Dialogic 变量。"
+
 #. [L1_HOOK] 事件编辑器左标签(left_text)
 #: addons/dialogic/Modules/TextInput/event_text_input.gd:105
 msgid "Text:"
@@ -2973,6 +3578,11 @@ msgstr "文本输入"
 #: addons/dialogic/Modules/Variable/event_variable.gd:139
 msgid "Set Variable"
 msgstr "设置变量"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Variable/event_variable.gd:140
+msgid "Changes a dialogic variable or a variable from an autoload."
+msgstr "修改一个 Dialogic 变量或来自 Autoload 的变量。"
 
 #. [L1_HOOK] 事件编辑器左标签(left_text)
 #: addons/dialogic/Modules/Variable/event_variable.gd:253 addons/dialogic/Modules/Voice/event_voice.gd:78
@@ -3044,10 +3654,34 @@ msgstr "你修改了现有变量！请使用引用管理器检查是否有引用
 msgid "How to use variables"
 msgstr "如何使用变量"
 
+#. [L0_AUTO] 节点文本 (Label/Button/RichTextLabel 等 setter 走翻译) | RichTextLabel.text (多行)
+#: addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn:197
+msgid ""
+"Variables are a good way to keep track of all kinds of things during your game: The player name, their health or the state of the world, their relationships, quests, etc. \n"
+"\n"
+"Setup the variables and their defaults in this editor and then change them during timelines with the [b]Set Variable[/b] event.\n"
+"\n"
+"You can use variables in conditions on the [b]Condition[/b] and [b]Choice[/b] events or as expressions in texts: \n"
+"[color=web_gray][code]Hi I'm [color=turquoise]{PlayerName}[/color].[/code][/color]\n"
+"\n"
+"If you need to access a variables value from a script, you can do so like this:\n"
+"[color=web_gray][code]print([color=goldenrod]Dialogic[/color].[color=olive_drab]VAR[/color].[color=turquoise]MyVariable[/color])\n"
+"[color=goldenrod]Dialogic[/color].[color=olive_drab]VAR[/color].[color=turquoise]AnotherVariable[/color] = 42[/code][/color]\n"
+"\n"
+"You can create variable groups with [img]res://addons/dialogic/Editor/Images/Pieces/add-folder.svg[/img]. To access a variable in a group use it's \"path\" like so: \n"
+"[code][color=web_gray][color=turquoise]{MyGroup.MyVariable}[/color] # in some text\n"
+"[code]print([color=goldenrod]Dialogic[/color].[color=olive_drab]VAR[/color].[color=turquoise]MyGroup[/color].[color=turquoise]MyVariable[/color])[/code] # in a script[/color][/code]"
+msgstr "变量非常适合在游戏中记录各种信息：玩家名字、生命值、世界状态、人际关系、任务等等。"
+
 #. [L2_INSP] 事件显示名(event_name)
 #: addons/dialogic/Modules/Voice/event_voice.gd:46 addons/dialogic/Modules/Voice/index.gd:10
 msgid "Voice"
 msgstr "配音"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Voice/event_voice.gd:47
+msgid "Allows setting an audio file that will be played along the next text event."
+msgstr "允许设置一个随下一条文本事件播放的音频文件。"
 
 #. [L0_AUTO] 事件编辑器右标签(right_text)
 #: addons/dialogic/Modules/Voice/event_voice.gd:79
@@ -3063,6 +3697,11 @@ msgstr "选择文件"
 #: addons/dialogic/Modules/Wait/event_wait.gd:37 addons/dialogic/Modules/Wait/event_wait.gd:68 addons/dialogic/Modules/Wait/index.gd:10
 msgid "Wait"
 msgstr "等待"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/Wait/event_wait.gd:38
+msgid "Waits a given amount of time. Can hide the textbox and be skippable."
+msgstr "等待指定时长。可隐藏文本框，且可跳过。"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/Wait/event_wait.gd:71
@@ -3088,6 +3727,11 @@ msgstr "可跳过："
 #: addons/dialogic/Modules/WaitInput/event_wait_input.gd:28
 msgid "Wait for Input"
 msgstr "等待输入"
+
+#. [L2_INSP] 事件说明(event_description)
+#: addons/dialogic/Modules/WaitInput/event_wait_input.gd:29
+msgid "Waits until the next advance input action."
+msgstr "等待下一次推进输入。"
 
 #. [L2_INSP] 事件编辑器字段名
 #: addons/dialogic/Modules/WaitInput/event_wait_input.gd:53

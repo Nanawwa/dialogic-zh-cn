@@ -23,6 +23,10 @@ const PO_PATH := "res://addons/dialogic_zh_cn/translations/zh_CN.po"
 ## msgid -> msgstr 词典
 var _dict: Dictionary = {}
 
+## 自愈补翻的帧计数（headless 下真实时间不可靠，用帧数）
+var _frame_counter: int = 0
+const HEAL_INTERVAL_FRAMES := 600
+
 
 func _enter_tree() -> void:
 	_load_dict()
@@ -35,21 +39,22 @@ func _enter_tree() -> void:
 	# Dialogic 主界面在本插件之前加载，对已存在的界面做一轮补翻
 	_apply_to_existing_tree.call_deferred()
 	# 自愈兜底：部分菜单项/默认值在补翻之后才动态填充（如 PopupMenu 的
-	# 事件分类项、LineEdit 默认值），node_added 抓不到。用低频定时补翻
-	# 收尾，任何时序的文本最终都会被替换。替换是幂等的，重复跑无副作用。
-	var timer := Timer.new()
-	timer.wait_time = 2.0
-	timer.timeout.connect(_apply_to_existing_tree)
-	timer.autostart = true
-	add_child(timer)
+	# 事件分类项、LineEdit 默认值），node_added 抓不到。用帧计数低频
+	# 补翻收尾（headless 与 GUI 的真实时间流速不同，帧数才可靠），
+	# 替换是幂等的，重复跑无副作用。
+	set_process(true)
+	_frame_counter = 0
 	# 诊断：启动数帧后统计漏网节点，输出样例帮助定位替换盲区。
 	_diagnose.call_deferred()
+	# 全量英文探针：收集所有疑似未翻译文本转储到文件
+	_dump_untranslated.call_deferred()
 
 
 ## 启动数秒后统计漏网节点，输出样例帮助定位替换盲区。
 func _diagnose() -> void:
-	# 等 3 秒真实时间：让自愈定时器至少跑过一轮，再统计残留
-	await get_tree().create_timer(3.0).timeout
+	# 等 900 帧：让自愈补翻至少跑过一轮，再统计残留
+	for i in 700:
+		await get_tree().process_frame
 	var missed: Array[String] = []
 	_collect_missed(get_tree().root, missed)
 	if missed.is_empty():
@@ -77,6 +82,112 @@ func _collect_missed(node: Node, missed: Array[String]) -> void:
 				missed.append("PopupMenu(%s) item %d = %s" % [node.name, i, it])
 	for child in node.get_children():
 		_collect_missed(child, missed)
+
+
+# ---------------------------------------------------------- 全量英文探针
+
+## 遍历编辑器整棵树，收集所有"疑似未翻译英文"的用户可见文本，
+## 写入 res://addons/dialogic_zh_cn/untranslated_dump.txt 供离线分析。
+## 排除：含中文的（已翻译或用户内容）、路径、纯符号、超长用户文本。
+func _dump_untranslated() -> void:
+	for i in 700:
+		await get_tree().process_frame
+	var found: Array[String] = []
+	_collect_english(get_tree().root, found, {})
+	var f := FileAccess.open("res://addons/dialogic_zh_cn/untranslated_dump.txt",
+			FileAccess.WRITE)
+	if f == null:
+		print("[dialogic_zh_cn] 探针：转储文件写入失败")
+		return
+	f.store_line("总计 %d 条（去重后）" % found.size())
+	for s in found:
+		f.store_line(s)
+	f.close()
+	print("[dialogic_zh_cn] 探针：收集疑似未翻译文本 %d 条 -> untranslated_dump.txt" % found.size())
+
+
+func _looks_english(s: String) -> bool:
+	if s.length() < 2 or s.length() > 300:
+		return false
+	var has_word := false
+	for i in range(s.length() - 1):
+		var c := s.unicode_at(i)
+		if ((c >= 65 and c <= 90) or (c >= 97 and c <= 122)) and \
+				((s.unicode_at(i + 1) >= 65 and s.unicode_at(i + 1) <= 90) or \
+				(s.unicode_at(i + 1) >= 97 and s.unicode_at(i + 1) <= 122)):
+			has_word = true
+			break
+	if not has_word:
+		return false
+	for i in s.length():
+		var u := s.unicode_at(i)
+		if u >= 0x4E00 and u <= 0x9FFF:
+			return false
+	if s.begins_with("res://") or s.begins_with("uid://") or s.begins_with("C:"):
+		return false
+	return true
+
+
+func _collect_english(node: Node, found: Array[String], seen: Dictionary) -> void:
+	if node is Control:
+		var c := node as Control
+		_props_of(c, found, seen, ["text", "tooltip_text", "placeholder_text"])
+	if node is Window:
+		var w := node as Window
+		_check_one(w.title, "Window.title", found, seen, w.get_class())
+	if node is PopupMenu:
+		var pm := node as PopupMenu
+		for i in range(pm.item_count):
+			_check_one(pm.get_item_text(i), "PopupMenu.item", found, seen, node.name)
+			_check_one(pm.get_item_tooltip(i), "PopupMenu.tip", found, seen, node.name)
+	if node is TabContainer:
+		var tc := node as TabContainer
+		for i in range(tc.get_tab_count()):
+			_check_one(tc.get_tab_title(i), "TabContainer.title", found, seen, node.name)
+	if node is TabBar:
+		var tb := node as TabBar
+		for i in range(tb.tab_count):
+			_check_one(tb.get_tab_title(i), "TabBar.title", found, seen, node.name)
+	if node is Tree:
+		var tree := node as Tree
+		for i in range(tree.columns):
+			_check_one(tree.get_column_title(i), "Tree.col", found, seen, node.name)
+	for child in node.get_children():
+		_collect_english(child, found, seen)
+
+
+func _props_of(c: Control, found: Array[String], seen: Dictionary, props: Array) -> void:
+	for p in props:
+		if p in c:
+			var v: String = c.get(p)
+			if v != "":
+				_check_one(v, p, found, seen, c.get_class())
+	if c is ItemList:
+		var il := c as ItemList
+		for i in range(il.item_count):
+			_check_one(il.get_item_text(i), "ItemList.item", found, seen, c.name)
+
+
+func _check_one(v: String, prop: String, found: Array[String], seen: Dictionary,
+		ctx: String) -> void:
+	if not _looks_english(v):
+		return
+	var key := prop + "|" + v
+	if seen.has(key):
+		return
+	seen[key] = true
+	var short := v
+	if short.length() > 200:
+		short = short.substr(0, 200) + "…"
+	found.append("[%s|%s] %s" % [ctx, prop, short.replace("\n", " ⏎ ")])
+
+
+func _process(_delta: float) -> void:
+	if _dict.is_empty():
+		return
+	_frame_counter += 1
+	if _frame_counter % HEAL_INTERVAL_FRAMES == 0:
+		_apply_to_existing_tree()
 
 
 func _exit_tree() -> void:

@@ -94,6 +94,7 @@ GD_PATTERNS = [
     (_p(r"\badd_header_button\(\s*(<STR>)"), "L0_AUTO", "事件头部按钮"),
     (_p(r"\bset_placeholder\(\s*(<STR>)"), "L0_AUTO", "占位符"),
     (_p(r"\bevent_name\s*=\s*(<STR>)"), "L2_INSP", "事件显示名(event_name)"),
+    (_p(r"\bevent_description\s*=\s*(<STR>)"), "L2_INSP", "事件说明(event_description)"),
     (_p(r"['\"]text['\"]\s*:\s*(<STR>)"), "L2_INSP", "快捷键说明(shortcut_popup)"),
     (_p(r"\bset_column_title\([^,]+,\s*(<STR>)"), "L2_INSP", "Tree 列头(set_column_title)"),
     (_p(r"\bset_tab_title\([^,]+,\s*(<STR>)"), "L2_INSP", "标签页标题(set_tab_title)"),
@@ -194,29 +195,29 @@ def scan_tscn(path: str, rel: str, cat: Catalog):
             continue
         m = TSCN_ASSIGN_RE.match(line)
         if not m:
-            # 多行字符串：属性以 " 开头但本行未闭合，跨行收集到闭合为止
-            ml = TSCN_ASSIGN_RE.match(line.rstrip("\n") + "")
-            raw = None
-            field = None
+            # 多行字符串：属性以 " 开头但本行未闭合，跨行收集到闭合为止。
+            # 注意起始引号已被正则剥离，闭合判定必须把起始引号算回去
+            # （引号总数为奇 = 尚未闭合），否则多行属性永远判定为闭合，
+            # 整片长文本（首页欢迎语、设置页 tooltip）都会漏掉。
             mm = re.match(r"^\s*([A-Za-z_][\w/]*)\s*=\s*\"(.*)$", line.rstrip("\n"))
-            if mm and mm.group(2).count('"') % 2 == 1:
+            if mm and mm.group(2).count('"') % 2 == 0:
                 field = mm.group(1)
-                raw = mm.group(2)
-                while ln < len(lines):
-                    nxt = lines[ln].rstrip("\n")
-                    ln += 1
-                    raw += "\n" + nxt
-                    if nxt.count('"') % 2 == 1:
-                        break
-                # 收集串以 " 结束，去掉最后一个引号
-                if raw.endswith('"'):
-                    raw = raw[:-1]
                 leaf = field.split("/")[-1]
                 if leaf in TSCN_FIELDS:
-                    val = unescape_godot(raw)
-                    layer, kind = TSCN_FIELDS[leaf]
-                    node = f"{cur_type or '?'}.{field}"
-                    cat.add(val, layer, f"{kind} | {node} (多行)", f"{rel}:{ln}")
+                    raw = mm.group(2)
+                    closed = False
+                    while ln < len(lines) and not closed:
+                        nxt = lines[ln].rstrip("\n")
+                        ln += 1
+                        raw += "\n" + nxt
+                        if raw.count('"') % 2 == 1:
+                            closed = True
+                    if closed and raw.endswith('"'):
+                        raw = raw[:-1]
+                        val = unescape_godot(raw)
+                        layer, kind = TSCN_FIELDS[leaf]
+                        node = f"{cur_type or '?'}.{field}"
+                        cat.add(val, layer, f"{kind} | {node} (多行)", f"{rel}:{ln}")
             continue
         field, raw = m.group(1), m.group(2)
         leaf = field.split("/")[-1]
@@ -252,7 +253,7 @@ def scan_gd(path: str, rel: str, cat: Catalog):
                 val = unquote(m.group(1))
                 # 事件显示名与快捷键说明是刻意的人工文案，单词形式
                 # （Search/Copy 等）也要收录，不套用通用过滤
-                if is_translatable(val) or kind.startswith(("事件显示名", "快捷键", "Tree 列头", "标签页标题")):
+                if is_translatable(val) or kind.startswith(("事件显示名", "事件说明", "快捷键", "Tree 列头", "标签页标题")):
                     cat.add(val, layer, kind, f"{rel}:{ln}")
 
         # 事件编辑器字段键：'character_identifier' -> "Character Identifier"

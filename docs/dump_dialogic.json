@@ -1,0 +1,6198 @@
+[
+ {
+  "ctx": "@PopupMenu@4558|PopupMenu.item",
+  "text": "Clear Recent Scenes"
+ },
+ {
+  "ctx": "@PopupMenu@4568|PopupMenu.item",
+  "text": "glTF 2.0 Scene..."
+ },
+ {
+  "ctx": "@PopupMenu@5157|PopupMenu.item",
+  "text": "Version Control Settings..."
+ },
+ {
+  "ctx": "@PopupMenu@5167|PopupMenu.item",
+  "text": "Upgrade Project Files..."
+ },
+ {
+  "ctx": "@PopupMenu@5168|PopupMenu.item",
+  "text": "Import"
+ },
+ {
+  "ctx": "@PopupMenu@5168|PopupMenu.item",
+  "text": "FileSystem"
+ },
+ {
+  "ctx": "@PopupMenu@5168|PopupMenu.item",
+  "text": "Inspector"
+ },
+ {
+  "ctx": "@PopupMenu@5168|PopupMenu.item",
+  "text": "Signals"
+ },
+ {
+  "ctx": "@PopupMenu@5168|PopupMenu.item",
+  "text": "Groups"
+ },
+ {
+  "ctx": "@PopupMenu@5168|PopupMenu.item",
+  "text": "Output"
+ },
+ {
+  "ctx": "@PopupMenu@5168|PopupMenu.item",
+  "text": "Animation"
+ },
+ {
+  "ctx": "@PopupMenu@5168|PopupMenu.item",
+  "text": "Shader Editor"
+ },
+ {
+  "ctx": "@PopupMenu@5178|PopupMenu.item",
+  "text": "Delete Layout..."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Script"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Game"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Asset Store"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Dialogic"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Run the project's main scene."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Stop the currently running project."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Remote Deploy"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Please Confirm..."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Play the currently edited scene."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Play a custom scene."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Enable Movie Maker mode. ⏎ The project will run at stable FPS and the visual and audio output will be recorded to a video file."
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Forward+"
+ },
+ {
+  "ctx": "OptionButton|tooltip_text",
+  "text": "Choose a renderer. ⏎  ⏎ Notes: ⏎ - On mobile platforms, the Mobile renderer is used if Forward+ is selected here. ⏎ - On the web platform, the Compatibility renderer is always used."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Add/Create a New Node."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Instantiate a scene file as a Node. Creates an inherited scene if no root node exists."
+ },
+ {
+  "ctx": "LineEdit|tooltip_text",
+  "text": "Filter nodes by entering a part of their name, type (if prefixed with \"type:\" or \"t:\") ⏎ or group (if prefixed with \"group:\" or \"g:\"). Filtering is case-insensitive."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Nodes"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Attach a new or existing script to the selected node."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Detach the script from the selected node."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Extend the script of the selected node."
+ },
+ {
+  "ctx": "AcceptDialog|Window.title",
+  "text": "Alert!"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Matches:"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Reset filters."
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "Filters"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "NAME"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "PARENT"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "TYPE"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "SCENE"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "ROOT"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "COUNTER"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "GDScript"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Spatial"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Import As:"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "Preset"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Advanced..."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Reimport"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "The imported resource is currently loaded. All instances will be replaced and undo history will be cleared."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "WARNING: Assets exist that use this resource. They may stop loading properly after changing type."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Select a resource file in the filesystem or in the inspector to adjust import settings."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Go to previous selected folder/file."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Go to next selected folder/file."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Change Split Mode"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Files"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Sort Files"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "View items as a grid of thumbnails."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Scanning Files, ⏎ Please Wait..."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Dependencies"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Sort Dependencies"
+ },
+ {
+  "ctx": "@Tree@6493|Tree.col",
+  "text": "Type"
+ },
+ {
+  "ctx": "@Tree@6493|Tree.col",
+  "text": "Path"
+ },
+ {
+  "ctx": "LineEdit|text",
+  "text": "Node"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Don't Ask Again"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "This dialog can be skipped by holding shift or enabled/disabled in the Editor Settings: Docks > FileSystem > Ask Before Moving Files."
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Global"
+ },
+ {
+  "ctx": "@ItemList@8096|ItemList.item",
+  "text": "The Beginning"
+ },
+ {
+  "ctx": "@TabBar@106|TabBar.title",
+  "text": "main_menu"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle distraction-free mode."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Snapping Options"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Lock selected node, preventing selection and movement."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Unlock selected node, allowing selection and movement."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Groups the selected node with its children. This causes the parent to be selected when any child node is clicked in 2D and 3D view."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Ungroups the selected node from its children. Child nodes will be individual items in 2D and 3D view."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Skeleton Options"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "View"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Translation mask for inserting keys."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Rotation mask for inserting keys."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Scale mask for inserting keys."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Insert keys (based on mask)."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Auto insert keys when objects are translated, rotated or scaled (based on mask). ⏎ Keys are only added to existing tracks, no new tracks will be created. ⏎ Keys must be inserted manually for the first tim…"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Animation Key and Pose Options"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Top Left"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Center Top"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Top Right"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Top Wide"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Center Left"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Center"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Center Right"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "HCenter Wide"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Bottom Left"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Center Bottom"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Bottom Right"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Bottom Wide"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Left Wide"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "VCenter Wide"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Right Wide"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Full Rect"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "Camera2D"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Create points."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Edit points. ⏎ LMB: Move Point ⏎ RMB: Erase Point"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Erase points."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Move center of gravity to geometric center."
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "Skeleton2D"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "Sprite2D"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "When enabled, you can select scenes from the FileSystem dock, Scene dock, or 2D editor's viewport. ⏎ Holding Ctrl enables picking from the 2D editor's viewport."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Edit properties of the selected scene."
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "ParallaxBackground"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "CPUParticles2D"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "GPUParticles2D"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "AIIIT"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "CAMPUS LIFE SIMULATOR"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "MAIN MENU — 01/04"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Grid Offset:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Grid Step:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Primary Line Every:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Rotation Offset:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Rotation Step:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Scale Step:"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Groups the selected node with its children. This selects the parent when any child node is clicked in 2D and 3D view."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "When enabled, transforming a node will preserve the global transform of its children. ⏎ This also applies when editing transform properties in the Inspector."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle preview sunlight. ⏎ If a DirectionalLight3D node is added to the scene, preview sunlight is disabled."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle preview environment. ⏎ If a WorldEnvironment node is added to the scene, preview environment is disabled."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Edit Sun and Environment settings."
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "MultiMesh"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Create Polygon"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Edit Polygon"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "CSG"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "CPUParticles3D"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "GPUParticles3D"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Preview"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "Preview through the selected camera. ⏎ Hold Shift while clicking to also enable Pilot mode."
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Pilot"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "Enable pilot mode for the preview camera. ⏎ Allows WASD movement and mouse look when in preview mode."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "View Rotation Locked"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "To zoom further, change the camera's clipping planes (View → Settings...)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Cinematic Preview"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Snap Settings"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Viewport Settings"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Perspective VFOV (deg.):"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "View Z-Near:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "View Z-Far:"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Transform Change"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Translate:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Rotate (deg.):"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Scale (ratio):"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Transform Type"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Pre"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Preview Sun"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Sun Direction"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Angular Altitude"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Azimuth"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Sun Color"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Sun Energy"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Shadow Max Distance"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Add Sun to Scene"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Adds a DirectionalLight3D node matching the preview sun settings to the current scene. ⏎ Hold Shift while clicking to also add the preview environment to the current scene."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Preview Environment"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Sky Color"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Ground Color"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Sky Energy"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Post Process"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "AO"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Glow"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Tonemap"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "GI"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Add Environment to Scene"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Adds a WorldEnvironment node matching the preview environment settings to the current scene. ⏎ Hold Shift while clicking to also add the preview sun to the current scene."
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "File"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Navigate to script list."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Open Godot online documentation."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Search Help"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Search the reference documentation."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Go to previous edited document."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Go to next edited document."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Scripts"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Methods"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle alphabetical sorting of the method list."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Show Replace (Ctrl+R)"
+ },
+ {
+  "ctx": "LineEdit|tooltip_text",
+  "text": "Find"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Replace"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Previous Match"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Next Match"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Selection Only"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Files have been modified outside Godot"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "The following files are newer on disk:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "What action should be taken?"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Force pause at SceneTree level. Stops all processing, but you can still interact with the project."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Change the game speed."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Reset the game speed."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Input"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Allow game input."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Disable game input and allow to select Node2Ds, Controls, and manipulate the 2D camera."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Disable game input and allow to select Node3Ds and manipulate the 3D camera."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Show list of selectable nodes at position clicked."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle Selection Visibility"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Selection Options"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Mute game audio."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Override the in-game camera."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Camera Override Options"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Game Window Options"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Game embedding not available on your OS."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Search assets (excluding templates). Use tags by including \"#tagname\"."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Import..."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Plugins..."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Sort:"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Relevance"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Category:"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "All"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Source:"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "godotengine.org (Official)"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "Licenses"
+ },
+ {
+  "ctx": "LineEdit|text",
+  "text": "end_debt.dtl"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "New Timeline"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "New Character"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Resources"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "2.0-Alpha-20 (Godot 4.5+)"
+ },
+ {
+  "ctx": "RightClickItemMenu|PopupMenu.item",
+  "text": "Remove From List"
+ },
+ {
+  "ctx": "RightClickItemMenu|PopupMenu.item",
+  "text": "Copy Identifier"
+ },
+ {
+  "ctx": "RightClickItemMenu|PopupMenu.item",
+  "text": "Open in External Program"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Play Timeline"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Play the current timeline (CTRL+F6)"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Make the dialogic editor floating."
+ },
+ {
+  "ctx": "LinkButton|text",
+  "text": "  Wiki"
+ },
+ {
+  "ctx": "LinkButton|text",
+  "text": "  Discord"
+ },
+ {
+  "ctx": "RichTextLabel|text",
+  "text": "[center]Welcome to Dialogic, a plugin that lets you easily create stories and dialogs for your game!"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "end_debt"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "This unique identifier is based on the file name. You can change it in the Reference Manager."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Shortcuts"
+ },
+ {
+  "ctx": "HBoxContainer|placeholder_text",
+  "text": "(No one)"
+ },
+ {
+  "ctx": "Suggestions|ItemList.item",
+  "text": "Hello"
+ },
+ {
+  "ctx": "HBoxContainer|placeholder_text",
+  "text": "(Don't change)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Emit dialogic signal with argument"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "(Dictionary in body)"
+ },
+ {
+  "ctx": "LineEdit|text",
+  "text": "mental:0"
+ },
+ {
+  "ctx": "EventPopupMenu|PopupMenu.item",
+  "text": "Play from here"
+ },
+ {
+  "ctx": "EventPopupMenu|PopupMenu.item",
+  "text": "Open Code"
+ },
+ {
+  "ctx": "EventPopupMenu|PopupMenu.item",
+  "text": "Move up"
+ },
+ {
+  "ctx": "EventPopupMenu|PopupMenu.item",
+  "text": "Move down"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Main"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Text ⏎ Displays text. Can be said by a character. Can contain all kinds of bbcode, text effects or variables."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Character ⏎ Allows joining or leaving a character or updating its portrait, position, mirroring, z-index or animation."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Flow"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Choice ⏎ Shows a clickable option. Should be grouped together with other choices. Contains events that are played when chosen. Can have a condition."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Condition ⏎ Allows playing the contained events only if the condition is true."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Label ⏎ Provides a point to jump to with the jump event. Can be used to split a timeline into sections."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Jump ⏎ Allows going to another timeline or jumping to a label event in this timeline."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Return ⏎ Returns to the last jump event or ends the timeline (if no jump happened before)."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "End ⏎ Ends the timeline early. Not required at the timeline end."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Wait ⏎ Waits a given amount of time. Can hide the textbox and be skippable."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Wait for Input ⏎ Waits until the next advance input action."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Audio ⏎ Plays an audio file (sound effect or music) on one of the audio layers (configured in the settings)."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Voice ⏎ Allows setting an audio file that will be played along the next text event."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Visuals"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Background ⏎ Shows or hides a background image or scene."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Change Style ⏎ Changes to one of the styles configured in the style editor."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Logic"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Set Variable ⏎ Changes a dialogic variable or a variable from an autoload."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Text Input ⏎ Shows a text input field and stores it to a dialogic variable."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Signal ⏎ Emits the Dialogic.signal_event signal with a given argument. You can react to this signal in your code by connecting to it."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Call ⏎ Calls a method on an autoload script or scene."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Other"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Comment ⏎ Has no effect on gameplay, but can help organize your timeline."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Clear ⏎ Clears current state like text, background, portraits, style or audio."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Search"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "No timeline opened. "
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "This name will be displayed on the name label. If you want it to change, you can use a dialogic variable. E.g.: {Player.Name}"
+ },
+ {
+  "ctx": "HBoxContainer|placeholder_text",
+  "text": "Select Default Portrait"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Character Prefix & Suffix"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "If a character speaks, this appears before their text."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "If a character speaks, this appears after their text."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "If a character style is set, dialogic will switch to this style, whenever the character speaks.  ⏎ For this it's best to use a variation of the same layout to avoid instancing a lot."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Typing sound moods allow you to vary the \"typing\" sounds of your character.  ⏎ They can be changed based on the portrait or with the [mood=something] text effect."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Enter Mood Name"
+ },
+ {
+  "ctx": "OptionButton|tooltip_text",
+  "text": "Interrupt = The next sound will stop the previous"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Portraits"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Reference"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "You can use a custom scene for this portrait."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "asdsdasdasd"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Default scene"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Scale, Offset & Mirror"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Typing Sound Mood"
+ },
+ {
+  "ctx": "HBoxContainer|placeholder_text",
+  "text": "Select Mood"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "No character opened. "
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Entries"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Enter unique name..."
+ },
+ {
+  "ctx": "StyleList|ItemList.item",
+  "text": "Style"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Each layer is a scene and settings that will be applied to that scene."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Variables"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " General"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " Editor"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Editor"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " Text"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " Audio"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " Portraits"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " Choices"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " Saving"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Saving"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " History"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " Translations"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Translations"
+ },
+ {
+  "ctx": "Button|text",
+  "text": " Modules"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Modules"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Resave all timelines"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Opens and resaves all timelines. This can be useful if an update introduced a syntax change."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "The layout scene configured in the Layout editor is automatically "
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Configure where dialogic looks for custom modules."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "e.g. \"Print\", \"Item\", \"Door\", \"Quest\""
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "These settings affect the visual timeline editor."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "If set to 0, image previews will be disabled."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "This adds extra space at the bottom of event blocks."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Enabling this prepends the event name at the beginning of event blocks."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "The action that skips text and generally advances to the next event."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "If enabled the revealing of text can be skipped with the input action."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Delay before you can skip. "
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Delay before you can advance (only if the text finishes revealing on its own). "
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Supply a list of bbcode effect resources (paths or uids) separated by comma."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "If enabled dialogic, new lines will be treated as [n] effects,"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "An additional delay per character or word can be added."
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "None"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "An ignored character will add no delay, this is useful to exclude interpunction and whitespaces."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "While you would usually enable Auto-Advance via code,"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "The time until Auto-Skip will execute the next event."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Adds pauses after certain letters."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "The default audio bus used by TypeSound nodes."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Default settings for named audio channels."
+ },
+ {
+  "ctx": "HBoxContainer|placeholder_text",
+  "text": "Enter Channel Name"
+ },
+ {
+  "ctx": "RichTextLabel|text",
+  "text": "dB"
+ },
+ {
+  "ctx": "HBoxContainer|placeholder_text",
+  "text": "Master"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Default Scene"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "These settings are used for Leave and Join events if no animation is selected."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Define the default behaviour (hide or disable) for choices that have a condition that isn't met."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "When enabled, some events (Text, Join, Leave, Choice) will store a log."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "When enabled, the simple history is included in the savegame. Also, it is reset on Dialogic.clear(FULL_CLEAR)."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "When enabled, the full history is included in the savegame. Also, it is reset on Dialogic.clear(FULL_CLEAR)."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Remembers whether events were already met in the timeline."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Stores the already-visited history in a global save file when an Auto-Save occurs."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Stores the already-visited history in a global save file when a normal Save occurs."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Change this locale to test your game in a different language (only in-editor)."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Choose a folder to let Dialogic save CSV files in."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Decides where to save the generated CSV files."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Adds an empty line into per-project CSVs to differentiate between sections."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "This button will scan all timelines and generate or update their CSV files."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Godot imports CSV files as \".translation\" files."
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Be very careful with this button!"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Here you can manage modules:"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Refresh"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Open"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Old"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "New"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Note that searching and replacing is only implemented for timelines. "
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Identifiers/Paths"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Dialogic 2.0 Alpha 20"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Published on 2026-07-21 by Jowan-Spooner"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Be careful. This will delete the addons/dialogic folder and install the new version. Any custom changes in that folder will be lost."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Messages"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "Errors"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "Evaluator"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "Profiler"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "Visual Profiler"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "Monitors"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "Video RAM"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "Misc"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "Network Profiler"
+ },
+ {
+  "ctx": "@TabContainer@9178|TabContainer.title",
+  "text": "ObjectDB Profiler"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Ignore Error Breaks"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Copy Error"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Step Into"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Step Over"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Step Out"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Break"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Continue"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Thread:"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Stack Variables"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Expression to evaluate (Up/Down: Navigate history)"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Clear on Run"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Evaluate"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Start"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Autostart"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Measure:"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Frame Time (ms)"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Inclusive"
+ },
+ {
+  "ctx": "OptionButton|tooltip_text",
+  "text": "Inclusive: Includes time from other functions called by this function. ⏎ Use this to spot bottlenecks. ⏎  ⏎ Self: Only count the time spent in the function itself, not in other functions called by that func…"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Frame #:"
+ },
+ {
+  "ctx": "@Tree@9510|Tree.col",
+  "text": "Calls"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Fit to Frame"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Linked"
+ },
+ {
+  "ctx": "@Tree@9554|Tree.col",
+  "text": "CPU"
+ },
+ {
+  "ctx": "@Tree@9554|Tree.col",
+  "text": "GPU"
+ },
+ {
+  "ctx": "@Tree@9572|Tree.col",
+  "text": "Monitor"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Pick one or more items from the list to display the graph."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "List of Video Memory Usage by Resource:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Total:"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Export list to a CSV file"
+ },
+ {
+  "ctx": "@Tree@9597|Tree.col",
+  "text": "Format"
+ },
+ {
+  "ctx": "@Tree@9597|Tree.col",
+  "text": "Usage"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Clicked Control:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Clicked Control Type:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Live Edit Root:"
+ },
+ {
+  "ctx": "LineEdit|text",
+  "text": "/root"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Set From Tree"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Export measures as CSV"
+ },
+ {
+  "ctx": "@Tree@19603|Tree.col",
+  "text": "Incoming RPC"
+ },
+ {
+  "ctx": "@Tree@19603|Tree.col",
+  "text": "Outgoing RPC"
+ },
+ {
+  "ctx": "@Tree@19617|Tree.col",
+  "text": "Root"
+ },
+ {
+  "ctx": "@Tree@19617|Tree.col",
+  "text": "Synchronizer"
+ },
+ {
+  "ctx": "@Tree@19617|Tree.col",
+  "text": "Config"
+ },
+ {
+  "ctx": "@Tree@19617|Tree.col",
+  "text": "Count"
+ },
+ {
+  "ctx": "@Tree@19617|Tree.col",
+  "text": "Size"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Take ObjectDB Snapshot"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Diff Against:"
+ },
+ {
+  "ctx": "@TabContainer@19663|TabContainer.title",
+  "text": "Summary"
+ },
+ {
+  "ctx": "@TabContainer@19663|TabContainer.title",
+  "text": "Classes"
+ },
+ {
+  "ctx": "@TabContainer@19663|TabContainer.title",
+  "text": "Objects"
+ },
+ {
+  "ctx": "@TabContainer@19663|TabContainer.title",
+  "text": "Nodes"
+ },
+ {
+  "ctx": "@TabContainer@19663|TabContainer.title",
+  "text": "RefCounted"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "ObjectDB Snapshot Summary"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Press 'Take ObjectDB Snapshot' to snapshot the ObjectDB."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Memory in Godot is either owned natively by the engine or owned by the ObjectDB."
+ },
+ {
+  "ctx": "@PopupMenu@9607|PopupMenu.item",
+  "text": "Show in File Explorer"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Layout:"
+ },
+ {
+  "ctx": "VSlider|tooltip_text",
+  "text": " 0.0 dB"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Speakers"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "BandLimitFilter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "BandPassFilter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Capture"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Chorus"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Compressor"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Delay"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Distortion"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "EQ"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "EQ10"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "EQ21"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "EQ6"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Filter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "HardLimiter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "HighPassFilter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "HighShelfFilter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Limiter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "LowPassFilter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "LowShelfFilter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "NotchFilter"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Panner"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Phaser"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "PitchShift"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Record"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "Reverb"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "SpectrumAnalyzer"
+ },
+ {
+  "ctx": "@PopupMenu@19767|PopupMenu.item",
+  "text": "StereoEnhance"
+ },
+ {
+  "ctx": "LineEdit|text",
+  "text": "Music"
+ },
+ {
+  "ctx": "VSlider|tooltip_text",
+  "text": "-6.0 dB"
+ },
+ {
+  "ctx": "LineEdit|text",
+  "text": "SFX"
+ },
+ {
+  "ctx": "VSlider|tooltip_text",
+  "text": "-3.0 dB"
+ },
+ {
+  "ctx": "LineEdit|text",
+  "text": "UI"
+ },
+ {
+  "ctx": "VSlider|tooltip_text",
+  "text": "-4.0 dB"
+ },
+ {
+  "ctx": "SpinBox|tooltip_text",
+  "text": "Animation position (in seconds)."
+ },
+ {
+  "ctx": "LineEdit|tooltip_text",
+  "text": "Scale animation playback globally for the node."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Animation Tools"
+ },
+ {
+  "ctx": "OptionButton|tooltip_text",
+  "text": "Display list of animations in player."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Autoplay on Load"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "Edit"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Animation properties."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Enable Onion Skinning"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Onion Skinning Options"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Pin AnimationPlayer"
+ },
+ {
+  "ctx": "@PopupMenu@12321|PopupMenu.item",
+  "text": "Delete Marker(s)"
+ },
+ {
+  "ctx": "@PopupMenu@12321|PopupMenu.item",
+  "text": "Show All Marker Names"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Insert Marker"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Marker Name"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Marker Color"
+ },
+ {
+  "ctx": "AcceptDialog|Window.title",
+  "text": "Error!"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Change Marker Name:"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Select a new track by type to add to this animation."
+ },
+ {
+  "ctx": "LineEdit|tooltip_text",
+  "text": "Filter tracks by entering part of their node name or property."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Tracks"
+ },
+ {
+  "ctx": "TextureRect|tooltip_text",
+  "text": "Animation length (seconds)"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Animation Looping"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Select an AnimationPlayer node to create and edit animations."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Add AnimationPlayer"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Add a new AnimationPlayer node to the scene."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Imported Animation"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Warning: Editing imported animation"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Dummy Player"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Warning: Editing dummy AnimationPlayer"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Inactive Player"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Warning: AnimationPlayer is inactive"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle between the bezier curve editor and track editor."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle function names in the track editor."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Only show tracks from nodes selected in tree."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Sort tracks/groups alphabetically. ⏎ If disabled, tracks are shown in the order they are added and can be reordered using drag-and-drop."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Group tracks by node or display them as plain list."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Insert at current time."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Apply snapping to timeline cursor."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Apply snapping to selected key(s)."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Apply snapping to the nearest integer FPS."
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Seconds"
+ },
+ {
+  "ctx": "SceneTreeDialog|Window.title",
+  "text": "Select a Node"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Show All"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Search:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Description:"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Use Bezier Curves"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Create RESET Track(s)"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Animation Optimizer"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Max Velocity Error:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Max Angular Error:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Max Precision Error:"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Clean-Up Animation(s) (NO UNDO!)"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Trim keys placed in negative time"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Trim keys placed exceed the animation length"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Remove invalid keys"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Remove unresolved and empty tracks"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Clean-up all animations"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Scale Ratio:"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Select Transition and Easing"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Transition Type:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Ease Type:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "FPS:"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Animation Baker"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "3D Pos/Rot/Scl Track:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Blendshape Track:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Value Track:"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Select Tracks to Copy"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Select All/None"
+ },
+ {
+  "ctx": "AcceptDialog|Window.title",
+  "text": "Key Insertion Error"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Create New Animation"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Animation Name:"
+ },
+ {
+  "ctx": "AcceptDialog|Window.title",
+  "text": "Cross-Animation Blend Times"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Blend Times:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Next (Auto Queue):"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Library Name:"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "New Library"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Create new empty animation library."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Load Library"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Load animation library from disk."
+ },
+ {
+  "ctx": "AcceptDialog|Window.title",
+  "text": "Error:"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Create a new resource in memory and edit it."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Load an existing resource from disk and edit it."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Save the currently edited resource."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Extra resource options."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Go to previous edited object in history."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Go to next edited object in history."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "History of recently edited objects."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Open documentation for this object."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Properties"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Manage object properties."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Pick"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Append Source"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "The source object is automatically sent when the signal is emitted."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Select a single node or resource to edit its signals."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Select one or more nodes to edit their groups."
+ },
+ {
+  "ctx": "@PopupMenu@11746|PopupMenu.item",
+  "text": "Close Other Tabs"
+ },
+ {
+  "ctx": "@PopupMenu@11746|PopupMenu.item",
+  "text": "Close All Tabs"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Add"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Remove"
+ },
+ {
+  "ctx": "FilterLineEdit|placeholder_text",
+  "text": "Filter Meshes"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Load Resource"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Vertex"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Fragment"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "TessControl"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "TessEval"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Compute"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Raygen"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "AnyHit"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "ClosestHit"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Miss"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Intersection"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Animations:"
+ },
+ {
+  "ctx": "SpinBox|tooltip_text",
+  "text": "Animation Speed"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Animations"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "This resource does not have any animations."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Animation Frames:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Frame Duration:"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Zoom Out"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Zoom Reset"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Zoom In"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Select Frames"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Frame Order"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "As Selected"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Select None"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle Settings Panel"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Zoom to Fit"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Horizontal"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Vertical"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Separation"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Offset"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Auto Slice"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Theme:"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Manage Items..."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Add, remove, organize, and import Theme items."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Add Preview"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Button"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Flat Button"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "CheckButton"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "CheckBox"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "MenuButton"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "OptionButton"
+ },
+ {
+  "ctx": "LineEdit|text",
+  "text": "LineEdit"
+ },
+ {
+  "ctx": "TextEdit|text",
+  "text": "TextEdit"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Rename current type."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Remove current type."
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Rename Theme Type"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "AcceptDialog"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "BoxContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "CodeEdit"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "ColorPicker"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "ColorPickerButton"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "ColorPresetButton"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "FileDialog"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "FlatButton"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "FlatMenuButton"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "FlowContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "FoldableContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "GraphEdit"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "GraphEditMinimap"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "GraphFrame"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "GraphFrameTitleLabel"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "GraphNode"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "GraphNodeTitleLabel"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "GridContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HBoxContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HFlowContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HScrollBar"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HSeparator"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HSlider"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HSplitContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HeaderLarge"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HeaderMedium"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "HeaderSmall"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "Icons"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "ItemList"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "Label"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "LinkButton"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "MarginContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "MenuBar"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "Panel"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "PanelContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "PopupDialog"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "PopupMenu"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "PopupPanel"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "ProgressBar"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "RichTextLabel"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "ScrollContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "SpinBox"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "SplitContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "TabBar"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "TabContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "TooltipLabel"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "TooltipPanel"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "Tree"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "VBoxContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "VFlowContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "VScrollBar"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "VSeparator"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "VSlider"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "VSplitContainer"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "VirtualJoystick"
+ },
+ {
+  "ctx": "@ItemList@16539|ItemList.item",
+  "text": "Window"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "UV"
+ },
+ {
+  "ctx": "@TabBar@18200|TabBar.title",
+  "text": "Patterns"
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Sort Sources"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "No TileSet source selected. Select or create a TileSet source. ⏎ You can create a new source by using the Add button on the left or by dropping a tileset texture onto the source list."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Setup"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Atlas setup. Add/Remove tiles tool (use the shift key to create big tiles, control for rectangle editing)."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Select"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Select tiles."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Paint"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Paint properties."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "No tiles selected. ⏎ Select one or more tiles from the palette to edit its properties."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Paint Properties:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "The selected atlas source has no valid texture. Assign a texture in the TileSet bottom tab."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Base Tiles"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Alternative Tiles"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Center View"
+ },
+ {
+  "ctx": "@PopupMenu@18619|PopupMenu.item",
+  "text": "Create a Tile"
+ },
+ {
+  "ctx": "AcceptDialog|Window.title",
+  "text": "Auto Create Tiles in Non-Transparent Texture Regions?"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Scenes collection properties:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Tile properties:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Add new patterns in the TileMap editing mode."
+ },
+ {
+  "ctx": "@TabBar@18800|TabBar.title",
+  "text": "Tiles"
+ },
+ {
+  "ctx": "@TabBar@18800|TabBar.title",
+  "text": "Terrains"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Alternatively hold Ctrl with other tools to pick tile."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Alternatively use RMB to erase tiles."
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Contiguous"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Place Random Tile"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Scattering:"
+ },
+ {
+  "ctx": "Label|tooltip_text",
+  "text": "Modifies the chance of painting nothing instead of a randomly selected tile."
+ },
+ {
+  "ctx": "OptionButton|tooltip_text",
+  "text": "TileMap Layers"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Select previous layer"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Select next layer"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Select all TileMapLayers in scene"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Highlight Selected TileMap Layer"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggle grid visibility."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Advanced settings."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "The selected TileMap has no layer to edit."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "This TileMap's TileSet has no Tile Source configured. Go to the TileSet bottom panel to add one."
+ },
+ {
+  "ctx": "MenuButton|tooltip_text",
+  "text": "Sort sources"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Invalid source selected."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Drag and drop or paste a TileMap selection here to store a pattern."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Add property to sync..."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Path:"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": ":property"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Add from path"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Pin replication editor"
+ },
+ {
+  "ctx": "@Tree@19283|Tree.col",
+  "text": "Properties"
+ },
+ {
+  "ctx": "@Tree@19283|Tree.col",
+  "text": "Spawn"
+ },
+ {
+  "ctx": "@Tree@19283|Tree.col",
+  "text": "Replicate"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Add properties using the options above, or ⏎ drag them from the inspector and drop them here."
+ },
+ {
+  "ctx": "SceneTreeDialog|Window.title",
+  "text": "Pick a node to synchronize:"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "GridMap Settings"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Pick Distance:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Dock Position"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Make Floating"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Presets"
+ },
+ {
+  "ctx": "MenuButton|text",
+  "text": "Add..."
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Advanced Options"
+ },
+ {
+  "ctx": "CheckButton|tooltip_text",
+  "text": "If checked, the advanced options will be shown."
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Runnable"
+ },
+ {
+  "ctx": "CheckButton|tooltip_text",
+  "text": "If checked, the preset will be available for use in one-click deploy. ⏎ Only one preset per platform may be marked as runnable."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Toggles displaying between path and UID. ⏎ The UID is the actual value of this property."
+ },
+ {
+  "ctx": "@TabContainer@225|TabContainer.title",
+  "text": "Options"
+ },
+ {
+  "ctx": "@TabContainer@225|TabContainer.title",
+  "text": "Resources"
+ },
+ {
+  "ctx": "@TabContainer@225|TabContainer.title",
+  "text": "Patching"
+ },
+ {
+  "ctx": "@TabContainer@225|TabContainer.title",
+  "text": "Encryption"
+ },
+ {
+  "ctx": "@TabContainer@225|TabContainer.title",
+  "text": "Scripts"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Export Mode:"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Export all resources in the project"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Resources to export:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Filters to export non-resource files/folders ⏎ (comma-separated, e.g: *.cfg, *.txt, docs/*)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Filters to exclude files/folders from project ⏎ (comma-separated, e.g: *.cfg, *.txt, docs/*)"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Enable Delta Encoding"
+ },
+ {
+  "ctx": "CheckButton|tooltip_text",
+  "text": "If checked, any change to a file already present in the base packs will be exported as the difference between the old file and the new file. ⏎ Enabling this comes at the cost of longer export times as w…"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Delta Encoding Compression Level"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Delta Encoding Minimum Size Reduction"
+ },
+ {
+  "ctx": "SpinBox|tooltip_text",
+  "text": "How much smaller, when compared to the new file, a delta-encoded patch needs to be for it to be exported. ⏎ If the patch is not at least this much smaller, the new file will be exported as-is."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Filters to include files/folders from being delta-encoded ⏎ (comma-separated, e.g: *.gdc, scripts/*)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Filters to exclude files/folders from being delta-encoded ⏎ (comma-separated, e.g: *.ctex, textures/*)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Base Packs:"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Add Pack"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Custom (comma-separated):"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Feature List:"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Encrypt Exported PCK"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Encrypt Index (File Names and Info)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Filters to include files/folders ⏎ (comma-separated, e.g: *.tscn, *.tres, scenes/*)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Filters to exclude files/folders ⏎ (comma-separated, e.g: *.ctex, *.import, music/*)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Encryption Key (256-bits as hexadecimal):"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Show encryption key"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Initialization vector seed"
+ },
+ {
+  "ctx": "LinkButton|text",
+  "text": "More Info..."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "GDScript Export Mode:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "No presets found. ⏎ Create one so that its parameters can be edited here."
+ },
+ {
+  "ctx": "LinkButton|text",
+  "text": "Show Project Setting"
+ },
+ {
+  "ctx": "AcceptDialog|Window.title",
+  "text": "Project Export"
+ },
+ {
+  "ctx": "@PopupMenu@277|PopupMenu.item",
+  "text": "Keep"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Export All"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Load failed due to missing dependencies:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Which action should be taken?"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Settings"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Advanced Settings"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "The editor must be restarted for changes to take effect."
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Save & Restart"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter by Name"
+ },
+ {
+  "ctx": "EventListenerLineEdit|placeholder_text",
+  "text": "Filter by Event"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Clear All"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Clear all search filters."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Filter Inputs"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Additional Options"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Device:"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Alt"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "Alt or Option key"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Shift"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "Shift key"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Ctrl"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "Control key"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Windows"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "Meta/Windows or Command key"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Command / Control (auto)"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "Automatically remaps between 'Meta' ('Command') and 'Control' depending on current platform."
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Keycode (Latin Equivalent)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Physical Location"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Error: This action already contains this input event."
+ },
+ {
+  "ctx": "@TabContainer@1033|TabContainer.title",
+  "text": "Input Map"
+ },
+ {
+  "ctx": "@TabContainer@1033|TabContainer.title",
+  "text": "Localization"
+ },
+ {
+  "ctx": "@TabContainer@1033|TabContainer.title",
+  "text": "Globals"
+ },
+ {
+  "ctx": "@TabContainer@1033|TabContainer.title",
+  "text": "Plugins"
+ },
+ {
+  "ctx": "@TabContainer@1033|TabContainer.title",
+  "text": "GDExtension"
+ },
+ {
+  "ctx": "@TabContainer@1033|TabContainer.title",
+  "text": "Import Defaults"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Select a Setting or Type its Name"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Changed settings will be applied to the editor after restarting."
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Add New Action"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Show Built-in Actions"
+ },
+ {
+  "ctx": "@TabContainer@1208|TabContainer.title",
+  "text": "Remaps"
+ },
+ {
+  "ctx": "@TabContainer@1208|TabContainer.title",
+  "text": "Template Generation"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Translations:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Resources:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Remaps by Locale:"
+ },
+ {
+  "ctx": "@Tree@1649|Tree.col",
+  "text": "Locale"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Files with translation strings:"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Generate"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Add Built-in Strings"
+ },
+ {
+  "ctx": "CheckBox|tooltip_text",
+  "text": "Add strings from built-in components such as certain Control nodes."
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Show All Locales"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Edit Filters"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Advanced"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Language:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Country:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Language"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Country"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Variant"
+ },
+ {
+  "ctx": "Globals|TabContainer.title",
+  "text": "Autoload"
+ },
+ {
+  "ctx": "Globals|TabContainer.title",
+  "text": "Shader Globals"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Select Script/Scene"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Create Scene"
+ },
+ {
+  "ctx": "Tree|Tree.col",
+  "text": "Global Variable"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Type:"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "MyPlugin"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Godette"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Installed Plugins:"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Create New Plugin"
+ },
+ {
+  "ctx": "@Tree@2556|Tree.col",
+  "text": "Version"
+ },
+ {
+  "ctx": "@Tree@2556|Tree.col",
+  "text": "Author"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Installed GDExtensions:"
+ },
+ {
+  "ctx": "@Tree@2574|Tree.col",
+  "text": "Min Version"
+ },
+ {
+  "ctx": "@Tree@2574|Tree.col",
+  "text": "Max Version"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Importer:"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Reset to Defaults"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "BPM："
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Download from:"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Open in Web Browser"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Install from a TPZ file."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Godot Version"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Available Templates"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Installed Templates"
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Open templates directory."
+ },
+ {
+  "ctx": "Button|tooltip_text",
+  "text": "Remove all installed templates."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Offline mode, some functionality is not available."
+ },
+ {
+  "ctx": "LinkButton|text",
+  "text": "Go Online"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Profile:"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Load"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Save As"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Actions:"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Detect from Project"
+ },
+ {
+  "ctx": "Button|text",
+  "text": "Clear Cache"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Configure Engine Compilation Profile:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Forced Classes on Detect:"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Please Confirm:"
+ },
+ {
+  "ctx": "@TabContainer@4240|TabContainer.title",
+  "text": "Donors"
+ },
+ {
+  "ctx": "@TabContainer@4240|TabContainer.title",
+  "text": "License"
+ },
+ {
+  "ctx": "@TabContainer@4240|TabContainer.title",
+  "text": "Third-party Licenses"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Project Founders"
+ },
+ {
+  "ctx": "@ItemList@4247|ItemList.item",
+  "text": "Ariel Manzur (punto-)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Lead Developer"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Developers"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Aaron Franke (aaronfranke)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Aaron Pagano (aaronp64)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Aaron Record (LightningAA)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Adam Johnston (a-johnston)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Adam Scott (adamscott)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Æio Much (AeioMuch)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Alex Drozd (brno32)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Alexander Hartmann (Alex2782)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Alexander Holland (AlexHolly)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Alexey Khoroshavin (allkhor)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Alfred Reinold Baudisch (alfredbaudisch)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Alistair Leslie-Hughes (alesliehughes)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Alket Rexhepi (alketii)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Allen Pestaluky (allenwp)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Alvin Wong (alvinhochun)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Andrea Catania (AndreaCatania)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Andreia Gaita (shana)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Andrés Botero (0xafbf)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Andrii Doroshenko (Xrayez)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Andy Maloney (asmaloney)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Andy Moss (MillionOstrich)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Angad Kambli (angad-k)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Anilforextra (AnilBK)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Anish Bhobe (KidRigger)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Anish Kumar (syntaxerror247)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Anni Ryynänen (anniryynanen)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Anton Yabchinskiy (a12n)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Anutrix"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Aren Villanueva (kurikaesu)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "arkology"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Arman Elgudzhyan (puchik)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Arseny Kapoulkine (zeux)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "AThousandShips"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "aXu-AP"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Bartłomiej T. Listwon (Listwon)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Bastiaan Olij (BastiaanOlij)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ben Brookshire (sheepandshepherd)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Benjamin Larsson (Nallebeorn)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Bernat Arlandis (berarma)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Bernhard Liebl (poke1024)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Bhuvan Vemula (Bhu1-V)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "bitsawer"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Błażej Szczygieł (zaps166)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "BlueCube3310"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Bojidar Marinov (bojidar-bg)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Brian Semrau (briansemrau)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "BrotherShort"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Bruno Lourenço (MadEqua)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Cameron Reikes (creikey)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Camille Mohr-Daurat (pouleyKetchoupp)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Caner Demirer (cdemirer)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Carl Olsson (not-surt)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Carter Anderson (cart)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "ChibiDenDen"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "ChocolaMint (chocola-mint)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Chris Bradfield (cbscribe)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Chris Cranford (Naros)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Christian Kaiser (ckaiser)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Clay John (clayjohn)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "ConteZero"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "CookieBadger"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Dana Olson (adolson)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Daniel J. Ramirez (djrm)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Daniel Rakos (aqnuep)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Daniel Zilberleyb (dzil123)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Danil Alexeev (dalexeev)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "dankan1890"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Darío Banini (DarioSamo)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "David Cambré (Gallilus)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "David Sichma (DavidSichma)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "David Snopek (dsnopek)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "demolke"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "derammo"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Dery Almas (deralmas)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Dharkael (lupoDharkael)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Dirk Steinmetz (rsjtdrjgfuzkfg)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Dmitry Koteroff (Krakean)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Dmitry Maganov (vonagam)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Dominik Jasiński (dreamsComeTrue)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Douglas Leão (DeeJayLSP)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "DualMatrix"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ellen Poe (ellenhp)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Emilio Coppola (coppolaemilio)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Emmanuel Barroga (codecustard)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Emmanuel Leblond (touilleMan)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Eoin O'Neill (Eoin-ONeill-Yokai)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Eric Lasota (elasota)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Eric M (EricEzaM)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Eric Rybicki (ericrybick)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Erik Selecký (rxlecky)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "est31"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Eveline Jarosz (Marqin)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Fabian Mathews (supagu)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Fabio Alessandrelli (Faless)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Fabrice Cipolla (fabriceci)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ferenc Arn (tagcup)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "FireForge (fire-forge)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Florent Guiocheau (Flarkk)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Florian Kothmeier (Dragoncraft89)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "follower"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "foxydevloper"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "François Belair (Razoric480)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Franklin Sobrinho (TheHX)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Fredia Huya-Kouadio (m4gr3d)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Geequlim"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "George Marques (vnen)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Gergely Kis (kisg)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Gerrit Großkopf (Grosskopf)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Giganzo"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Gilles Roudiere (groud)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Gordon MacPherson (RevoluPowered)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Guilherme Felipe de C. G. da Silva (guilhermefelipecgs)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Guillaume Mouton (kiroxas)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Hakim Rouatbi (hakro)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Hanif Bin Ariffin (hbina)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Haoyu Qiu (timothyqiu)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Hein-Pieter van Braam-Stewart (hpvb)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Hendrik Brucker (Geometror)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Hilderin"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Hiroshi Ogawa (hi-ogawa)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "HolonProduction"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "homer666"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "hoontee"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Hugo Locurcio (Calinou)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ian Bishop (ianb96)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ibrahn Sahir (ibrahn)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ignacio Roldán Etcheverry (neikeq)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Igor Kordiukiewicz (IgorKordiukiewicz)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ilaria Cislaghi (QbieShay)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Indah Sylvia (ISylvox)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ivan Šachov (van800)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "J08nY"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jake Young (Duroxxigar)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jakub Grzesik (kubecz3k)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jakub Marcowski (Chubercik)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "James Buck (jbuck3)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jamie Pate (jamie-pate)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jan Haller (Bromeon)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jason Knight (jasonwinterpixel)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jayden Sipe (jaydensipe)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jean-Michel Bernard (jmb462)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jérôme Gully (Nutriz)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jia Jun Chai (SkyLucilfer)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "jitspoe"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Joan Fons Sanchez (JFonS)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Johan Aires Rastén (JohanAR)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Johan Manuel (29jm)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Johannes Witt (HaSa1002)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jonathan Nicholl (jtnicholl)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jordan Schidlowsky (winterpixelgames)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jorrit Rouwe (jrouwe)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Josh Jones (DarkKilauea)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Joshua Grams (JoshuaGrams)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Julian Murgia (StraToN)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Julien Nguyen (Blackiris)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Jummit"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Justo Delgado (mrcdk)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "K. S. Ernest (iFire) Lee (fire)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Kaleb Reid (Kaleb-Reid)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "karroffel"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Kasper Arnklit Frandsen (Arnklit)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Kassandra Pucher (PucklaJ)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Kelly Thomas (KellyThomas)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Kit Bishop (kitbdev)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "kleonc"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "KOGA Mitsuhiro (shiena)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Koliur Rahman (dugramen)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Kongfa Waroros (gongpha)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Kostadin Damyanov (Max-Might)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Koyper"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Kyle Eichlin (likeich)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Lander (lander-vr)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Lars Pettersson (larspet)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "lawnjelly"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Leon Krause (leonkrause)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Liz Haas (27thLiz)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Logan Detrick (lodetrick)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Logan Lang (devloglogan)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Lucien Menassol (Kanabenki)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Lukas Tenbrink (Ivorforce)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Luo Zhihao (beicause)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Lyuma"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Maganty Rushyendra (mrushyendra)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Magian (magian1127)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mai Lavelle (maiself)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Malcolm Anderson (Meorge)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Malcolm Nixon (Malcolmnixon)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Manuele Finocchiaro (m4nu3lf)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Marc Gilleron (Zylann)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Marcel Admiraal (madmiraal)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Marcelo Fernandez (marcelofg55)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Marcin Zawiejski (dragmz)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Marcus Brummer (mbrlabs)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Marcus Elg (MCrafterzz)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mariano Javier Suligoy (MarianoGnu)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mario Liebisch (MarioLiebisch)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mario Schlack (hurikhan)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Marios Staikopoulos (marstaik)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Marius Hanl (Maran23)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mark DiBarry (markdibarry)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Markus Sauermann (Sauermann)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Martin Capitanio (capnm)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Martin Liška (marxin)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Martin Sjursen (binbitten)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "marynate"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Masoud BH (masoudbh3)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mateo Kuruk Miccino (kuruk-mm)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Matias N. Goldberg (darksylinc)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "MatheusMDX (matheusmdx)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Matthew (skyace65)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Matthew Murphy (mashumafi)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Matthias Hölzl (hoelzl)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Max Hilbrunner (mhilbrunner)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Meru Patel (Janglee123)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "merumelu"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "MewPurPur"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Michael Alexsander (YeldhamDev)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Michael Precup (precup)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Michael Russkikh (Summersay415)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Michał Iwańczuk (iwek7)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "MichiRecRoom (LikeLakers2)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Micky (Mickeon)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mika Viskari (miv391)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mikael Hermansson (mihe)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "MinusKube"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "MJacred"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Mounir Tohami (WhalesState)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "mrezai"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Muhammad Huri (CakHuri)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "muiroc"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Muller-Castro"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "myaaaaaaaaa"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nathalie Galla (MurderVeggie)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nathan Franke (nathanfranke)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nathan Lovato (NathanLovato)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nathan Warden (NathanWarden)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nazarii Yablonskyi (Nazarwadim)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nicholas Huelin (SirQuartz)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nikita Lita (nikitalita)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nils André-Chang (NilsIrl)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nintorch"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Noah Beard (TwistedTwigleg)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nông Văn Tình (nongvantinh)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Nuno Donato (nunodonato)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "ocean (they/them) (anvilfolk)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Omar El Sheikh (The-O-King)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ovnuniarchos"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Pablo Andres Fuente (pafuent)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Pascal Richter (ShyRed)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "passivestar"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Patrick (firefly2442)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Patrick Dawson (pkdawson)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Patrick Exner (FlameLizard)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "patwork"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Paul Batty (Paulb23)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Paul Joannon (paulloz)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Paul Trojahn (ptrojahn)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Pāvels Nadtočajevs (bruvzg)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Paweł Fertyk (pfertyk)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Pawel Kowal (pkowal1982)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Pawel Lampe (Scony)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Pedro J. Estébanez (RandomShaper)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Pieter-Jan Briers (PJB3005)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Poommetee Ketson (Noshyaar)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Przemysław Gołąb (n-pigeon)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Radiant (radiantgurl)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Rafael M. G. (rafallus)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Rafał Mikrut (qarmin)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Raffaele Picca (RPicster)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ralf Hölzemer (rollenrolm)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ramesh Ravone (RameshRavone)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Raphael2048"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Raul Santos (raulsntos)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ray Koopa (RayKoopa)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "RedMser"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "RedworkDE"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Rhody Lugo (rraallvv)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ricardo Buring (rburing)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ricardo Subtil (Ev1lbl0w)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Robert Yevdokimov (ryevdokimov)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Roberto F. Arroyo (robfram)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Robin Hübner (profan)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "romulox-x"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Rudolph Bester (Rudolph-B)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Rune Smith (rune-scape)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ruslan Mustakov (endragor)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Ryan Roden-Corrent (rrcore)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Saniko (sanikoyes)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "santouits"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Saracen (SaracenOne)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Septian Ganendra S. K. (sepTN)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Sergey Minakov (naithar)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "sersoong"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Shiqing (kawa-yoiko)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Silc 'Tokage' Renew (TokageItLab)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Simon Schoenenberger (detomon)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Simon Wenner (swenner)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Skyth (Asilkan) (blueskythlikesclouds)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "smix8"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "snailrhymer"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Sofox (TheSofox)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Stanislav Labzyuk (DarkMessiah)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Stijn Hinlopen (hinlopen)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "stmSi"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Stuart Carnie (stuartcarnie)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Swarnim Arun (minraws)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "TC (floppyhammer)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "TechnoPorg"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "tetrapod00"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Thaddeus Crews (Repiteo)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Thakee Nathees (ThakeeNathees)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "thebestnom"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Theo Hallenius (TheoXD)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Thomas ten Cate (ttencate)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Timo (toger5)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Timo Schwarzer (timoschwarzer)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Timothé Bonhoure (ajreckof)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Tomasz Chabora (KoBeWi)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Travis Lange (TCROC)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "trollodel"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Twarit Waikar (IronicallySerious)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Umang Kalra (theoway)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "V. Vamsi Krishna (vkbsb)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "vaner (vaner-org)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Victor Hampel (havi05)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Vinzenz Feenstra (vinzenz)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Vitika Soni (Vitika9)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Wilhem Barbier (nounoursheureux)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Will Nations (willnationsdev)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "William Deurwaarder (williamd67)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Wilson E. Alvarez (Rubonnek)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Xavier Cho (mysticfall)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Xu Huisheng (xuhuisheng)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Yaohua Xiong (xiongyaohua)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "ydeltastar"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Yevhen Babiichuk (dustdfg)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "yg2f (SuperUserNameMan)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Yordan Dolchinkov (Jordyfel)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Yufeng Ying (YYF233333)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Yuri Rubinsky (Chaosus)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Yuri Sizov (YuriSizov)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Zae Chao (zaevi)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Zak Stam (zaksnet)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Zher Huei Lee (leezh)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Zi Ye (MajorMcDoom)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "ZuBsPaCe"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "Дмитрий Сальников (DmitriySalnikov)"
+ },
+ {
+  "ctx": "@ItemList@4262|ItemList.item",
+  "text": "박한얼 (volzhs)"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Patrons"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Platinum Sponsors"
+ },
+ {
+  "ctx": "@ItemList@4275|ItemList.item",
+  "text": "V-Sekai "
+ },
+ {
+  "ctx": "@ItemList@4275|ItemList.item",
+  "text": "W4 Games "
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Gold Sponsors"
+ },
+ {
+  "ctx": "@ItemList@4280|ItemList.item",
+  "text": "Arm "
+ },
+ {
+  "ctx": "@ItemList@4280|ItemList.item",
+  "text": "Mega Crit "
+ },
+ {
+  "ctx": "@ItemList@4280|ItemList.item",
+  "text": "Prehensile Tales "
+ },
+ {
+  "ctx": "@ItemList@4280|ItemList.item",
+  "text": "Robot Gentleman "
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Silver Sponsors"
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Blobfish Games "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Broken Rules "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Chasing Carrots "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Copia Wealth Studios "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Evil Trout Inc. "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Games by Malcs "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "LoadComplete "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Null "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Playful Studios "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Re-Logic "
+ },
+ {
+  "ctx": "@ItemList@4285|ItemList.item",
+  "text": "Sentry "
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Diamond Members"
+ },
+ {
+  "ctx": "@ItemList@4290|ItemList.item",
+  "text": "ASIFA-Hollywood "
+ },
+ {
+  "ctx": "@ItemList@4290|ItemList.item",
+  "text": "Christina Coffin "
+ },
+ {
+  "ctx": "@ItemList@4290|ItemList.item",
+  "text": "Kanda "
+ },
+ {
+  "ctx": "@ItemList@4290|ItemList.item",
+  "text": "Petr Kharitonov "
+ },
+ {
+  "ctx": "@ItemList@4290|ItemList.item",
+  "text": "Sylv "
+ },
+ {
+  "ctx": "@ItemList@4290|ItemList.item",
+  "text": "And 1 anonymous donor"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Titanium Members"
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Basically Games"
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Deloryan "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Draknek & Friends "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Eugene Denisenko "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Garry Newman"
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Justo Delgado Baudí "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Kenney "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Lucid Silence Games"
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Megafauna Games "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Midjiwan AB "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "NekTek Games "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Patrick Curry "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "PolyMars "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Purple Moss Collectors "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "RPG in a Box "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "Tiago Magalhães "
+ },
+ {
+  "ctx": "@ItemList@4295|ItemList.item",
+  "text": "TrampolineTales "
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Platinum Members"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Austin Hackett"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "BlockImperiumGames (BIG)"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Bytten Studio"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Caspar Kleijne"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Christopher Shifflett"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Cody Bentley"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Cristian P."
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Daniel Cooper"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Darrin Massena"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "DrDeadlock"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Emergo Entertainment"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Eric Burns"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Fabio Alessandrelli"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Francis Nguyen"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Fresh Fineapple"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "GrammAcc"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "HP van Braam"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Huge Workshop"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "iCommitGames"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Jason Hamilton"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Jeremy Blouir"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Jonah Stich"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Josh Anthony"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Ludvig Temperli Risan"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Matthew Ekenstedt"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Memories in 8Bit"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Mike King"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Neal Gompa (Conan Kudo)"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Nikita Blizniuk"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Raptor85"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Ryan Heath"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Sacha & Solène Waked"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "ShikadiGum"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Silver Creek Entertainment"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Stephan Kessler"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Stephen Rice"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "theysayheygreg"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "Walaber Entertainment"
+ },
+ {
+  "ctx": "@ItemList@4300|ItemList.item",
+  "text": "And 8 anonymous donors"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Gold Members"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "73unny"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "80px"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "A. Friedman"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Abigail F."
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Admiral Potato"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ajat BlackSun"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Alex177Alex"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "alMoo Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Alnis Smidchens"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Alva Majo"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ammerfest"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Amritpal Gill"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Andrea Monzini"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "AndreasOM"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Andrew Eiche"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Andrew Zah"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Anfinor Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ariya Studio"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Asher Glick"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Axthelm"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "BangTheWall"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ben Rog-Wilhelm"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ben Sarsgard [Final Screw]"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Benito"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Benjamin Bridges"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Bryce Dixon"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Bäckdahl"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "c64cosmin"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Carl van der Geest"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Carlo Cabanilla"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Carlo del Mundo"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Chaff Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Chamber of Light, Flower and Essence Incorporated*"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Chet Faliszek"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Chocolate Software"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Chris Backas"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Christian Mauduit"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Christian Sueiras"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Christine Elisabeth Koppel"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Cindy Trieu"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Codex404"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Conquintor"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "cora"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Corey Robinson"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Crni Medved"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Daniel Eichler"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Daniel Krafft"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "David Gehrig"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "David Snopek"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Deakcor"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Delton Ding"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "DIGITAL ILIAD"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Disco Cat"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Distorted Realities"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "DitherDream"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Dominic Harris"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Dominik Frizel"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Don't You Know Who I Am? Inc."
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Dosimada"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "DullyDev"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Dustuu"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Dylan Dromard"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Eamonn Irvine"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Edelweiss"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "eelSkillz"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ends"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Eric Brand"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Fail Forward Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Faisal Al-Kubaisi (QatariGameDev)"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Felix Adam"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "FeralBytes"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Frozen Fractal"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "GeoScene"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "GlassBrick"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Going Loud Studios"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Grau"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Grzegorz Wereszko"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Guangzhou Lingchan"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Hampas"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "hiulit"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Holly Stubbs"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Huedeane"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Illyan"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Immaculate Lift Studio"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "insomniacKoala"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Intrepid Marmot LLC"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ione 15"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Isaac Clerencia"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Isaac Marovitz"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Isaac W"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ivan Tabashki"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "jakemiki"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Jason Cawood"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "JAX691"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "jeff compas"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Jeff Hungerford"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Jesús Chicharro"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "JezerM"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Johannes Wuensch"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "John Anders Stav"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "John Brown"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Jonas Yamazaki"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Jonathan"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Jonathan Bass"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Jordan Chap"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Josh Jones"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Joshua OddBloom"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "José Canepa"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Julian Todd"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Justin Laster"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Justin Sasso"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Kagia Benjamin"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Kalydi Balázs"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "KAR Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Karl Bittner"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Kevin Morrell"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "KOGA Mitsuhiro (@shiena)"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "korinVR"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Kostya Stankevych"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Kristian Kriehl"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "KyletheDab"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Lars Thießen"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "LavishBehemoth"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Lee Ingram"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Leo Fruehstueck"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Lisandro Lorea (Red Mage Games)"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Logan Apple"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Los Lecheros Maincreros"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "LoveCraftStudio.AI"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Luca Junge"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Luca Vazzano"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Luke_Username"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Lyaaaaa Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "m1n1ster"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Madison Nicole Videogames"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Manul Opus"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Mara Huldra"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Marcos Vinícius Marcon (Krakaton Games)"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Marek Belski"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Maskerade Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Matthias B."
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Meanwhile SRL"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Michael Alexsander"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Michael Gooch"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Miguel RS Gonçalves"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Mike Matthews"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Miles(Wedomi Games)"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Modus Ponens"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Moshe Harris"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Moth Soup"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Mr. Byte"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Nassor Paulino da Silva"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "NEKERAFA"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "nezticle"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Nicolas Everhart"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Niklas Wahrman"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Nitzan Bueno"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "NojuHD"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "NotNet"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Officine Pixel"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "ohanaya3"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Okatima AB"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "ole-luk-oje"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Oscar Robin"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Osirisa"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "osje44"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "ovym"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Parade of Rain"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Patrick Forringer"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Patrick Traynor"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Paul Bettner"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "PeakMaven - Stefan Langwald"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Pete Goodwin"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Peter Langmayr"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Petr Maláč"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Phobos001"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "pirey"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Péter Horváth-Lázár"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Rafa Laguna"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "re:thinc"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "RedEye Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Reid Hannaford"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Request"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ric Janus Sapasap"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Richard Ivánek"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Robin Six"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Rodz Labs"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Roelof Pieters"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Ronny Mühle"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Rubén Rüger"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Samuel Judd"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Santi_FC"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "shazzner"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Sheeta Games"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Shifty The Dev"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Shiny Shinken"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Skie Radscale"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Sofox"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Space Kraken Studios"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Spencer Chang"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Spoony Panda"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Stormbrew"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Tanner Storment"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "tenuki"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Terry Cavanagh"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "terry kasey"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "ThatGamer"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Thomas Kurz"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Thomas Lobig"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Tobias Bocanegra"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Tom Langwaldt"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Trevor Slocum"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "tukon"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Twirlin' Curtis"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Uriel Campos"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Vincent Foulon"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Vivian Rodríguez Saseta"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Vojtech Lacina"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Watchinofoye"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Xelarender"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "zikes"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "Zoey Smith"
+ },
+ {
+  "ctx": "@ItemList@4305|ItemList.item",
+  "text": "And 117 anonymous donors"
+ },
+ {
+  "ctx": "FilterLineEdit|placeholder_text",
+  "text": "Filter Commands"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Git"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Select Existing Layout:"
+ },
+ {
+  "ctx": "LineEdit|placeholder_text",
+  "text": "Or enter new layout name."
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Enable Multiple Instances"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "PointLight2D"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Polygon2D"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "TouchScreenButton"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "TextureRect"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "TextureButton"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "NinePatchRect"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Find:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Replace:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Folder:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Includes:"
+ },
+ {
+  "ctx": "Label|tooltip_text",
+  "text": "Include the files with the following expressions. Use \",\" to separate."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Excludes:"
+ },
+ {
+  "ctx": "Label|tooltip_text",
+  "text": "Exclude the files with the following expressions. Use \",\" to separate."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Filters:"
+ },
+ {
+  "ctx": "Label|tooltip_text",
+  "text": "Include the files with the following extensions. Add or remove them in ProjectSettings."
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Allowed:"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "MeshInstance3D"
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Load Emission Mask"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Mask Texture"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Mask Mode"
+ },
+ {
+  "ctx": "OptionButton|text",
+  "text": "Solid Pixels"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Direction Mode"
+ },
+ {
+  "ctx": "Label|text",
+  "text": "Direction Texture"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Centered"
+ },
+ {
+  "ctx": "CheckBox|text",
+  "text": "Copy Color from Mask Texture"
+ },
+ {
+  "ctx": "@PopupMenu@18869|PopupMenu.item",
+  "text": "Snap to Grid"
+ },
+ {
+  "ctx": "@PopupMenu@18869|PopupMenu.item",
+  "text": "Snap to Grid Cell Center"
+ },
+ {
+  "ctx": "@PopupMenu@18869|PopupMenu.item",
+  "text": "Allow Overlapping"
+ },
+ {
+  "ctx": "@PopupMenu@18869|PopupMenu.tip",
+  "text": "Allow painting over existing painted scenes. ⏎ Hold Shift while painting to temporarily toggle this option."
+ },
+ {
+  "ctx": "ConfirmationDialog|Window.title",
+  "text": "Export Settings"
+ },
+ {
+  "ctx": "CheckButton|text",
+  "text": "Instant Preview"
+ },
+ {
+  "ctx": "CheckButton|tooltip_text",
+  "text": "Selected resource will be previewed in the editor before accepting."
+ },
+ {
+  "ctx": "CheckButton|tooltip_text",
+  "text": "Include approximate matches."
+ }
+]
